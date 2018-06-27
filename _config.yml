@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "CV/Bio"
+title                    : "Shihao Zou"
 title_separator          : # "-"
 name                     : &name # "Shihao Zou"
 description              : &description # "Master of Research in University College London"
