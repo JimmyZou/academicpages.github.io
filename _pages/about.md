@@ -12,7 +12,7 @@ redirect_from:
 
 I am a master of research student in Web Science and Big Data Analytics at UCL. My research interest includes reinforcement learning and computer vision. I also participated in projects in natural language processing and information retrieval.
 
-Education
+Education11
 ======
 * MRes in Web Science and Big Data Analytics  
   University College London, 2017-now  
