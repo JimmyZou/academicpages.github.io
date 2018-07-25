@@ -20,7 +20,7 @@ Education
 * BS in Electronic Information Engineering (Honor Class)  
   Beijing Institute of Technology, 2013-2017  
   Supervisor: Prof. [Huiqi Li](http://isc.bit.edu.cn/schools/iae/knowinprofessors10/113101.htm)
-* Exchange semester
+* Exchange semester  
   Hong Kong University of Science and Technology, fall 2016
 
 <!--Publications
