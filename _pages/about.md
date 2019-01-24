@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-I am a master of research student in Web Science and Big Data Analytics at UCL. My research interest includes reinforcement learning, data mining and computer vision. I also participated in projects on natural language processing and information retrieval.
+Now I am a new PhD student in Electrical and Computer Engineering at UoA. My research interest includes reinforcement learning and computer vision. I also participated in projects on some data mining topics, including NLP and IR.
 
 Education
 ======
@@ -40,5 +40,4 @@ Talks
 
 Recent news
 =====
-# * I got the PhD offer from University of Alberta in Canada. (January 2019 entry)  
-# * I will begin my internship in Huawei 2012 Lab (Shenzhen, China) from September 2018.
+
