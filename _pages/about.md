@@ -14,8 +14,8 @@ Now I am a new PhD student in Electrical and Computer Engineering at UoA. My res
 
 Education
 ======
-* PhD in Electrical and Computer Engineering
-  University of Alberta, Canada, Jan 2019-now
+* PhD in Electrical and Computer Engineering  
+  University of Alberta, Canada, Jan 2019-now  
   Supervisor: Prof. [Li Cheng](https://www.ece.ualberta.ca/~lcheng5/)
 * MRes in Web Science and Big Data Analytics  
   University College London, Sept 2017- Nov 2018  
