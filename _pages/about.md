@@ -10,7 +10,9 @@ redirect_from:
 
 {% include base_path %}
 
-Now I am a new PhD student in Electrical and Computer Engineering at UoA. My research interest includes reinforcement learning and computer vision. I also participated in projects on some data mining topics, including NLP and IR.
+Now I am a new PhD student in Electrical and Computer Engineering at UoA. 
+My research interest includes RL and CV. 
+I also participated in projects on multi-agent RL and some data mining topics, including NLP and IR.
 
 Education
 ======
