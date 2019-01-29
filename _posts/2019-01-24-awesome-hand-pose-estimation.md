@@ -210,9 +210,11 @@ _Dafni Antotsiou, Guillermo Garcia-Hernando, Tae-Kyun Kim_
 
 ##### Learning Pose Specific Representations by Predicting Different Views. [\[PDF\]](https://arxiv.org/pdf/1804.03390.pdf)  [\[Project Page\]](https://poier.github.io/PreView/)  [\[Code\]](https://github.com/poier/PreView)
 _Georg Poier, David Schinagl, Horst Bischof_
+- given input from one view, a model estimates a latent representation, which is predictive for the appearance of the object captured from another viewpoint
 
 ##### Hand PointNet: 3D Hand Pose Estimation using Point Sets. [\[PDF\]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Ge_Hand_PointNet_3D_CVPR_2018_paper.pdf)  [\[Project Page\]](https://sites.google.com/site/geliuhaontu/home/cvpr2018) [\[Code\]](https://sites.google.com/site/geliuhaontu/HandPointNet.zip?attredirects=0&d=1) *(Spotlight)*
 _Liuhao Ge, Yujun Cai, Junwu Weng, Junsong Yuan_
+- PointNet: two reference papers (_PointNet: Deep learning on point sets for 3D classification and segmentation_ (CVPR2016) and _PointNet++: Deep hierarchical feature learning on point sets in a metrix space_ (NIPS2017))
 
 ##### Dense 3D Regression for Hand Pose Estimation. [\[PDF\]](https://arxiv.org/pdf/1711.08996.pdf)  [\[Code\]](https://github.com/melonwan/denseReg)
 _Chengde Wan, Thomas Probst, Luc Van Gool, Angela Yao_
@@ -222,19 +224,27 @@ _Adrian Spurr, Jie Song, Seonwook Park, Otmar Hilliges_
 
 ##### Feature Mapping for Learning Fast and Accurate 3D Pose Inference from Synthetic Images. [\[PDF\]](https://arxiv.org/pdf/1712.03904.pdf)  [\[Project Page\]](https://www.tugraz.at/institute/icg/research/team-lepetit/research-projects/feature-mapping/)
 _Mahdi Rad, Markus Oberweger, Vincent Lepetit_
+- a featuer extractor + a mapping function from the real images to the synthetic images + a network to do 3D pose prediction (can be trained on synthetic images)
+- the synthetic images are the object’s 3D model over the real image
 
 ##### GANerated Hands for Real-Time 3D Hand Tracking from Monocular RGB. [\[PDF\]](http://handtracker.mpi-inf.mpg.de/projects/GANeratedHands/content/GANeratedHands_CVPR2018.pdf) [\[Supp\]](http://handtracker.mpi-inf.mpg.de/projects/GANeratedHands/content/GANeratedHands_CVPR2018_Supp.pdf) [\[Project Page\]](http://handtracker.mpi-inf.mpg.de/projects/GANeratedHands/) *(Spotlight)*
 _Franziska Mueller, Florian Bernard, Oleksandr Sotnychenko, Dushyant Mehta, Srinath Sridhar, Dan Casas, Christian Theobalt_
+- GeoConGAN (geometric consistency GAN) is able to do image-to-image translation between synthetic and real images
+- RegNet is used to predict 2D and 3D positions of 21 hand joints from a RGB image.
+- A kinematic skeleton model is trained to retrieve the absolute hand pose.
 
 
 ##### V2V-PoseNet: Voxel-to-Voxel Prediction Network for Accurate 3D Hand and Human Pose Estimation from a Single Depth Map. [\[PDF\]](https://arxiv.org/pdf/1711.07399.pdf) [\[Code\]](https://github.com/mks0601/V2V-PoseNet_RELEASE)
 _Gyeongsik Moon, Ju Yong Chang, Kyoung Mu Lee_
+- cast the 3D hand and human pose estimation problem from a single depth map into a voxel-to-voxel prediction, in which the input is 3D depth image and the output is the likelihood of a 3D joint.
 
 ##### Depth-Based 3D Hand Pose Estimation: From Current Achievements to Future Goals. [\[PDF\]](https://arxiv.org/pdf/1712.03917.pdf) *(Spotlight)*
 _Shanxin Yuan, Guillermo Garcia-Hernando, Bjorn Stenger, Gyeongsik Moon, Ju Yong Chang, Kyoung Mu Lee, Pavlo Molchanov, Jan Kautz, Sina Honari, Liuhao Ge, Junsong Yuan, Xinghao Chen, Guijin Wang, Fan Yang, Kai Akiyama, Yang Wu, Qingfu Wan, Meysam Madadi, Sergio Escalera, Shile Li, Dongheui Lee, Iason Oikonomidis, Antonis Argyros, Tae-Kyun Kim_
 
 ##### Augmented skeleton space transfer for depth-based hand pose estimation. [\[PDF\]](https://arxiv.org/pdf/1805.04497.pdf) *(Oral)*
 _Seungryul Baek, Kwang In Kim, Tae-Kyun Kim_
+- Key idea is to sythesize data in the skeleton space.
+- HPE (depth-based 3D hand pose estimator) and HPG (hand pose generator which synthesizes the depth map from the skeleton entries)
 
 ##### [\[3D HUMANS Workshop\]](https://project.inria.fr/humans2018/) Monocular RGB Hand Pose Inference From Unsupervised Refinable Nets. [\[PDF\]](http://openaccess.thecvf.com/CVPR2018_workshops/content_CVPR_2018/papers/w17/Dibra_Monocular_RGB_Hand_CVPR_2018_paper.pdf)
 _Endri Dibra, Silvan Melchior, Ali Balkis, Thomas Wolf, Cengiz Oztireli, Markus Gross_
@@ -666,4 +676,3 @@ _Ayan Sinha\*, Chiho Choi\*, Karthik Ramani_
 
 ---
 \* indicates equal contribution
-
