@@ -178,8 +178,9 @@ _Yidan Zhou, Jian Lu, Kuo Du, Xiangbo Lin, Yi Sun, Xiaohong Ma_
 
 ##### Point-to-Point Regression PointNet for 3D Hand Pose Estimation. [\[PDF\]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Liuhao_Ge_Point-to-Point_Regression_PointNet_ECCV_2018_paper.pdf)
 _Liuhao Ge, Zhou Ren, Junsong Yuan_
+- We propose to directly take $$N$$ sampled and normalized 3D hand points as network input and output a set of heat-maps as well as unit vector fields on the input point cloud, reflecting the closeness and directions from input points to $$J$$ hand joints, respectively. From the network outputs, we can infer point-wise offsets to hand joints and estimate the 3D hand pose with post-processing.
 
-##### Weakly-supervised 3D Hand Pose Estimation from Monocular RGB Images. [\[PDF\]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Sijia_Cai_Weakly-supervised_Video_Summarization_ECCV_2018_paper.pdf) *(Oral)*
+##### Weakly-supervised 3D Hand Pose Estimation from Monocular RGB Images. [\[PDF\]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yujun_Cai_Weakly-supervised_3D_Hand_ECCV_2018_paper.pdf) *(Oral)*
 _Yujun Cai, Liuhao Ge, Jianfei Cai, Junsong Yuan_
 
 ##### Joint 3D tracking of a deformable object in interaction with a hand. [\[PDF\]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Aggeliki_Tsoli_Joint_3D_tracking_ECCV_2018_paper.pdf)  [\[Project Page\]](https://www.ics.forth.gr/cvrl/deformable_interaction/)
@@ -187,6 +188,8 @@ _Aggeliki Tsoli, Antonis A. Argyros_
 
 ##### Occlusion-aware Hand Pose Estimation Using Hierarchical Mixture Density Network. [\[PDF\]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Qi_Ye_Occlusion-aware_Hand_Pose_ECCV_2018_paper.pdf)  *(Oral)*
 _Qi Ye, Tae-Kyun Kim_
+- In the first level, the visibility is modeled by Bernoulli distribution whose parameter is $$w$$, then depending on the visibility, the joint locations are either modeled by uni-modal Gaussian distributions (visible joints) or GMMs (occluded joint).
+- learn a CNN to output the parameters of HMDN (Hierarchical Mixture Density Network).
 
 ##### Hand Pose Estimation via Latent 2.5D Heatmap Regression. [\[PDF\]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Umar_Iqbal_Hand_Pose_Estimation_ECCV_2018_paper.pdf)
 _Umar Iqbal, Pavlo Molchanov, Thomas Breuel, Juergen Gall, Jan Kautz_
@@ -245,6 +248,7 @@ _Shanxin Yuan, Guillermo Garcia-Hernando, Bjorn Stenger, Gyeongsik Moon, Ju Yong
 _Seungryul Baek, Kwang In Kim, Tae-Kyun Kim_
 - Key idea is to sythesize data in the skeleton space.
 - HPE (depth-based 3D hand pose estimator) and HPG (hand pose generator which synthesizes the depth map from the skeleton entries)
+- CycleGAN (_Unpaired image-to-image translation using cycle-consistent adversarial networks_)
 
 ##### [\[3D HUMANS Workshop\]](https://project.inria.fr/humans2018/) Monocular RGB Hand Pose Inference From Unsupervised Refinable Nets. [\[PDF\]](http://openaccess.thecvf.com/CVPR2018_workshops/content_CVPR_2018/papers/w17/Dibra_Monocular_RGB_Hand_CVPR_2018_paper.pdf)
 _Endri Dibra, Silvan Melchior, Ali Balkis, Thomas Wolf, Cengiz Oztireli, Markus Gross_
