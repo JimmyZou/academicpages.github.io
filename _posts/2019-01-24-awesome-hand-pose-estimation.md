@@ -172,9 +172,14 @@ _Georg Poier, Michael Opitz, David Schinagl and Horst Bischof_
 
 ##### HandMap: Robust Hand Pose Estimation via Intermediate Dense Guidance Map Supervision. [\[PDF\]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xiaokun_Wu_HandMap_Robust_Hand_ECCV_2018_paper.pdf)  [\[Project Page\]](https://xkunwu.github.io/research/18HandPose/18HandPose)  [\[Code\]](https://github.com/xkunwu/depth-hand)
 _Xiaokun Wu, Daniel Finnegan, Eamonn O'Neill, Yongliang Yang_
+- The algorithm starts from a single depth image, runs through multiple dense  GMS (guidance map supervision) modules and then directly regresses 3D coordinates of each joint.
+- Dense GMS module ensely samples geometrically meaningful constraints from the input image, which provides coherent guidance to the feature representation of residual module.
 
 ##### HBE: Hand Branch Ensemble network for real time 3D hand pose estimation.  [\[PDF\]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yidan_Zhou_HBE_Hand_Branch_ECCV_2018_paper.pdf)
 _Yidan Zhou, Jian Lu, Kuo Du, Xiangbo Lin, Yi Sun, Xiaohong Ma_
+- Three branch Convolutional Neural Networks named Hand Branch Ensemble
+network (HBE), where the three branches correspond to the three parts
+of a hand: the thumb, the index finger and the other fingers.
 
 ##### Point-to-Point Regression PointNet for 3D Hand Pose Estimation. [\[PDF\]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Liuhao_Ge_Point-to-Point_Regression_PointNet_ECCV_2018_paper.pdf)
 _Liuhao Ge, Zhou Ren, Junsong Yuan_
@@ -182,6 +187,8 @@ _Liuhao Ge, Zhou Ren, Junsong Yuan_
 
 ##### Weakly-supervised 3D Hand Pose Estimation from Monocular RGB Images. [\[PDF\]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yujun_Cai_Weakly-supervised_3D_Hand_ECCV_2018_paper.pdf) *(Oral)*
 _Yujun Cai, Liuhao Ge, Jianfei Cai, Junsong Yuan_
+- We propose an end-to-end learning based 3D hand pose estimation model for weakly-supervised adaptation from fully-annotated synthetic images to weakly-labeled real-world images. 
+- Particulary, we introduce a depth regularizer supervised by the easily captured depth images. (Note that we only need the reference depth map, rather than fully annotated depth image, during training as a regularizer)
 
 ##### Joint 3D tracking of a deformable object in interaction with a hand. [\[PDF\]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Aggeliki_Tsoli_Joint_3D_tracking_ECCV_2018_paper.pdf)  [\[Project Page\]](https://www.ics.forth.gr/cvrl/deformable_interaction/)
 _Aggeliki Tsoli, Antonis A. Argyros_
@@ -193,6 +200,9 @@ _Qi Ye, Tae-Kyun Kim_
 
 ##### Hand Pose Estimation via Latent 2.5D Heatmap Regression. [\[PDF\]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Umar_Iqbal_Hand_Pose_Estimation_ECCV_2018_paper.pdf)
 _Umar Iqbal, Pavlo Molchanov, Thomas Breuel, Juergen Gall, Jan Kautz_
+- In the literature, there exists two main learning paradigms, namely heatmap regression [26, 27] and holistic pose regression [28,29].
+- Given an RGB image of a hand, the proposed CNN architecture produces latent 2.5D heatmaps containing the latent 2D heatmaps and latent depth maps.
+- a novel CNN architecture (CNN + AE) to estimate the 2.5D pose from images
 
 ##### [Hands18 Workshop] Adapting Egocentric Visual Hand Pose Estimation Towards a Robot-Controlled Exoskeleton. \[PDF\]
 _Gerald Baulig, Thomas Gulde, Cristobal Curio_
@@ -307,15 +317,22 @@ _Paschalis Panteleris, Iason Oikonomidis, Antonis Argyros_
 ### 2017 ICCV
 ##### Learning to Estimate 3D Hand Pose from Single RGB Images. [\[PDF\]](https://arxiv.org/pdf/1705.01389.pdf)  [\[Project Page\]](https://lmb.informatik.uni-freiburg.de/projects/hand3d/)   [\[Code\]](https://github.com/lmb-freiburg/hand3d)
 _Christian Zimmermann, Thomas Brox_
+- The first network provides a hand segmentation to localize the hand in the image. Based on its output, the second network localizes hand keypoints in the 2D images (outputs are J score maps, each for a joint). The third network finally derives the 3D hand pose from the 2D keypoints.
 
 ##### Real-time Hand Tracking under Occlusion from an Egocentric RGB-D Sensor. [\[PDF\]](http://handtracker.mpi-inf.mpg.de/projects/OccludedHands/content/OccludedHands_ICCV2017.pdf) [\[Project Page\]](http://handtracker.mpi-inf.mpg.de/projects/OccludedHands/)
 *Franziska Mueller, Dushyant Mehta, Oleksandr Sotnychenko, Srinath Sridhar, Dan Casas, Christian Theobalt*
+- Our approach uses two subsequently applied Convolutional Neural Networks (CNNs) to localize the hand and regress 3D joint locations. 
+- Hand localization is achieved by using a CNN to estimate the 2D position of the hand center in the input, even in the presence of clutter and occlusions. 
+- The localized hand position, together with the corresponding input depth value, is used to generate a normalized cropped image that is fed into a second CNN to regress relative 3D hand joint locations in real time. 
 
 ##### Robust Hand Pose Estimation during the Interaction with an Unknown Object. [\[PDF\]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Choi_Robust_Hand_Pose_ICCV_2017_paper.pdf) [\[Supp\]](http://openaccess.thecvf.com/content_ICCV_2017/supplemental/Choi_Robust_Hand_Pose_ICCV_2017_supplemental.pdf) [\[Project Page\]](https://engineering.purdue.edu/cdesign/wp/robust-hand-pose-estimation-during-the-interaction-with-an-unknown-object/)
 *Chiho Choi, Sang Ho Yoon, Chin-Ning Chen, Karthik Ramani*
+- We simultaneously train deep neural networks using paired depth images. The object-oriented network learns functional grasps from an object perspective, whereas the hand-oriented network explores the details of hand configurations from a hand perspective.
+- (a) The localization ConvNet takes a depth image as input to predict the heatmaps of the hand and object center. (b) The reproduction network generates the informative fused images for grasp classification. (c) Our system collaboratively classifies both the global orientations of the hand and grasp type using the paired images. (d) Then, pose regression is applied to estimate the pose parameters of the hand.
 
 ##### Learning Hand Articulations by Hallucinating Heat Distribution. [\[PDF\]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Choi_Learning_Hand_Articulations_ICCV_2017_paper.pdf) [\[Supp\]](http://openaccess.thecvf.com/content_ICCV_2017/supplemental/Choi_Learning_Hand_Articulations_ICCV_2017_supplemental.pdf)  [\[Project Page\]](https://engineering.purdue.edu/cdesign/wp/learning-hand-articulations-by-hallucinating-heat-distribution/)
 *Chiho Choi, Sangpil Kim, Karthik Ramani*
+- At training time, the hallucination network is trained to mimic heat distribution features using depth data. At testing time, the localization network takes as input a depth image to localize the hand. The identified hand is used to extract complementary features from the depth and hallucination network. The refinement network regularizes an initial pose estimate using the given feature representations
 
 ##### Low-Dimensionality Calibration through Local Anisotropic Scaling for Robust Hand Model Personalization. [\[PDF\]](http://lgg.epfl.ch/publications/2017/LocalAnisotropicScaling/paper.pdf)  [\[Project Page\]](http://lgg.epfl.ch/publications/2017/LocalAnisotropicScaling/index.php) [\[Code\]](https://github.com/edoRemelli/hadjust)
 _Edoardo Remelli*, Anastasia Tkach*, Andrea Tagliasacchi, Mark Pauly_
