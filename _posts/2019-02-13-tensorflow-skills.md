@@ -9,12 +9,12 @@ This blog is a summary of implementation skills in tensorflow for some special f
 
 ---
 **Self-define gradient for a layer using _tf.custom_gradient_**  
-When the output (_y_) decribes a multi-variate orthogonal normal distribution with two means and standard deviations. In reinforcement learning, the continuous action can be sampled according to 
+When the output (_y_) decribes a multi-variate orthogonal normal distribution with two means and standard deviations. In reinforcement learning, the continuous action can be sampled according to  
 $$\pi(a|s) = \frac{1}{\sqrt{2\pi\sigma^2}}\exp\big(-\frac{(a-\mu)^2}{2\sigma^2}\big).$$ 
-The gradient w.r.t $$\mu$$ and $$\sigma$$ in both dimensions is
-$$\nabla_{\mu} \ln \pi(a|s) = \nabla_{\mu} [-\frac{1}{2}\ln(2\pi\sigma^2) - \frac{(a-\mu)^2}{2\sigma^2}] = \frac{a - \mu}{\sigma^2}$$ 
-and 
-$$\nabla_{\sigma} \ln \pi(a|s) = \nabla_{\sigma} [-\frac{1}{2}\ln(2\pi\sigma^2) - \frac{(a-\mu)^2}{2\sigma^2}] = \frac{ (a-\mu)^2 - \sigma^2}{\sigma^3}$$,
+The gradient w.r.t $$\mu$$ and $$\sigma$$ in both dimensions is  
+$$\nabla_{\mu} \ln \pi(a|s) = \nabla_{\mu} [-\frac{1}{2}\ln(2\pi\sigma^2) - \frac{(a-\mu)^2}{2\sigma^2}] = \frac{a - \mu}{\sigma^2}$$  
+and  
+$$\nabla_{\sigma} \ln \pi(a|s) = \nabla_{\sigma} [-\frac{1}{2}\ln(2\pi\sigma^2) - \frac{(a-\mu)^2}{2\sigma^2}] = \frac{ (a-\mu)^2 - \sigma^2}{\sigma^3}$$,  
 which is the initial input of the back-propagation in a neural network. The auto-gradient in TF cannot compute gradient like these. So we need to self-define a layer _sample_normal_dist_grad_layer_ with forward and backward propagation. Note that **grads = _y * dy** means that the initial input of this layer in back-propagation is **out** (the output of this final layer).
 
 ```
@@ -59,8 +59,8 @@ which is the initial input of the back-propagation in a neural network. The auto
 
 ---
 **Sampling in categorical distribution using Gumbel softmax**  
-Backpropagation is not possible through stochastic nodes (layers). We use the Gumbel-Max trick, which provides an efficient way to draw samples $$z$$ from the Categorical distribution with class probabilities $$\pi_i$$:
-$$z=\text{one-hot} (\text{argmax}_{i}[g_i+\log\pi_i])$$.
+Backpropagation is not possible through stochastic nodes (layers). We use the Gumbel-Max trick, which provides an efficient way to draw samples $$z$$ from the Categorical distribution with class probabilities $$\pi_i$$:  
+$$z=\text{one-hot} (\text{argmax}_{i}[g_i+\log\pi_i])$$.  
 The trick for correct backpropagation is this line: _y = tf.stop_gradient(y_hard - y) + y_.
 
 ```
