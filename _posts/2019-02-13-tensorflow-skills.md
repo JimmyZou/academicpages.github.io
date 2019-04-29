@@ -1,5 +1,5 @@
 ---
-title: 'Tensorflow Implementation Skills Summary'
+title: 'Python (Tensorflow) Implementation Skills Summary'
 date: 2019-02-13
 permalink: /posts/2019/02/2019-02-13-tensorflow-skills/
 tags:
@@ -55,5 +55,68 @@ which is the initial input of the back-propagation in a neural network. The auto
         print('vars_of_policy', b[1][0], '\n', b[1][1])
         print('grads_for_policy_and_vars', b[2][0], '\n', b[2][1])
         print('grads_normal_dist', b[3])
+```
+
+---
+**Sampling in categorical distribution using Gumbel softmax**
+Backpropagation is not possible through stochastic nodes (layers). We use the Gumbel-Max trick, which provides an efficient way to draw samples $$z$$ from the Categorical distribution with class probabilities $$\pi_i$$:
+$$z=\text{one-hot} (\text{argmax}_{i}[g_i+\log\pi_i])$$.
+The trick for correct backpropagation is this line: _y = tf.stop_gradient(y_hard - y) + y_.
+
+```
+def sample_gumbel(shape, eps=1e-20): 
+  """Sample from Gumbel(0, 1)"""
+  U = tf.random_uniform(shape,minval=0,maxval=1)
+  return -tf.log(-tf.log(U + eps) + eps)
+
+def gumbel_softmax_sample(logits, temperature): 
+  """ Draw a sample from the Gumbel-Softmax distribution"""
+  y = logits + sample_gumbel(tf.shape(logits))
+  return tf.nn.softmax( y / temperature)
+
+def gumbel_softmax(logits, temperature, hard=False):
+  """Sample from the Gumbel-Softmax distribution and optionally discretize.
+  Args:
+    logits: [batch_size, n_class] unnormalized log-probs
+    temperature: non-negative scalar
+    hard: if True, take argmax, but differentiate w.r.t. soft sample y
+  Returns:
+    [batch_size, n_class] sample from the Gumbel-Softmax distribution.
+    If hard=True, then the returned sample will be one-hot, otherwise it will
+    be a probabilitiy distribution that sums to 1 across classes
+  """
+  y = gumbel_softmax_sample(logits, temperature)
+  if hard:
+    k = tf.shape(logits)[-1]
+    #y_hard = tf.cast(tf.one_hot(tf.argmax(y,1),k), y.dtype)
+    y_hard = tf.cast(tf.equal(y,tf.reduce_max(y,1,keep_dims=True)),y.dtype)
+    # trick for correct backpropagation
+    y = tf.stop_gradient(y_hard - y) + y
+  return y
+```
+
+---
+**Ornstein-Uhlenbeck Action Noise**  
+Simulating the Ornstein–Uhlenbeck process is based on [http://math.stackexchange.com/questions/1287634/implementing-ornstein-uhlenbeck-in-matlab](http://math.stackexchange.com/questions/1287634/implementing-ornstein-uhlenbeck-in-matlab). 
+```
+class OrnsteinUhlenbeckActionNoise(ActionNoise):
+    def __init__(self, mu, sigma, theta=.15, dt=1e-2, x0=None):
+        self.theta = theta
+        self.mu = mu
+        self.sigma = sigma
+        self.dt = dt
+        self.x0 = x0
+        self.reset()
+
+    def __call__(self):
+        x = self.x_prev + self.theta * (self.mu - self.x_prev) * self.dt + self.sigma * np.sqrt(self.dt) * np.random.normal(size=self.mu.shape)
+        self.x_prev = x
+        return x
+
+    def reset(self):
+        self.x_prev = self.x0 if self.x0 is not None else np.zeros_like(self.mu)
+
+    def __repr__(self):
+        return 'OrnsteinUhlenbeckActionNoise(mu={}, sigma={})'.format(self.mu, self.sigma)
 ```
 
