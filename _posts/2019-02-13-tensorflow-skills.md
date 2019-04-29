@@ -9,8 +9,7 @@ This blog is a summary of implementation skills in tensorflow for some special f
 
 ---
 **Self-define gradient for a layer using _tf.custom_gradient_**  
-When the output (_y_) decribes a multi-variate orthogonal normal distribution with two means and standard deviations. In reinforcement learning, the continuous action can be sampled according to  
-$$\pi(a|s) = \frac{1}{\sqrt{2\pi\sigma^2}}\exp\big(-\frac{(a-\mu)^2}{2\sigma^2}\big).$$ 
+When the output (_y_) decribes a multi-variate orthogonal normal distribution with two means and standard deviations. In reinforcement learning, the continuous action can be sampled according to $$\pi(a|s) = \frac{1}{\sqrt{2\pi\sigma^2}}\exp\big(-\frac{(a-\mu)^2}{2\sigma^2}\big).$$  
 The gradient w.r.t $$\mu$$ and $$\sigma$$ in both dimensions is  
 $$\nabla_{\mu} \ln \pi(a|s) = \nabla_{\mu} [-\frac{1}{2}\ln(2\pi\sigma^2) - \frac{(a-\mu)^2}{2\sigma^2}] = \frac{a - \mu}{\sigma^2}$$  
 and  
