@@ -8,7 +8,7 @@ tags:
 This blog is a summary of implementation skills in tensorflow for some special functions. The code provided is mostly test by myself. All these points take me much time to explore how to implement. So it is worth to summarize here.
 
 ---
-**Self-define gradient for a layer using _tf.custom_gradient_**
+**Self-define gradient for a layer using _tf.custom_gradient_**  
 When the output (_y_) decribes a multi-variate orthogonal normal distribution with two means and standard deviations. In reinforcement learning, the continuous action can be sampled according to 
 $$\pi(a|s) = \frac{1}{\sqrt{2\pi\sigma^2}}\exp\big(-\frac{(a-\mu)^2}{2\sigma^2}\big).$$ 
 The gradient w.r.t $$\mu$$ and $$\sigma$$ in both dimensions is
@@ -58,7 +58,7 @@ which is the initial input of the back-propagation in a neural network. The auto
 ```
 
 ---
-**Sampling in categorical distribution using Gumbel softmax**
+**Sampling in categorical distribution using Gumbel softmax**  
 Backpropagation is not possible through stochastic nodes (layers). We use the Gumbel-Max trick, which provides an efficient way to draw samples $$z$$ from the Categorical distribution with class probabilities $$\pi_i$$:
 $$z=\text{one-hot} (\text{argmax}_{i}[g_i+\log\pi_i])$$.
 The trick for correct backpropagation is this line: _y = tf.stop_gradient(y_hard - y) + y_.
