@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-I am the first-year PhD student in Electrical and Computer Engineering at University of Alberta, Canada. 
+I am the first-year PhD student in Electrical and Computer Engineering of University of Alberta, Canada. 
 My research interest includes computer vision and reinforcement learning. 
 I also participated in projects on multi-agent RL and some data mining topics, including NLP and IR.
 
