@@ -20,6 +20,11 @@ _Wenhan Luo ; Peng Sun ; Fangwei Zhong ; Wei Liu ; Tong Zhang ; Yizhou Wang_
 
 ## Conference Papers  
 
+### Others
+
+#### [ICLR 2019] AD-VAT: An Asymmetric Dueling mechanism for learning Visual Active Tracking *(Adversarial Reinforcement Learning)*
+_Fangwei Zhong, Peng Sun, Wenhan Luo, Tingyun Yan, Yizhou Wang_
+
 ### CVPR 2019  
 
 #### Deep Reinforcement Learning of Volume-Guided Progressive View Inpainting for 3D Point Scene Completion From a Single Depth Image  
