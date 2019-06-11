@@ -16,7 +16,7 @@ I also participated in projects on multi-agent RL and some data mining topics, i
 
 Education
 ======
-* Ph.D. in Electrical and Computer Engineering  
+* Ph.D. candidate in Electrical and Computer Engineering  
   University of Alberta, 2019 - now  
   Supervisor: Prof. [Li Cheng](https://www.ece.ualberta.ca/~lcheng5/)
 * M.Res. in Web Science and Big Data Analytics  
