@@ -8,6 +8,16 @@ tags:
 
 # Paper list of Reinforcement Learning in Computer vision  
 ---
+## Journal Papers
+
+### PAMI/IJCV
+
+##### Multi-Scale Deep Reinforcement Learning for Real-Time 3D-Landmark Detection in CT Scans
+_Florin-Cristian Ghesu, Bogdan Georgescu, Yefeng Zheng, Sasa Grbic, Andreas Maier, Joachim Hornegger, Dorin Comaniciu_
+
+##### End-to-end Active Object Tracking and Its Real-world Deployment via Reinforcement Learning
+_Wenhan Luo ; Peng Sun ; Fangwei Zhong ; Wei Liu ; Tong Zhang ; Yizhou Wang_
+
 ## Conference Papers  
 
 ### CVPR 2019  
