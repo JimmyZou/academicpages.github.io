@@ -10,7 +10,7 @@ tags:
 ---
 ## Journal Papers
 
-#### [TPAMI 2017] Learning from Weak and Noisy Labels for Semantic Segmentation
+#### [TPAMI 2017] Learning from Weak and Noisy Labels for Semantic Segmentation [[pdf]](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/12661/imparsing_final.pdf?sequence=1)
 _Zhiwu Lu, Zhenyong Fu, Tao Xiang, Peng Han, Liwei Wang, Xin Gao_
 
 ---
@@ -18,7 +18,7 @@ _Zhiwu Lu, Zhenyong Fu, Tao Xiang, Peng Han, Liwei Wang, Xin Gao_
 
 ### CVPR 2019  
 
-#### Graph Convolutional Label Noise Cleaner: Train a Plug-And-Play Action Classifier for Anomaly Detection
+#### Graph Convolutional Label Noise Cleaner: Train a Plug-And-Play Action Classifier for Anomaly Detection [[pdf]](https://arxiv.org/abs/1903.07256)
 _Jia-Xing Zhong, Nannan Li, Weijie Kong, Shan Liu, Thomas H. Li, Ge Li_
 
 #### Label-Noise Robust Generative Adversarial Networks
