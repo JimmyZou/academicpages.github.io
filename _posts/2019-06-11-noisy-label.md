@@ -88,8 +88,17 @@ _Giorgio Patrini, Alessandro Rozza, Aditya Krishna Menon, Richard Nock, Lizhen Q
 #### [ICLR 2017] Training deep neural-networks using a noise adaptation layer [[pdf]](https://openreview.net/forum?id=H12GRgcxg)
 _Jacob Goldberger, Ehud Ben-Reuven_
 
+#### [AAAI 2017] Robust loss functions under label noise for deep neural networks [[pdf]](https://arxiv.org/abs/1712.09482)
+_Aritra Ghosh, Himanshu Kumar, P.S. Sastry_
+
 #### [CVPR 2015] Learning from massive noisy labeled data for image classification [[pdf]](http://www.ee.cuhk.edu.hk/~xgwang/papers/xiaoXYHWcvpr15.pdf)
 _Tong Xiao, Tian Xia, Yi Yang, Chang Huang, Xiaogang Wang_
+
+#### [ICLR 2015] Training deep neural networks on noisy labels with bootstrapping [[pdf]](https://arxiv.org/abs/1412.6596)
+_Scott E. Reed, Honglak Lee, Dragomir Anguelov, Christian Szegedy, Dumitru Erhan, Andrew Rabinovich_
+
+#### [NeurIPS 2015] Learning with symmetric label noise: The importance of being unhinged [[pdf]](https://arxiv.org/abs/1505.07634)
+_Brendan van Rooyen, Aditya Krishna Menon, Robert C. Williamson_
 
 
 
