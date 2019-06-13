@@ -53,6 +53,12 @@ _Yisen Wang, Weiyang Liu, Xingjun Ma, James Bailey, Hongyuan Zha, Le Song, Shu-T
 #### [ICML 2018] Dimensionality-Driven Learning with Noisy Labels
 _Xingjun Ma, Yisen Wang, Michael E. Houle, Shuo Zhou, Sarah Erfani, Shutao Xia, Sudanthi Wijewickrema, James Bailey_
 
+#### [ICML 2018] Mentornet: Learning data-driven curriculum for very deep neural networks on corrupted labels
+_Lu Jiang, Zhengyuan Zhou, Thomas Leung, Li-Jia Li, Li Fei-Fei_
+
+#### [ICML 2018] Learning to Reweight Examples for Robust Deep Learning
+_Mengye Ren, Wenyuan Zeng, Bin Yang, Raquel Urtasun_
+
 #### [NeurIPS 2018] Co-teaching: Robust training of deep neural networks with extremely noisy labels
 _Bo Han, Quanming Yao, Xingrui Yu, Gang Niu, Miao Xu, Weihua Hu, Ivor Tsang, Masashi Sugiyama_
 
@@ -73,8 +79,12 @@ _Yuncheng Li, Jianchao Yang, Yale Song, Liangliang Cao, Jiebo Luo, Li-Jia Li_
 #### Tensor RPCA by Bayesian CP Factorization With Complex Noise
 _Qiong Luo, Zhi Han, Xi'ai Chen, Yao Wang, Deyu Meng, Dong Liang, Yandong Tang_
 
-#### Making Deep Neural Networks Robust to Label Noise: A Loss Correction Approach
+#### Learning from noisy largescale datasets with minimal supervision [[pdf]](https://arxiv.org/abs/1701.01619)
+_Andreas Veit, Neil Alldrin, Gal Chechik, Ivan Krasin, Abhinav Gupta, Serge Belongie_
+
+#### Making Deep Neural Networks Robust to Label Noise: A Loss Correction Approach [[pdf]](https://arxiv.org/abs/1609.03683)
 _Giorgio Patrini, Alessandro Rozza, Aditya Krishna Menon, Richard Nock, Lizhen Qu_
 
-
+#### [ICLR 2017] Training deep neural-networks using a noise adaptation layer [[pdf]](https://openreview.net/forum?id=H12GRgcxg)
+_Jacob Goldberger, Ehud Ben-Reuven_
 
