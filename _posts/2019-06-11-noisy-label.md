@@ -21,22 +21,22 @@ _Zhiwu Lu, Zhenyong Fu, Tao Xiang, Peng Han, Liwei Wang, Xin Gao_
 #### Graph Convolutional Label Noise Cleaner: Train a Plug-And-Play Action Classifier for Anomaly Detection [[pdf]](https://arxiv.org/abs/1903.07256)
 _Jia-Xing Zhong, Nannan Li, Weijie Kong, Shan Liu, Thomas H. Li, Ge Li_
 
-#### Label-Noise Robust Generative Adversarial Networks
+#### Label-Noise Robust Generative Adversarial Networks [[pdf]](https://arxiv.org/abs/1811.11165)
 _Takuhiro Kaneko, Yoshitaka Ushiku, Tatsuya Harada_
 
-#### Learning to Learn From Noisy Labeled Data
+#### Learning to Learn From Noisy Labeled Data [[pdf]](https://arxiv.org/abs/1812.05214)
 _Junnan Li, Yongkang Wong, Qi Zhao, Mohan S. Kankanhalli_
 
-#### Probabilistic End-To-End Noise Correction for Learning With Noisy Labels
+#### Probabilistic End-To-End Noise Correction for Learning With Noisy Labels [[pdf]](https://arxiv.org/abs/1903.07788)
 _Kun Yi, Jianxin Wu_
 
-#### MetaCleaner: Learning to Hallucinate Clean Representations for Noisy-Labeled Visual Recognition
+#### MetaCleaner: Learning to Hallucinate Clean Representations for Noisy-Labeled Visual Recognition [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_MetaCleaner_Learning_to_Hallucinate_Clean_Representations_for_Noisy-Labeled_Visual_Recognition_CVPR_2019_paper.pdf)
 _Weihe Zhang, Yali Wang, Yu Qiao_
 
-#### Devil Is in the Edges: Learning Semantic Boundaries From Noisy Annotations
+#### Devil Is in the Edges: Learning Semantic Boundaries From Noisy Annotations [[pdf]](https://arxiv.org/abs/1904.07934)
 _David Acuna, Amlan Kar, Sanja Fidler_
 
-#### Learning From Noisy Labels by Regularized Estimation of Annotator Confusion
+#### Learning From Noisy Labels by Regularized Estimation of Annotator Confusion [[pdf]](https://arxiv.org/abs/1902.03680)
 _Ryutaro Tanno, Ardavan Saeedi, Swami Sankaranarayanan, Daniel C. Alexander, Nathan Silberman_
 
 ### CVPR 2018
