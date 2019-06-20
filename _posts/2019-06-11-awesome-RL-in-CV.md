@@ -15,7 +15,7 @@ tags:
 #### [2019 TPAMI] Multi-Scale Deep Reinforcement Learning for Real-Time 3D-Landmark Detection in CT Scans
 _Florin-Cristian Ghesu, Bogdan Georgescu, Yefeng Zheng, Sasa Grbic, Andreas Maier, Joachim Hornegger, Dorin Comaniciu_
 
-#### [2019 TPAMI]End-to-end Active Object Tracking and Its Real-world Deployment via Reinforcement Learning
+#### [2019 TPAMI] End-to-end Active Object Tracking and Its Real-world Deployment via Reinforcement Learning
 _Wenhan Luo ; Peng Sun ; Fangwei Zhong ; Wei Liu ; Tong Zhang ; Yizhou Wang_
 
 ## Conference Papers  
@@ -26,6 +26,9 @@ _Wenhan Luo ; Peng Sun ; Fangwei Zhong ; Wei Liu ; Tong Zhang ; Yizhou Wang_
 _Fangwei Zhong, Peng Sun, Wenhan Luo, Tingyun Yan, Yizhou Wang_
 
 ### CVPR 2019  
+
+#### (best student paper) Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation
+Xin Wang, Qiuyuan Huang, Asli Celikyilmaz, Jianfeng Gao, Dinghan Shen, Yuan-Fang Wang, William Yang Wang, Lei Zhang
 
 #### Deep Reinforcement Learning of Volume-Guided Progressive View Inpainting for 3D Point Scene Completion From a Single Depth Image  
 _Xiaoguang Han, Zhaoxuan Zhang, Dong Du, Mingdai Yang, Jingming Yu, Pan Pan, Xin Yang, Ligang Liu, Zixiang Xiong, Shuguang Cui_  
