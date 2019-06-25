@@ -12,10 +12,10 @@ tags:
 
 ### PAMI/IJCV
 
-#### [2019 TPAMI] Multi-Scale Deep Reinforcement Learning for Real-Time 3D-Landmark Detection in CT Scans
+#### [2019 TPAMI] Multi-Scale Deep Reinforcement Learning for Real-Time 3D-Landmark Detection in CT Scans [[pdf]](https://ieeexplore.ieee.org/document/8187667)
 _Florin-Cristian Ghesu, Bogdan Georgescu, Yefeng Zheng, Sasa Grbic, Andreas Maier, Joachim Hornegger, Dorin Comaniciu_
 
-#### [2019 TPAMI] End-to-end Active Object Tracking and Its Real-world Deployment via Reinforcement Learning
+#### [2019 TPAMI] End-to-end Active Object Tracking and Its Real-world Deployment via Reinforcement Learning [[pdf]](https://arxiv.org/abs/1808.03405)
 _Wenhan Luo ; Peng Sun ; Fangwei Zhong ; Wei Liu ; Tong Zhang ; Yizhou Wang_
 
 ## Conference Papers  
