@@ -20,36 +20,34 @@ _Wenhan Luo ; Peng Sun ; Fangwei Zhong ; Wei Liu ; Tong Zhang ; Yizhou Wang_
 
 ## Conference Papers  
 
-### Others
-
-#### [ICLR 2019] AD-VAT: An Asymmetric Dueling mechanism for learning Visual Active Tracking *(Adversarial Reinforcement Learning)*
-_Fangwei Zhong, Peng Sun, Wenhan Luo, Tingyun Yan, Yizhou Wang_
-
 ### CVPR 2019  
 
-#### (best student paper) Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation
+#### (best student paper) Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation [[pdf]](https://arxiv.org/abs/1811.10092)
 Xin Wang, Qiuyuan Huang, Asli Celikyilmaz, Jianfeng Gao, Dinghan Shen, Yuan-Fang Wang, William Yang Wang, Lei Zhang
 
-#### Deep Reinforcement Learning of Volume-Guided Progressive View Inpainting for 3D Point Scene Completion From a Single Depth Image  
+#### Deep Reinforcement Learning of Volume-Guided Progressive View Inpainting for 3D Point Scene Completion From a Single Depth Image  [[pdf]](https://arxiv.org/abs/1903.04019)
 _Xiaoguang Han, Zhaoxuan Zhang, Dong Du, Mingdai Yang, Jingming Yu, Pan Pan, Xin Yang, Ligang Liu, Zixiang Xiong, Shuguang Cui_  
 
-#### Language-Driven Temporal Activity Localization: A Semantic Matching Reinforcement Learning Model  
+#### Language-Driven Temporal Activity Localization: A Semantic Matching Reinforcement Learning Model [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Language-Driven_Temporal_Activity_Localization_A_Semantic_Matching_Reinforcement_Learning_Model_CVPR_2019_paper.pdf)
 _Weining Wang, Yan Huang, Liang Wang_
 
-#### RL-GAN-Net: A Reinforcement Learning Agent Controlled GAN Network for Real-Time Point Cloud Shape Completion
+#### RL-GAN-Net: A Reinforcement Learning Agent Controlled GAN Network for Real-Time Point Cloud Shape Completion [[pdf]](https://arxiv.org/abs/1904.12304)
 _Muhammad Sarmad, Hyunjoo Jenny Lee, Young Min Kim_
 
-#### Enhanced Bayesian Compression via Deep Reinforcement Learning
+#### Enhanced Bayesian Compression via Deep Reinforcement Learning [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yuan_Enhanced_Bayesian_Compression_via_Deep_Reinforcement_Learning_CVPR_2019_paper.pdf)
 _Xin Yuan, Liangliang Ren, Jiwen Lu, Jie Zhou_
 
-#### IRLAS: Inverse Reinforcement Learning for Architecture Search
+#### IRLAS: Inverse Reinforcement Learning for Architecture Search [[pdf]]
 _Minghao Guo, Zhao Zhong, Wei Wu, Dahua Lin, Junjie Yan_
 
-#### Automatic Face Aging in Videos via Deep Reinforcement Learning
+#### Automatic Face Aging in Videos via Deep Reinforcement Learning [[pdf]](https://arxiv.org/abs/1811.11082)
 _Chi Nhan Duong, Khoa Luu, Kha Gia Quach, Nghia Nguyen, Eric Patterson, Tien D. Bui, Ngan Le_
 
-#### Sim-Real Joint Reinforcement Transfer for 3D Indoor Navigation
+#### Sim-Real Joint Reinforcement Transfer for 3D Indoor Navigation [[pdf]](https://arxiv.org/abs/1904.03895)
 _Fengda Zhu, Linchao Zhu, Yi Yang_
+
+#### [ICLR 2019] AD-VAT: An Asymmetric Dueling mechanism for learning Visual Active Tracking *(Adversarial Reinforcement Learning)* [[pdf]](https://openreview.net/pdf?id=HkgYmhR9KX)
+_Fangwei Zhong, Peng Sun, Wenhan Luo, Tingyun Yan, Yizhou Wang_
 
 ### CVPR 2018
 
