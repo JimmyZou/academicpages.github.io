@@ -6,7 +6,7 @@ tags:
   - paper list
 ---
 
-# Paper list of noisy label in Computer vision  
+# Paper list of noisy label in computer vision  
 ---
 ## Journal Papers
 
