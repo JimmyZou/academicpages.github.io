@@ -71,25 +71,31 @@ _Zhilu Zhang, Mert Sabuncu_
 #### [NeurIPS 2018] Using Trusted Data to Train Deep Networks on Labels Corrupted by Severe Noise [[pdf]](https://arxiv.org/abs/1802.05300)
 _Dan Hendrycks, Mantas Mazeika, Duncan Wilson, Kevin Gimpel_
 
-### ICCV & CVPR 2017
+### 2017 and before
 
-#### Learning From Noisy Labels With Distillation [[pdf]](https://arxiv.org/abs/1703.02391)
+#### [CVPR 2017] Learning From Noisy Labels With Distillation [[pdf]](https://arxiv.org/abs/1703.02391)
 _Yuncheng Li, Jianchao Yang, Yale Song, Liangliang Cao, Jiebo Luo, Li-Jia Li_
 
-#### Tensor RPCA by Bayesian CP Factorization With Complex Noise [[pdf]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Luo_Tensor_RPCA_by_ICCV_2017_paper.pdf)
+#### [CVPR 2017] Tensor RPCA by Bayesian CP Factorization With Complex Noise [[pdf]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Luo_Tensor_RPCA_by_ICCV_2017_paper.pdf)
 _Qiong Luo, Zhi Han, Xi'ai Chen, Yao Wang, Deyu Meng, Dong Liang, Yandong Tang_
 
-#### Learning from noisy largescale datasets with minimal supervision [[pdf]](https://arxiv.org/abs/1701.01619)
+#### [CVPR 2017] Learning from noisy largescale datasets with minimal supervision [[pdf]](https://arxiv.org/abs/1701.01619)
 _Andreas Veit, Neil Alldrin, Gal Chechik, Ivan Krasin, Abhinav Gupta, Serge Belongie_
 
-#### Making Deep Neural Networks Robust to Label Noise: A Loss Correction Approach [[pdf]](https://arxiv.org/abs/1609.03683)
+#### [CVPR 2017] Making Deep Neural Networks Robust to Label Noise: A Loss Correction Approach [[pdf]](https://arxiv.org/abs/1609.03683)
 _Giorgio Patrini, Alessandro Rozza, Aditya Krishna Menon, Richard Nock, Lizhen Qu_
 
 #### [ICLR 2017] Training deep neural-networks using a noise adaptation layer [[pdf]](https://openreview.net/forum?id=H12GRgcxg)
 _Jacob Goldberger, Ehud Ben-Reuven_
 
+#### [ICLR 2017] Understanding deep learning requires rethinking generalization [[pdf]](https://arxiv.org/abs/1611.03530)
+_Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals_
+
 #### [AAAI 2017] Robust loss functions under label noise for deep neural networks [[pdf]](https://arxiv.org/abs/1712.09482)
 _Aritra Ghosh, Himanshu Kumar, P.S. Sastry_
+
+#### [NeurIPS 2017] Decoupling" when to update" from" how to update" [[pdf]](https://arxiv.org/abs/1706.02613)
+_Eran Malach, Shai Shalev-Shwartz_
 
 #### [CVPR 2015] Learning from massive noisy labeled data for image classification [[pdf]](http://www.ee.cuhk.edu.hk/~xgwang/papers/xiaoXYHWcvpr15.pdf)
 _Tong Xiao, Tian Xia, Yi Yang, Chang Huang, Xiaogang Wang_
