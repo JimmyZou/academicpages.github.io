@@ -95,6 +95,9 @@ _Dan Hendrycks, Mantas Mazeika, Duncan Wilson, Kevin Gimpel_
 #### [ICLR 2018] Learning From Noisy Singly-labeled Data [[pdf]](https://arxiv.org/abs/1712.04577)
 _Ashish Khetan, Zachary C. Lipton, Anima Anandkumar_
 
+#### [WACV 2018] A SemiSupervised Two-Stage Approach to Learning from Noisy Labels [[pdf]](https://arxiv.org/abs/1802.02679)
+_Yifan Ding, Liqiang Wang, Deliang Fan, Boqing Gong_
+
 ### 2017 and before
 
 #### [CVPR 2017] Learning From Noisy Labels With Distillation [[pdf]](https://arxiv.org/abs/1703.02391)
