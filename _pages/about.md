@@ -10,9 +10,9 @@ redirect_from:
 
 {% include base_path %}
 
-I am the first-year PhD student in Electrical and Computer Engineering of University of Alberta, Canada. 
-My research interest includes computer vision and reinforcement learning. 
-I also participated in projects on multi-agent RL and some data mining topics, including NLP and IR.
+I am the first-year PhD student in Electrical and Computer Engineering of University of Alberta, Canada. I am from Nanchang, China.
+My research interest includes computer vision and reinforcement learning (RL). 
+I also participated in projects on multi-agent RL and some data mining topics, including information retrieval and natural language processing.
 
 Education
 ======
@@ -25,7 +25,7 @@ Education
 * B.S. in Electronic Information Engineering (Honor Class)  
   Beijing Institute of Technology, 2013 - 2017  
   Supervisor: Prof. [Huiqi Li](http://isc.bit.edu.cn/schools/iae/knowinprofessors10/113101.htm)
-* Exchange semester  
+* Exchange  
   Hong Kong University of Science and Technology, 2016 Fall
 
 <!--Publications
