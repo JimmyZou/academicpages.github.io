@@ -42,4 +42,5 @@ Talks
 
 Recent news
 =====
-* A paper on multi-agent reinforcement learning has been accepted by IJCAI 2019. 
+* A paper on multi-agent reinforcement learning to rank has been accepted by CIKM 2019.
+* A paper on communications in multi-agent reinforcement learning has been accepted by IJCAI 2019. 
