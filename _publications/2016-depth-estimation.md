@@ -1,5 +1,5 @@
 ---
-title: "Depth estimation from a single image in pedestrian candidate generation"
+title: "Depth Estimation from a Single Image in Pedestrian Candidate Generation"
 collection: publications
 permalink: /publication/2016-depth-estimation
 date: 2016-04-01
