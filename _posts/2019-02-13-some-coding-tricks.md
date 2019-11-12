@@ -1,9 +1,9 @@
 ---
-title: 'Python (Tensorflow) Implementation Skills Summary'
+title: 'Python Coding Tricks Summary'
 date: 2019-02-13
-permalink: /posts/2019/02/2019-02-13-tensorflow-skills/
+permalink: /posts/2019/02/2019-02-13-some-coding-tricks/
 tags:
-  - tensorflow
+  - tensorflow, pytorch
 ---
 This blog is a summary of implementation skills in tensorflow for some special functions. The code provided is mostly test by myself. All these points take me much time to explore how to implement. So it is worth to summarize here.
 
