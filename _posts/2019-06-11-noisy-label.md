@@ -1,5 +1,5 @@
 ---
-title: 'Paper list of noisy label in CV'
+title: 'Paper list of learning from data with noisy labels'
 date: 2019-06-11
 permalink: /posts/2019/06/noisy-label/
 tags:
