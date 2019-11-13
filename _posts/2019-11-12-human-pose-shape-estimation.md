@@ -9,20 +9,17 @@ tags:
 
 # Paper list of human pose and shape estimation
 ---
-### 2019
+## 2D human pose estimation
 ---
 
 
 
 
-### 2018
+## 3D human pose estimation
 ---
 
 
-### 2017
+## human shape estimation
 ---
 
 
-
-### 2016 and before
----
