@@ -6,3 +6,23 @@ tags:
   - paper list
   - human pose and shape
 ---
+
+# Paper list of human pose and shape estimation
+---
+### 2019
+---
+
+
+
+
+### 2018
+---
+
+
+### 2017
+---
+
+
+
+### 2016 and before
+---
