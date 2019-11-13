@@ -4,6 +4,7 @@ date: 2019-06-11
 permalink: /posts/2019/06/awesome-RL-in-CV/
 tags:
   - paper list
+  - reinforcement learning applied in computer vision
 ---
 
 # Paper list of Reinforcement Learning in Computer vision  
