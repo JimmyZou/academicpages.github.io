@@ -14,13 +14,41 @@ tags:
 ---
 ## 2D human pose estimation
 ---
+#### [ICCV 2019] Single-Stage Multi-Person Pose Machines [[pdf]](https://arxiv.org/abs/1908.09220)
+_Xuecheng Nie, Jianfeng Zhang, Shuicheng Yan, Jiashi Feng_
 
 
 
 
 ## 3D human pose estimation
 ---
-#### [CVPR 2019] Exploiting temporal context for 3d human pose estimation inthe wild [[pdf]](https://arxiv.org/abs/1905.04266)
+#### [arxiv 2019] Convex Optimisation for Inverse Kinematics [[pdf]](https://arxiv.org/abs/1910.11016)
+_Tarun Yenamandra, Florian Bernard, Jiayi Wang, Franziska Mueller, Christian Theobalt_
+
+
+#### [arxiv] Geometric Pose Affordance: 3D Human Pose with Scene Constraints [[pdf]](https://arxiv.org/abs/1905.07718)
+_Zhe Wang, Liyan Chen, Shaurya Rathore, Daeyun Shin, Charless Fowlkes_
+
+#### [BMVC 2019] MocapNET: Ensemble of SNN Encoders for 3D Human Pose Estimation in RGB Images [[pdf]](http://users.ics.forth.gr/~argyros/mypapers/2019_09_BMVC_mocapnet.pdf) [[CODE]](https://github.com/FORTH-ModelBasedTracker/MocapNET)
+_Qammaz, Ammar and Argyros, Antonis A_
+
+#### [3DV 2019] Multi-Person 3D Human Pose Estimation from Monocular Images [[pdf]](https://arxiv.org/abs/1909.10854)   
+_Rishabh Dabral, Nitesh B Gundavarapu, Rahul Mitra, Abhishek Sharma, Ganesh Ramakrishnan, Arjun Jain_
+
+#### [arxiv 2019] C3DPO: Canonical 3D Pose Networks for Non-Rigid Structure From Motion [[pdf]](https://arxiv.org/abs/1909.02533)  
+_David Novotny, Nikhila Ravi, Benjamin Graham, Natalia Neverova, Andrea Vedaldi_
+
+#### [ICCV 2019] A2J: Anchor-to-Joint Regression Network for 3D Articulated Pose Estimation from a Single Depth Image [[pdf]](https://arxiv.org/abs/1908.09999)[[CODE]](https://github.com/zhangboshen/A2J)   
+_Fu Xiong, Boshen Zhang, Yang Xiao, Zhiguo Cao, Taidong Yu, Joey Tianyi Zhou, Junsong Yuan_
+
+#### [ICCV 2019] Optimizing Network Structure for 3D Human Pose Estimation [[pdf]](https://chunyuwang.netlify.com/)  
+_Hai Ci, Chunyu Wang, Xiaoxuan Ma, Yizhou Wang_
+
+#### [ICCV 2019] Cross View Fusion for 3D Human Pose Estimation [[pdf]](https://chunyuwang.netlify.com/img/ICCV_Cross_view_camera_ready.pdf) [[CODE]](https://github.com/microsoft/multiview-human-pose-estimation-pytorch)
+_Haibo Qiu, Chunyu Wang, Jingdong Wang, Naiyan Wang, Wenjun Zeng_
+
+
+#### [CVPR 2019] Exploiting temporal context for 3d human pose estimation in the wild [[pdf]](https://arxiv.org/abs/1905.04266)
 _Anurag Arnab, Carl Doersch, Andrew Zisserman_
 - bundle-adjustment-based algorithm for recovering accurate 3D human pose andmeshes from monocular videos
 
@@ -93,5 +121,18 @@ _Varun Ramakrishna, Takeo Kanade, Yaser Sheikh_
 
 ## human shape estimation
 ---
+#### [ICCV 2019] Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop [[pdf]](https://arxiv.org/abs/1909.12828) [[CODE]](https://www.seas.upenn.edu/~nkolot/projects/spin/)
+_Nikos Kolotouros, Georgios Pavlakos, Michael J. Black, Kostas Daniilidis_
 
 
+#### [ICCV 2019] DenseRaC: Joint 3D Pose and Shape Estimation by Dense Render-and-Compare [[pdf]](https://arxiv.org/abs/1910.00116)
+_Yuanlu Xu, Song-Chun Zhu, Tony Tung_
+
+#### [ICCV 2019] A Neural Network for Detailed Human Depth Estimation from a Single Image [[pdf]](https://arxiv.org/abs/1910.01275)
+_Sicong Tang, Feitong Tan, Kelvin Cheng, Zhaoyang Li, Siyu Zhu, Ping Tan_
+
+## Action recognition and motion prediction
+---
+
+#### [arxiv 2019] Adversarial Attack on Skeleton-based HumanAction Recognition [[pdf]](https://arxiv.org/pdf/1909.06500.pdf)
+_Jian Liu, Naveed Akhtar, and Ajmal Mian_
