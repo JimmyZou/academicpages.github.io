@@ -305,8 +305,24 @@ _Angjoo Kanazawa, Michael J. Black, David W. Jacobs, Jitendra Malik_
 
 
 
-## Action recognition and motion prediction
+## Action recognition, motion prediction and synthesis
 ---
+### [arxiv 2019] Learning Variations in Human Motion via Mix-and-Match Perturbation [[pdf]](https://arxiv.org/abs/1908.00733)
+_Mohammad Sadegh Aliakbarian, Fatemeh Sadat Saleh, Mathieu Salzmann, Lars Petersson, Stephen Gould, Amirhossein Habibian_
+
+### [arxiv 2019] Peeking into the Future: Predicting Future Person Activities and Locations in Videos [[pdf]](https://arxiv.org/abs/1902.03748)
+_Junwei Liang, Lu Jiang, Juan Carlos Niebles, Alexander Hauptmann, Li Fei-Fei_
+
+### [arxiv 2019] Unpaired Pose Guided Human Image Generation [[pdf]](https://arxiv.org/abs/1901.02284)
+_Xu Chen, Jie Song, Otmar Hilliges_
+
+### [ICCV 2019] Everybody Dance Now [[pdf]](https://carolineec.github.io/everybody_dance_now/)
+_Caroline Chan, Shiry Ginosar, Tinghui Zhou, Alexei A. Efros_
+
+### [ICLR 2018] AUTO-CONDITIONED LSTM NETWORK FOR EXTENDED COMPLEX HUMAN MOTION SYNTHESIS  [[pdf]](https://arxiv.org/pdf/1707.05363.pdf)
+_Yi Zhou*, Zimo Li*, Shuangjio Xiao, Chong He, Zeng Huang, Hao Li_
+
+
 ### [AAAI 2019 oral] Joint Dynamic Pose Image and Space Time Reversal for Human Action Recognition from Videos [[pdf]](https://nkliuyifang.github.io/papers/AAAI2019.pdf)
 _Mengyuan Liu, Fanyang Meng, Chen Chen, Songtao Wu_
 
@@ -327,8 +343,26 @@ _Junwu Weng, Mengyuan Liu, Xudong Jiang, Junsong Yuan_
 ### [NeurIPS 2018] Unsupervised Learning of View-invariant Action Representations [[pdf]](http://papers.nips.cc/paper/7401-unsupervised-learning-of-view-invariant-action-representations.pdf)
 _Junnan Li, Yongkang Wong, Qi Zhao, Mohan S. Kankanhalli_
 
+### [NuerIPS 2018] Soft-Gated Warping-GAN for Pose-Guided Person Image Synthesis [[pdf]](https://arxiv.org/abs/1810.11610)
+_Haoye Dong, Xiaodan Liang, Ke Gong, Hanjiang Lai, Jia Zhu, Jian Yin_
+
 ### [CVPR 2017] Deep Learning on Lie Groups for Skeleton-based Action Recognition [[pdf]](https://github.com/zzhiwu/LieNet) [[CODE]](https://github.com/zzhiwu/LieNet) 
 _Zhiwu Huang, Chengde Wan, Thomas Probst, Luc Van Gool_
+
+### [ECCV 2018] Few-Shot Human Motion Prediction via Meta-Learning [[pdf]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Liangyan_Gui_Few-Shot_Human_Motion_ECCV_2018_paper.pdf)
+_Liang-Yan Gui, Yu-Xiong Wang, Deva Ramanan, and Jos_
+
+
+### [ECCV 2018] MT-VAE: Learning Motion Transformations to Generate Multimodal Human Dynamics [[pdf]](https://arxiv.org/abs/1808.04545)
+_Xinchen Yan, Akash Rastogi, Ruben Villegas, Kalyan Sunkavalli, Eli Shechtman, Sunil Hadap, Ersin Yumer, Honglak Lee_
+
+### [CVPR 2018] Deformable GANs for Pose-based Human Image Generation [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Siarohin_Deformable_GANs_for_CVPR_2018_paper.pdf) [[code]](https://github.com/AliaksandrSiarohin/pose-gan)
+_Aliaksandr Siarohin, Enver Sangineto, Stephane Lathuiliere, Nicu Sebe_
+
+### [CVPR 2018] A Variational U-Net for Conditional Appearance and Shape Generation [[pdf]](https://compvis.github.io/vunet/images/vunet.pdf) [[code]](https://github.com/CompVis/vunet)
+_Patrick Esser, Ekaterina Sutter, Björn Ommer_
+
+
 
 
 
