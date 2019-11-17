@@ -287,6 +287,83 @@ _Yuanlu Xu, Song-Chun Zhu, Tony Tung_
 ### [ICCV 2019] A Neural Network for Detailed Human Depth Estimation from a Single Image [[pdf]](https://arxiv.org/abs/1910.01275)
 _Sicong Tang, Feitong Tan, Kelvin Cheng, Zhaoyang Li, Siyu Zhu, Ping Tan_
 
+### [CVPR 2019] Learning to Reconstruct People in Clothing from a Single RGB Camera [[pdf]](https://arxiv.org/abs/1903.05885)
+_Thiemo Alldieck, Marcus Magnor, Bharat Lal Bhatnagar, Christian Theobalt, Gerard Pons-Moll_
+
+### [CVPR 2019] DeepHuman: 3D Human Reconstruction from a Single Image [[pdf]](https://arxiv.org/abs/1903.06473)
+_Zerong Zheng, Tao Yu, Yixuan Wei, Qionghai Dai, Yebin Liu_
+
+### [CVPR 2019] Learning 3D Human Dynamics from Video [[pdf]](https://arxiv.org/abs/1812.01601) [[code]](https://akanazawa.github.io/human_dynamics/) - Angjoo Kanazawa, Jason Y. Zhang, Panna Felsen, Jitendra Malik (CVPR 2019)
+
+### [CVPR 2019] Detailed Human Shape Estimation from a Single Image by Hierarchical Mesh Deformation [[pdf]](https://arxiv.org/abs/1904.10506) [[code]](https://github.com/zhuhao-nju/hmd) 
+_Hao Zhu, Xinxin Zuo, Sen Wang, Xun Cao, Ruigang Yang_
+
+### [CVPR 2019] LBS Autoencoder: Self-supervised Fitting of Articulated Meshes to Point Clouds [[pdf]](https://arxiv.org/abs/1904.10037)
+_Chun-Liang Li, Tomas Simon, Jason Saragih, Barnabás Póczos, Yaser Sheikh_
+
+### [CVPR 2019] Convolutional Mesh Regression for Single-Image Human Shape Reconstruction [[pdf]](https://arxiv.org/abs/1905.03244) [[code]](https://www.seas.upenn.edu/~nkolot/projects/cmr/)
+_Nikos Kolotouros, Georgios Pavlakos, Kostas Daniilidis_
+
+### [CVPR 2019] Expressive Body Capture: 3D Hands, Face, and Body from a Single Image [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://smpl-x.is.tue.mpg.de/) [[code]](https://github.com/nghorbani/human_body_prior) [[code]](https://github.com/nghorbani/homogenus)
+_Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black_
+
+### [CVPR 2019] Volumetric Capture of Humans with a Single RGBD Camera via Semi-Parametric Learning [[pdf]](https://arxiv.org/pdf/1905.12162.pdf)
+_Rohit Pandey, Anastasia Tkach, Shuoran Yang, Pavel Pidlypenskyi, Jonathan Taylor, Ricardo Martin-Brualla, Andrea Tagliasacchi, George Papandreou, Philip Davidson, Cem Keskin, Shahram Izadi, Sean Fanello_
+
+### [arxiv 2019] DenseBody: Directly Regressing Dense 3D Human Pose and Shape From a Single Color Image [[pdf]](https://arxiv.org/pdf/1903.10153.pdf) [[code]](https://github.com/Lotayou/densebody_pytorch)
+_Pengfei Yao, Zheng Fang, Fan Wu, Yao Feng, Jiwei Li_
+
+### [arxiv 2019] Towards 3D Human Shape Recovery Under Clothing [[pdf]](https://arxiv.org/abs/1904.02601)
+_Xin Chen, Anqi Pang, Yu Zhu, Yuwei Li, Xi Luo, Ge Zhang, Peihao Wang, Yingliang Zhang, Shiying Li, Jingyi Yu_
+
+### [ICCV 2019] 3DPeople: Modeling the Geometry of Dressed Humans [[pdf]](https://arxiv.org/abs/1904.04571)
+_Albert Pumarola, Jordi Sanchez, Gary P. T. Choi, Alberto Sanfeliu, Francesc Moreno-Noguer_
+
+### [arxiv 2019] Long-Term Video Generation of Multiple FuturesUsing Human Poses [[pdf]](https://arxiv.org/abs/1904.07538)
+_Naoya Fushishita, Antonio Tejero-de-Pablos, Yusuke Mukuta, Tatsuya Harada_
+
+### [ICCV 2019] PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization [[pdf]](https://arxiv.org/abs/1905.05172)
+_Shunsuke Saito, Zeng Huang, Ryota Natsume, Shigeo Morishima, Angjoo Kanazawa, Hao Li_
+
+### [arxiv 2019] Learning 3D Human Body Embedding [[pdf]](https://arxiv.org/abs/1905.05622)
+_Boyi Jiang, Juyong Zhang, Jianfei Cai, Jianmin Zheng_
+
+### [arxiv 2019] Shape Evasion: Preventing Body Shape Inference of Multi-Stage Approaches [[pdf]](https://arxiv.org/abs/1905.11503)
+_Hosnieh Sattar, Katharina Krombholz, Gerard Pons-Moll, Mario Fritz_
+
+### [arxiv 2019] Temporally Coherent Full 3D Mesh Human Pose Recovery from Monocular Video [[pdf]](https://arxiv.org/abs/1906.00161)
+_Jian Liu, Naveed Akhtar, Ajmal Mian_
+
+### [ICCV 2019] Moulding Humans: Non-parametric 3D Human Shape Estimation from Single Images [[pdf]](https://arxiv.org/abs/1908.00439)[[studio]](https://kinovis.inria.fr/)
+_Valentin Gabeur, Jean-Sebastien Franco, Xavier Martin, Cordelia Schmid, Gregory Rogez_
+
+### [arxiv 2019] Dressing 3D Humans using a Conditional Mesh-VAE-GAN [[pdf]](https://arxiv.org/abs/1907.13615)
+_Qianli Ma, Siyu Tang, Sergi Pujades, Gerard Pons-Moll, Anurag Ranjan, Michael J. Black_
+
+### [ICCV 2019] AMASS: Archive of Motion Capture as Surface Shapes [[pdf]](https://arxiv.org/abs/1904.03278) [[code]](https://github.com/nghorbani/amass) [[code]](https://github.com/nghorbani/amass/tree/master/notebooks)
+_Mahmood, Naureen and Ghorbani, Nima and F. Troje, Nikolaus and Pons-Moll, Gerard and Black, Michael J._
+
+### [ICCV 2019] Human Mesh Recovery from Monocular Images via a Skeleton-disentangled Representation [[pdf]](https://arxiv.org/abs/1908.07172)
+_Sun Yu, Ye Yun, Liu Wu, Gao Wenpeng, Fu YiLi, Mei Tao_
+
+### [ICCV 2019] Multi-Garment Net: Learning to Dress 3D People from Images [[pdf]](https://arxiv.org/abs/1908.06903)
+_Bharat Lal Bhatnagar, Garvita Tiwari, Christian Theobalt, Gerard Pons-Moll_
+
+### [ICCV 2019] Delving Deep Into Hybrid Annotations for 3D Human Recovery in the Wild [[pdf]](https://arxiv.org/abs/1908.06442) [[code]](https://penincillin.github.io/dct_iccv2019)
+_Yu Rong, Ziwei Liu, Cheng Li, Kaidi Cao, Chen Change Loy_
+
+### [ICCV 2019] Shape-Aware Human Pose and Shape Reconstruction Using Multi-View Images [[pdf]](https://arxiv.org/abs/1908.09464)
+_Junbang Liang, Ming C. Lin_
+
+### [arxiv 2019] Video Interpolation and Prediction with Unsupervised Landmarks [[pdf]](https://arxiv.org/abs/1909.02749)
+_Kevin J. Shih, Aysegul Dundar, Animesh Garg, Robert Pottorf, Andrew Tao, Bryan Catanzaro_
+
+### [ICCV 2019] Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop [[pdf]](https://arxiv.org/abs/1909.12828) [[code]](https://www.seas.upenn.edu/~nkolot/projects/spin/)
+_Nikos Kolotouros, Georgios Pavlakos, Michael J. Black, Kostas Daniilidis_
+
+### [ICCV 2019] TexturePose: Supervising Human Mesh Estimation with Texture Consistency [[pdf]](https://arxiv.org/pdf/1910.11322.pdf) [[code]](https://github.com/geopavlakos/TexturePose)
+_YGeorgios Pavlakos, Nikos Kolotouros, Kostas Daniilidis_
+
 ### [3DV 2018] Neural Body Fitting: Unifying Deep Learning and Model-Based Human Pose and Shape Estimation [[pdf]](https://arxiv.org/pdf/1808.05942.pdf) [[code]](https://github.com/mohomran/neural_body_fitting)
 _Mohamed Omran, Christoph Lassner, Gerard Pons-Moll, Peter V. Gehler, Bernt Schiele_
 
@@ -296,7 +373,14 @@ _Georgios Pavlakos, Luyang Zhu, Xiaowei Zhou, Kostas Daniilidis_
 ### [CVPR 2018] End-to-end Recovery of Human Shape and Pose [[pdf]](https://arxiv.org/pdf/1712.06584.pdf)[[CODE]](https://github.com/akanazawa/hmr)
 _Angjoo Kanazawa, Michael J. Black, David W. Jacobs, Jitendra Malik_
 
+### [CVPR 2018] Video Based Reconstruction of 3D People Models [[pdf]](https://arxiv.org/pdf/1803.04758.pdf)
+_Thiemo Alldieck， Marcus Magnor， Weipeng Xu， Christian Theobalt， Gerard Pons-Moll_
 
+### [SIGGRAPH 2018] Relighting Humans: Occlusion-Aware Inverse Rendering for Full-Body Human Images [[pdf]](https://arxiv.org/abs/1908.02714) [[code]](http://kanamori.cs.tsukuba.ac.jp/projects/relighting_human/)
+_Yoshihiro Kanamori, Yuki Endo_
+
+### [ECCV 2018] BodyNet: Volumetric Inference of 3D Human Body Shapes [[pdf]](https://arxiv.org/pdf/1804.04875v3.pdf) [[code]](https://github.com/gulvarol/bodynet)
+_Gül Varol, Duygu Ceylan, Bryan Russell, Jimei Yang, Ersin Yumer, Ivan Laptev, Cordelia Schmid_
 
 
 
