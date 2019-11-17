@@ -8,12 +8,12 @@ tags:
 ---
 
 # Related page
-### https://github.com/wangzheallen/awesome-human-pose-estimation
+### [https://github.com/wangzheallen/awesome-human-pose-estimation](https://github.com/wangzheallen/awesome-human-pose-estimation)
 
 # Paper list of human pose and shape estimation
 ---
 ## 2D human pose estimation
----
+
 ### [ICCV 2019] Single-Stage Multi-Person Pose Machines [[pdf]](https://arxiv.org/abs/1908.09220)
 _Xuecheng Nie, Jianfeng Zhang, Shuicheng Yan, Jiashi Feng_
 
@@ -21,7 +21,7 @@ _Xuecheng Nie, Jianfeng Zhang, Shuicheng Yan, Jiashi Feng_
 
 
 ## 3D human pose estimation
----
+
 ### [arxiv 2019] Distill Knowledge from NRSfM for Weakly Supervised 3D Pose Learning [[pdf]](https://arxiv.org/abs/1908.06377)
 _Chaoyang Wang, Chen Kong, Simon Lucey_
 
@@ -276,7 +276,7 @@ _Ankur Agarwal and Bill Triggs_
 
 
 ## human shape estimation
----
+
 ### [ICCV 2019] Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop [[pdf]](https://arxiv.org/abs/1909.12828) [[code]](https://www.seas.upenn.edu/~nkolot/projects/spin/)
 _Nikos Kolotouros, Georgios Pavlakos, Michael J. Black, Kostas Daniilidis_
 
@@ -390,7 +390,7 @@ _Gül Varol, Duygu Ceylan, Bryan Russell, Jimei Yang, Ersin Yumer, Ivan Laptev, 
 
 
 ## Action recognition, motion prediction and synthesis
----
+
 ### [arxiv 2019] Learning Variations in Human Motion via Mix-and-Match Perturbation [[pdf]](https://arxiv.org/abs/1908.00733)
 _Mohammad Sadegh Aliakbarian, Fatemeh Sadat Saleh, Mathieu Salzmann, Lars Petersson, Stephen Gould, Amirhossein Habibian_
 
