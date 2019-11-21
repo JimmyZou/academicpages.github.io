@@ -316,7 +316,8 @@ _Thiemo Alldieck, Marcus Magnor, Bharat Lal Bhatnagar, Christian Theobalt, Gerar
 ### [CVPR 2019] DeepHuman: 3D Human Reconstruction from a Single Image [[pdf]](https://arxiv.org/abs/1903.06473)
 _Zerong Zheng, Tao Yu, Yixuan Wei, Qionghai Dai, Yebin Liu_
 
-### [CVPR 2019] Learning 3D Human Dynamics from Video [[pdf]](https://arxiv.org/abs/1812.01601) [[code]](https://akanazawa.github.io/human_dynamics/) - Angjoo Kanazawa, Jason Y. Zhang, Panna Felsen, Jitendra Malik (CVPR 2019)
+### [CVPR 2019] Learning 3D Human Dynamics from Video [[pdf]](https://arxiv.org/abs/1812.01601) [[code]](https://akanazawa.github.io/human_dynamics/)
+_Angjoo Kanazawa, Jason Y. Zhang, Panna Felsen, Jitendra Malik_
 
 ### [CVPR 2019] Detailed Human Shape Estimation from a Single Image by Hierarchical Mesh Deformation [[pdf]](https://arxiv.org/abs/1904.10506) [[code]](https://github.com/zhuhao-nju/hmd) 
 _Hao Zhu, Xinxin Zuo, Sen Wang, Xun Cao, Ruigang Yang_
