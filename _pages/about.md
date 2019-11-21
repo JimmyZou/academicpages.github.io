@@ -10,9 +10,9 @@ redirect_from:
 
 {% include base_path %}
 
-I am the first-year PhD student in Electrical and Computer Engineering of University of Alberta, Canada. I am from Nanchang, China.
-My research interest includes computer vision and reinforcement learning (RL). 
-I also participated in projects on multi-agent RL and some data mining topics, including information retrieval and natural language processing.
+I am the first-year PhD student in the department of Electrical and Computer Engineering, University of Alberta, Canada. I am from Nanchang, China. My research interest includes computer vision and reinforcement learning (RL). I also participated in projects on multi-agent RL and some data mining topics, including information retrieval and natural language processing.
+
+contact: szou2@ualberta.ca
 
 Education
 ======
