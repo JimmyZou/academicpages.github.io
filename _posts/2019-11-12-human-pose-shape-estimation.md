@@ -278,9 +278,16 @@ _Ankur Agarwal and Bill Triggs_
 ## human shape estimation
 ### [ICCV 2019] DenseRaC: Joint 3D Pose and Shape Estimation by Dense Render-and-Compare [[pdf]](https://arxiv.org/abs/1910.00116)
 _Yuanlu Xu, Song-Chun Zhu, Tony Tung_
+- two-step framework takes the body pixel-to-surface correspondence map (i.e., IUV map) as proxy representation and then performs estimation of parameterized human pose and shape.
+- construct a large-scale synthetic dataset (MOCA) utilizing web-crawled Mocap sequences, 3D scans and animations. (https://www.mixamo.com/)
+- Human Body Model: use a body shape model similar to SMPL. The statistical body model is obtained by PCA on posenormalized 3D models of real humans, obtained by nonrigid registration of a body template to 3D scans of the CAESAR dataset
+- comments: multi-person pose and shape estimation, its own human body shape, IUV (pixel-to-surface correspondence) map as input.
 
 ### [ICCV 2019] A Neural Network for Detailed Human Depth Estimation from a Single Image [[pdf]](https://arxiv.org/abs/1910.01275)
 _Sicong Tang, Feitong Tan, Kelvin Cheng, Zhaoyang Li, Siyu Zhu, Ping Tan_
+- separate the depth map into a smooth base shape and a residual detail shape and design a network with two branches to regress them respectively.
+- propose a novel network layer (**non-parametric**) to fuse a rough depth map and surface normals to further improve the final result.
+- ![avatar](../images/fig_human_pose_shape_estimationfig_human_pose_shape_estimation/1.png)
 
 ### [ICCV 2019] Moulding Humans: Non-parametric 3D Human Shape Estimation from Single Images [[pdf]](https://arxiv.org/abs/1908.00439)[[studio]](https://kinovis.inria.fr/)
 _Valentin Gabeur, Jean-Sebastien Franco, Xavier Martin, Cordelia Schmid, Gregory Rogez_
