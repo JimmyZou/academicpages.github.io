@@ -19,7 +19,7 @@ _Xuecheng Nie, Jianfeng Zhang, Shuicheng Yan, Jiashi Feng_
 
 
 
-
+---
 ## 3D human pose estimation
 
 ### [arxiv 2019] Distill Knowledge from NRSfM for Weakly Supervised 3D Pose Learning [[pdf]](https://arxiv.org/abs/1908.06377)
@@ -274,7 +274,7 @@ _Varun Ramakrishna, Takeo Kanade, Yaser Sheikh_
 _Ankur Agarwal and Bill Triggs_
 
 
-
+---
 ## human shape estimation
 ### [ICCV 2019] DenseRaC: Joint 3D Pose and Shape Estimation by Dense Render-and-Compare [[pdf]](https://arxiv.org/abs/1910.00116)
 _Yuanlu Xu, Song-Chun Zhu, Tony Tung_
@@ -386,7 +386,7 @@ _Gül Varol, Duygu Ceylan, Bryan Russell, Jimei Yang, Ersin Yumer, Ivan Laptev, 
 
 
 
-
+---
 ## Action recognition, motion prediction and synthesis
 
 ### [arxiv 2019] Learning Variations in Human Motion via Mix-and-Match Perturbation [[pdf]](https://arxiv.org/abs/1908.00733)
