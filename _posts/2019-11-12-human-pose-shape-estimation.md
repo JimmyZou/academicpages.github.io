@@ -287,7 +287,7 @@ _Yuanlu Xu, Song-Chun Zhu, Tony Tung_
 _Sicong Tang, Feitong Tan, Kelvin Cheng, Zhaoyang Li, Siyu Zhu, Ping Tan_
 - separate the depth map into a smooth base shape and a residual detail shape and design a network with two branches to regress them respectively.
 - propose a novel network layer (**non-parametric**) to fuse a rough depth map and surface normals to further improve the final result.
-- <img src="/images/fig_human_pose_shape_estimationfig_human_pose_shape_estimation/1.png" width="150" height="100"/>
+- <img src="/images/fig_human_pose_shape_estimation/1.png" width="150" height="100"/>
 - comments: Reply on the depth information to get the detailed human surface (the amount of this kind of dataset is limited) and the normal estimation part does not actually affect too much. It maybe be better if the human body shape is estimated first and then add the depth details. 
 
 ### [ICCV 2019] Moulding Humans: Non-parametric 3D Human Shape Estimation from Single Images [[pdf]](https://arxiv.org/abs/1908.00439)[[studio]](https://kinovis.inria.fr/)
