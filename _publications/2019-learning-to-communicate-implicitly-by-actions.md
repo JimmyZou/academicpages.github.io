@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2019-learning-to-communicate-implicitly-by-actions
 date: 2019-05-23
 venue: 'AAAI 2020'
-citation: "second author, AAAI 2020 Accepted"
+citation: "Zheng Tian, <\b>Shihao Zou<\b>, Ian Davies, Tim Warr, Lisheng Wu, Haitham Bou Ammar, Jun Wang. AAAI 2020"
 ---
 
-[[arxiv]](https://arxiv.org/abs/1810.04444)
+[[pdf]](https://arxiv.org/abs/1810.04444)
