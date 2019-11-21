@@ -293,6 +293,8 @@ _Sicong Tang, Feitong Tan, Kelvin Cheng, Zhaoyang Li, Siyu Zhu, Ping Tan_
 
 ### [ICCV 2019] Moulding Humans: Non-parametric 3D Human Shape Estimation from Single Images [[pdf]](https://arxiv.org/abs/1908.00439)[[studio]](https://kinovis.inria.fr/)
 _Valentin Gabeur, Jean-Sebastien Franco, Xavier Martin, Cordelia Schmid, Gregory Rogez_
+- propose a non-parametric approach that employs a double depth map to represent the 3D shape of a person: a visible depth map and a “hidden” depth map are estimated and combined, to reconstruct the human 3D shape as done with a “mould”.
+- ![](/images/fig_human_pose_shape_estimation/3.png)
 
 ### [ICCV 2019] 3DPeople: Modeling the Geometry of Dressed Humans [[pdf]](https://arxiv.org/abs/1904.04571)
 _Albert Pumarola, Jordi Sanchez, Gary P. T. Choi, Alberto Sanfeliu, Francesc Moreno-Noguer_
