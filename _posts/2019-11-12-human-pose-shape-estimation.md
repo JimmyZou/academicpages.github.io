@@ -287,6 +287,7 @@ _Yuanlu Xu, Song-Chun Zhu, Tony Tung_
 _Sicong Tang, Feitong Tan, Kelvin Cheng, Zhaoyang Li, Siyu Zhu, Ping Tan_
 - separate the depth map into a smooth base shape and a residual detail shape and design a network with two branches to regress them respectively.
 - propose a novel network layer (**non-parametric**) to fuse a rough depth map and surface normals to further improve the final result.
+- ![](/images/fig_human_pose_shape_estimation/1.png)
 - <img src="/images/fig_human_pose_shape_estimation/1.png" width="450" height="300"/>
 - comments: Reply on the depth information to get the detailed human surface (the amount of this kind of dataset is limited) and the normal estimation part does not actually affect too much. It maybe be better if the human body shape is estimated first and then add the depth details. 
 
