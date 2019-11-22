@@ -313,6 +313,10 @@ _Bharat Lal Bhatnagar, Garvita Tiwari, Christian Theobalt, Gerard Pons-Moll_
 
 ### [ICCV 2019] Delving Deep Into Hybrid Annotations for 3D Human Recovery in the Wild [[pdf]](https://arxiv.org/abs/1908.06442) [[code]](https://penincillin.github.io/dct_iccv2019)
 _Yu Rong, Ziwei Liu, Cheng Li, Kaidi Cao, Chen Change Loy_
+- perform a comprehensive study on cost and effectiveness trade-off between different annotations.
+- obtain several observations: 1) 3D annotations are efficient, whereas traditional 2D annotations such as 2D keypoints and body part segmentation are less competent in guiding 3D human recovery. 2) Dense Correspondence such as DensePose [1] is effective.
+- show that incorporating dense correspondence into in the-wild 3D human recovery is promising and competitive due to its high efficiency and relatively low annotating cost
+- Interestingly, in the absence of paired 3D data, the models that exploits dense correspondence can achieve 92% of the performance compared to the models trained with paired 3D data (SMPL + 3D joint).
 
 ### [ICCV 2019] Shape-Aware Human Pose and Shape Reconstruction Using Multi-View Images [[pdf]](https://arxiv.org/abs/1908.09464)
 _Junbang Liang, Ming C. Lin_
