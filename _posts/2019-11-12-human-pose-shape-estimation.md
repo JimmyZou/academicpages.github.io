@@ -320,6 +320,9 @@ _Yu Rong, Ziwei Liu, Cheng Li, Kaidi Cao, Chen Change Loy_
 
 ### [ICCV 2019] Shape-Aware Human Pose and Shape Reconstruction Using Multi-View Images [[pdf]](https://arxiv.org/abs/1908.09464)
 _Junbang Liang, Ming C. Lin_
+- We propose a scalable neural network framework to reconstruct the 3D mesh of a human body from multi-view images, in the subspace of the SMPL model 
+- We keep the same cloth textures but apply different background across different views.
+- comments: synthetic dataset is not multi-view in reality as background is different.
 
 ### [ICCV 2019] Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop [[pdf]](https://arxiv.org/abs/1909.12828) [[code]](https://www.seas.upenn.edu/~nkolot/projects/spin/)
 _Nikos Kolotouros, Georgios Pavlakos, Michael J. Black, Kostas Daniilidis_
