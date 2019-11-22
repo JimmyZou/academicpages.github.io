@@ -301,9 +301,12 @@ _Albert Pumarola, Jordi Sanchez, Gary P. T. Choi, Alberto Sanfeliu, Francesc Mor
 
 ### [ICCV 2019] AMASS: Archive of Motion Capture as Surface Shapes [[pdf]](https://arxiv.org/abs/1904.03278) [[code]](https://github.com/nghorbani/amass) [[code]](https://github.com/nghorbani/amass/tree/master/notebooks)
 _Mahmood, Naureen and Ghorbani, Nima and F. Troje, Nikolaus and Pons-Moll, Gerard and Black, Michael J._
+- use MoSh++ to map this large amount of marker data into our common SMPL pose, shape, and soft-tissue parameters. Due to inherent problems with mocap, such as swapped and mislabeled markers, manually inspect the results and either corrected or held out problems.
 
-### [ICCV 2019] Human Mesh Recovery from Monocular Images via a Skeleton-disentangled Representation [[pdf]](https://arxiv.org/abs/1908.07172)
+### [ICCV 2019] Human Mesh Recovery from Monocular Images via a Skeleton-disentangled Representation [[pdf]](https://arxiv.org/abs/1908.07172) [[code]](https://github.com/Arthur151/DSD-SATN)
 _Sun Yu, Ye Yun, Liu Wu, Gao Wenpeng, Fu YiLi, Mei Tao_
+- skeleton-disentangling based framework, which divides this task into multi-level spatial and temporal granularity in a decoupling manner. In spatial, we propose an effective and pluggable “disentangling the skeleton from the details” (DSD) module. It reduces the complexity and decouples the skeleton, which lays a good foundation for temporal modeling. In temporal, the selfattention based temporal convolution network is proposed to efficiently exploit the short and long-term temporal cues.
+- ![](/images/fig_human_pose_shape_estimation/4.jpg)
 
 ### [ICCV 2019] Multi-Garment Net: Learning to Dress 3D People from Images [[pdf]](https://arxiv.org/abs/1908.06903)
 _Bharat Lal Bhatnagar, Garvita Tiwari, Christian Theobalt, Gerard Pons-Moll_
