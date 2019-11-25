@@ -141,7 +141,7 @@ _Natalia Neverova, Riza Alp Guler, Iasonas Kokkinos_
 _Matthew Trumble, Andrew Gilbert, Adrian Hilton, John Collomosse_
 
 
-### [ECCV 2018] Unsupervised Geometry-Aware Representation for 3D Human Pose Estimation [pdf]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Helge_Rhodin_Unsupervised_Geometry-Aware_Representation_ECCV_2018_paper.pdf) [[code]](https://github.com/hrhodin/UnsupervisedGeometryAwareRepresentationLearning) 
+### [ECCV 2018] Unsupervised Geometry-Aware Representation for 3D Human Pose Estimation [[pdf]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Helge_Rhodin_Unsupervised_Geometry-Aware_Representation_ECCV_2018_paper.pdf) [[code]](https://github.com/hrhodin/UnsupervisedGeometryAwareRepresentationLearning) 
 _Helge Rhodin, Mathieu Salzmann, Pascal Fua_
 
 ### [TPAMI 2018] Monocap: Monocular human motion capture using a CNN coupled with a geometric prior [[pdf]](https://arxiv.org/abs/1701.02354) [[code]](https://github.com/daniilidis-group/monocap) 
@@ -189,7 +189,7 @@ _Andrei Zanfir, Elisabeta Marinoiu, Cristian Sminchisescu_
 ### [CVPR 2018] Dense Human Pose Estimation In The Wild [[pdf]](https://arxiv.org/pdf/1802.00434.pdf) [[code]](https://github.com/facebookresearch/Densepose)
 _Rıza Alp Güler, Natalia Neverova, Iasonas Kokkinos_
 
-### [CVPR 2018] Learning Monocular 3D Human Pose Estimation from Multi-View Images](https://arxiv.org/pdf/1803.04775.pdf)
+### [CVPR 2018] Learning Monocular 3D Human Pose Estimation from Multi-View Images [[pdf]](https://arxiv.org/pdf/1803.04775.pdf)
 _Helge Rhodin, Jörg Spörri, Isinsu Katircioglu, Victor Constantin, Frédéric Meyer, Erich Müller, Mathieu Salzmann, Pascal Fua_
 
 ### [ECCV 2018] Learning 3D Human Pose from Structure and Motion [[pdf]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Rishabh_Dabral_Learning_3D_Human_ECCV_2018_paper.pdf)
