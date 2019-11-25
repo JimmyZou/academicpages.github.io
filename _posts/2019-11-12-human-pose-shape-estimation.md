@@ -18,7 +18,7 @@ tags:
 
 ---
 
-## Related page
+## Related blog
 ### [https://github.com/wangzheallen/awesome-human-pose-estimation](https://github.com/wangzheallen/awesome-human-pose-estimation)
 
 ## 2D human pose estimation<a name="2D-human-pose-estimation"></a>
@@ -475,7 +475,7 @@ _Aliaksandr Siarohin, Enver Sangineto, Stephane Lathuiliere, Nicu Sebe_
 ### [CVPR 2018] A Variational U-Net for Conditional Appearance and Shape Generation [[pdf]](https://compvis.github.io/vunet/images/vunet.pdf) [[code]](https://github.com/CompVis/vunet)
 _Patrick Esser, Ekaterina Sutter, Björn Ommer_
 
-[[back to top]](##contents)
+[[back to top]](#contents)
 
 
 
