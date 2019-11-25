@@ -14,6 +14,7 @@ tags:
  - [2D human pose estimation](#2D-human-pose-estimatio)
  - [3D human pose estimation](#3D-human-pose-estimatio)
  - [human shape estimation](#human-shape-estimation)
+ - [action recognition, motion prediction and synthesis](#action-motion)
 
 ---
 
@@ -281,6 +282,7 @@ _Varun Ramakrishna, Takeo Kanade, Yaser Sheikh_
 ### [TPAMI 2006] Recovering 3D Human Pose from Monocular Images [[pdf]](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/agarwal-triggs-pami06.pdf)
 _Ankur Agarwal and Bill Triggs_
 
+[[back to top]](##contents)
 
 ---
 ## human shape estimation<a name="3D-human-pose-estimatio"></a>
@@ -413,10 +415,10 @@ _Gül Varol, Duygu Ceylan, Bryan Russell, Jimei Yang, Ersin Yumer, Ivan Laptev, 
 
 
 
-
+[[back to top]](##contents)
 
 ---
-## Action recognition, motion prediction and synthesis
+## Action recognition, motion prediction and synthesis<a name="action-motion"></a>
 
 ### [arxiv 2019] Learning Variations in Human Motion via Mix-and-Match Perturbation [[pdf]](https://arxiv.org/abs/1908.00733)
 _Mohammad Sadegh Aliakbarian, Fatemeh Sadat Saleh, Mathieu Salzmann, Lars Petersson, Stephen Gould, Amirhossein Habibian_
@@ -473,7 +475,7 @@ _Aliaksandr Siarohin, Enver Sangineto, Stephane Lathuiliere, Nicu Sebe_
 ### [CVPR 2018] A Variational U-Net for Conditional Appearance and Shape Generation [[pdf]](https://compvis.github.io/vunet/images/vunet.pdf) [[code]](https://github.com/CompVis/vunet)
 _Patrick Esser, Ekaterina Sutter, Björn Ommer_
 
-
+[[back to top]](##contents)
 
 
 
