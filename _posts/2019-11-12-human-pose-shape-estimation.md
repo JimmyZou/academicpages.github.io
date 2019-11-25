@@ -340,8 +340,9 @@ _Nikos Kolotouros, Georgios Pavlakos, Michael J. Black, Kostas Daniilidis_
 - ![](/images/fig_human_pose_shape_estimation/5.png)
 
 ### [ICCV 2019] TexturePose: Supervising Human Mesh Estimation with Texture Consistency [[pdf]](https://arxiv.org/pdf/1910.11322.pdf) [[code]](https://github.com/geopavlakos/TexturePose)
-_YGeorgios Pavlakos, Nikos Kolotouros, Kostas Daniilidis_
-
+_Georgios Pavlakos, Nikos Kolotouros, Kostas Daniilidis_
+- We propose a natural form of supervision, that capitalizes on the appearance constancy of a person among different frames (or viewpoints). Assuming that the texture of the person does not change dramatically between frames, we can apply a novel texture consistency loss, which enforces that each point in the texture map has the same texture value across all frames.
+- ![](/images/fig_human_pose_shape_estimation/6.png)
 
 ### [CVPR 2019] Learning to Reconstruct People in Clothing from a Single RGB Camera [[pdf]](https://arxiv.org/abs/1903.05885)
 _Thiemo Alldieck, Marcus Magnor, Bharat Lal Bhatnagar, Christian Theobalt, Gerard Pons-Moll_
