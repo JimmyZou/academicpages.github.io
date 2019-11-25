@@ -7,26 +7,28 @@ tags:
   - human pose and shape
 ---
 
-# Related page
-### [https://github.com/wangzheallen/awesome-human-pose-estimation](https://github.com/wangzheallen/awesome-human-pose-estimation)
-
 # Paper list of human pose and shape estimation
 ---
 
 ## Contents
- - [2D human pose estimation](#2D-human-pose-estimation)
+ - [2D human pose estimation](#2D-human-pose-estimatio)
+ - [3D human pose estimation](#3D-human-pose-estimatio)
+ - [human shape estimation](#human-shape-estimation)
 
 ---
 
-## 2D human pose estimation
+## Related page
+### [https://github.com/wangzheallen/awesome-human-pose-estimation](https://github.com/wangzheallen/awesome-human-pose-estimation)
+
+## 2D human pose estimation<a name="2D-human-pose-estimatio"></a>
 
 ### [ICCV 2019] Single-Stage Multi-Person Pose Machines [[pdf]](https://arxiv.org/abs/1908.09220)
 _Xuecheng Nie, Jianfeng Zhang, Shuicheng Yan, Jiashi Feng_
 
-
+[[back to top]](##contents)
 
 ---
-## 3D human pose estimation
+## 3D human pose estimation<a name="3D-human-pose-estimatio"></a>
 
 ### [arxiv 2019] Distill Knowledge from NRSfM for Weakly Supervised 3D Pose Learning [[pdf]](https://arxiv.org/abs/1908.06377)
 _Chaoyang Wang, Chen Kong, Simon Lucey_
@@ -281,7 +283,7 @@ _Ankur Agarwal and Bill Triggs_
 
 
 ---
-## human shape estimation
+## human shape estimation<a name="3D-human-pose-estimatio"></a>
 ### [ICCV 2019] DenseRaC: Joint 3D Pose and Shape Estimation by Dense Render-and-Compare [[pdf]](https://arxiv.org/abs/1910.00116)
 _Yuanlu Xu, Song-Chun Zhu, Tony Tung_
 - two-step framework takes the body pixel-to-surface correspondence map (i.e., IUV map) as proxy representation and then performs estimation of parameterized human pose and shape.
