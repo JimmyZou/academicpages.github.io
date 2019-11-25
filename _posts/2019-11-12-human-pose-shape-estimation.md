@@ -324,7 +324,7 @@ _Bharat Lal Bhatnagar, Garvita Tiwari, Christian Theobalt, Gerard Pons-Moll_
 ### [ICCV 2019] Delving Deep Into Hybrid Annotations for 3D Human Recovery in the Wild [[pdf]](https://arxiv.org/abs/1908.06442) [[code]](https://penincillin.github.io/dct_iccv2019)
 _Yu Rong, Ziwei Liu, Cheng Li, Kaidi Cao, Chen Change Loy_
 - perform a comprehensive study on cost and effectiveness trade-off between different annotations.
-- obtain several observations: 1) 3D annotations are efficient, whereas traditional 2D annotations such as 2D keypoints and body part segmentation are less competent in guiding 3D human recovery. 2) Dense Correspondence such as DensePose [1] is effective.
+- obtain several observations: 1) 3D annotations are efficient, whereas traditional 2D annotations such as 2D keypoints and body part segmentation are less competent in guiding 3D human recovery. 2) Dense Correspondence such as DensePose is effective.
 - show that incorporating dense correspondence into in the-wild 3D human recovery is promising and competitive due to its high efficiency and relatively low annotating cost
 - Interestingly, in the absence of paired 3D data, the models that exploits dense correspondence can achieve 92% of the performance compared to the models trained with paired 3D data (SMPL + 3D joint).
 
@@ -336,6 +336,8 @@ _Junbang Liang, Ming C. Lin_
 
 ### [ICCV 2019] Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop [[pdf]](https://arxiv.org/abs/1909.12828) [[code]](https://www.seas.upenn.edu/~nkolot/projects/spin/)
 _Nikos Kolotouros, Georgios Pavlakos, Michael J. Black, Kostas Daniilidis_
+- A reasonable, directly regressed estimate from the network can initialize the iterative optimization making the fitting faster and more accurate. Similarly, a pixel accurate fit from iterative optimization can act as strong supervision for the network.
+- ![](/images/fig_human_pose_shape_estimation/5.png)
 
 ### [ICCV 2019] TexturePose: Supervising Human Mesh Estimation with Texture Consistency [[pdf]](https://arxiv.org/pdf/1910.11322.pdf) [[code]](https://github.com/geopavlakos/TexturePose)
 _YGeorgios Pavlakos, Nikos Kolotouros, Kostas Daniilidis_
