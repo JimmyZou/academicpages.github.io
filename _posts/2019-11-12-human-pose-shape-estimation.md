@@ -10,9 +10,9 @@ tags:
 # Paper list of human pose and shape estimation
 ---
 
-## Contents
- - [2D human pose estimation](#2D-human-pose-estimatio)
- - [3D human pose estimation](#3D-human-pose-estimatio)
+## Contents<a name="contents"></a>
+ - [2D human pose estimation](#2D-human-pose-estimation)
+ - [3D human pose estimation](#3D-human-pose-estimation)
  - [human shape estimation](#human-shape-estimation)
  - [action recognition, motion prediction and synthesis](#action-motion)
 
@@ -21,12 +21,12 @@ tags:
 ## Related page
 ### [https://github.com/wangzheallen/awesome-human-pose-estimation](https://github.com/wangzheallen/awesome-human-pose-estimation)
 
-## 2D human pose estimation<a name="2D-human-pose-estimatio"></a>
+## 2D human pose estimation<a name="2D-human-pose-estimation"></a>
 
 ### [ICCV 2019] Single-Stage Multi-Person Pose Machines [[pdf]](https://arxiv.org/abs/1908.09220)
 _Xuecheng Nie, Jianfeng Zhang, Shuicheng Yan, Jiashi Feng_
 
-[[back to top]](##contents)
+[[back to top]](#contents)
 
 ---
 ## 3D human pose estimation<a name="3D-human-pose-estimatio"></a>
@@ -282,10 +282,10 @@ _Varun Ramakrishna, Takeo Kanade, Yaser Sheikh_
 ### [TPAMI 2006] Recovering 3D Human Pose from Monocular Images [[pdf]](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/agarwal-triggs-pami06.pdf)
 _Ankur Agarwal and Bill Triggs_
 
-[[back to top]](##contents)
+[[back to top]](#contents)
 
 ---
-## human shape estimation<a name="3D-human-pose-estimatio"></a>
+## human shape estimation<a name="3D-human-pose-estimation"></a>
 ### [ICCV 2019] DenseRaC: Joint 3D Pose and Shape Estimation by Dense Render-and-Compare [[pdf]](https://arxiv.org/abs/1910.00116)
 _Yuanlu Xu, Song-Chun Zhu, Tony Tung_
 - two-step framework takes the body pixel-to-surface correspondence map (i.e., IUV map) as proxy representation and then performs estimation of parameterized human pose and shape.
@@ -415,7 +415,7 @@ _Gül Varol, Duygu Ceylan, Bryan Russell, Jimei Yang, Ersin Yumer, Ivan Laptev, 
 
 
 
-[[back to top]](##contents)
+[[back to top]](#contents)
 
 ---
 ## Action recognition, motion prediction and synthesis<a name="action-motion"></a>
