@@ -110,6 +110,7 @@ _Dominic Jack, Frederic Maire, Sareh Shirazi, Anders Eriksson_
 _Xipeng Chen, Kwan-Yee Lin, Wentao Liu, Chen Qian, Liang Lin_
 - geometry-aware 3D representation for the human pose to address this limitation by using multiple views in a simple auto-encoder model at the training stage and only 2D keypoint information as supervision.
 - ![](/images/fig_human_pose_shape_estimation/11.png)
+- ![](/images/fig_human_pose_shape_estimation/12.png)
 
 ### [CVPR 2019] Self-Supervised Learning of 3D Human Pose using Multi-view Geometry [[pdf]](https://arxiv.org/abs/1903.02330) [[code]](https://github.com/mkocabas/EpipolarPose)
 _Muhammed Kocabas, Salih Karagoz, Emre Akbas_
