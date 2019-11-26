@@ -65,31 +65,40 @@ _Jun Liu, Henghui Ding, Amir Shahroudy, Ling-Yu Duan, Xudong Jiang, Gang Wang, A
 
 ### [ICCV 2019] Learnable Triangulation of Human Pose [[pdf]](https://arxiv.org/abs/1905.05754) [[code]](https://saic-violet.github.io/learnable-triangulation/)
 _Karim Iskakov, Egor Burkov, Victor Lempitsky, Yury Malkov_
+- The first (baseline) solution is a basic differentiable algebraic triangulation with an addition of confidence weights estimated from the input images. The second solution is based on a novel method of volumetric aggregation from intermediate 2D backbone feature maps. The aggregated volume is then refined via 3D convolutions that produce final 3D joint heatmaps and allow modelling a human pose prior.
 
 ### [ICCV 2019] Generalizing Monocular 3D Human Pose Estimation in the Wild [[pdf]](https://arxiv.org/abs/1904.05512) [[code]](https://github.com/llcshappy/Monocular-3D-Human-Pose) 
 _Luyang Wang, Yan Chen, Zhenhua Guo, Keyuan Qian, Mude Lin, Hongsheng Li, Jimmy S. Ren_
-
+- We propose a principled approach to generate high quality 3D pose ground truth given any in-the-wild image with a person inside. We achieve this by first devising a novel stereo inspired neural network to directly map any 2D pose to high quality 3D counterpart. We then perform a carefully designed geometric searching scheme to further refine the joints. Based on this scheme, we build a large-scale dataset with 400,000 in-the-wild images and their corresponding 3D pose ground truth.
+- The existing datasets for 2D human pose estimation such as Leeds Sports Pose dataset (LSP) [13], MPII human pose dataset (MPII) [3] and Ai Challenger dataset for 2D human pose estimation (Ai-Challenger) [43] can be used to extract the high quality 3D labels by the 3D label generator.
 
 ### [BMVC 2019] MocapNET: Ensemble of SNN Encoders for 3D Human Pose Estimation in RGB Images [[pdf]](http://users.ics.forth.gr/~argyros/mypapers/2019_09_BMVC_mocapnet.pdf) [[code]](https://github.com/FORTH-ModelBasedTracker/MocapNET)
 _Qammaz, Ammar and Argyros, Antonis A_
 
 ### [3DV 2019] Multi-Person 3D Human Pose Estimation from Monocular Images [[pdf]](https://arxiv.org/abs/1909.10854)   
 _Rishabh Dabral, Nitesh B Gundavarapu, Rahul Mitra, Abhishek Sharma, Ganesh Ramakrishnan, Arjun Jain_
+- **Multi-Person 3D Pose Estimation**
 
 ### [arxiv 2019] C3DPO: Canonical 3D Pose Networks for Non-Rigid Structure From Motion [[pdf]](https://arxiv.org/abs/1909.02533)  
 _David Novotny, Nikhila Ravi, Benjamin Graham, Natalia Neverova, Andrea Vedaldi_
 
 ### [ICCV 2019] A2J: Anchor-to-Joint Regression Network for 3D Articulated Pose Estimation from a Single Depth Image [[pdf]](https://arxiv.org/abs/1908.09999)[[code]](https://github.com/zhangboshen/A2J)   
 _Fu Xiong, Boshen Zhang, Yang Xiao, Zhiguo Cao, Taidong Yu, Joey Tianyi Zhou, Junsong Yuan_
+- Within A2J, anchor points able to capture global-local spatial context information are densely set on depth image as local regressors for the joints. They contribute to predict the positions of the joints in ensemble way to enhance generalization ability.
+- hand dataset: Big Hands 2017, NYU, ICVL. human body: ITOP, K2HPD.
 
-### [ICCV 2019] Optimizing Network Structure for 3D Human Pose Estimation [[pdf]](https://chunyuwang.netlify.com/)  
+### [ICCV 2019] Optimizing Network Structure for 3D Human Pose Estimation [[pdf]](https://chunyuwang.netlify.com/img/ICCV_2019_CiHai.pdf)  
 _Hai Ci, Chunyu Wang, Xiaoxuan Ma, Yizhou Wang_
+- In this work, we propose a generic formulation where both GCN and Fully Connected Network (FCN) are its special cases. From this formulation, we discover that GCN has limited representation power when used for estimating 3D poses. We overcome the limitation by introducing Locally Connected Network (LCN) which is naturally implemented by this generic formulation. It notably improves the representation capability over GCN.
+- In LCN, each node has a different filter. In addition, the dependence between the joints are specified in a more straightforward and flexible way than GCN.
 
 ### [ICCV 2019] Cross View Fusion for 3D Human Pose Estimation [[pdf]](https://chunyuwang.netlify.com/img/ICCV_Cross_view_camera_ready.pdf) [[code]](https://github.com/microsoft/multiview-human-pose-estimation-pytorch)
 _Haibo Qiu, Chunyu Wang, Jingdong Wang, Naiyan Wang, Wenjun Zeng_
+- First, we introduce a cross-view fusion scheme into CNN to **jointly** estimate 2D poses for multiple views. Consequently, the 2D pose estimation for each view already benefits from other views. Second, we present a **recursive** Pictorial Structure Model to recover the 3D pose from the multi-view 2D poses. It gradually improves the accuracy of 3D pose with affordable computational cost.
 
 ### [ICCV 2019] Monocular 3D Human Pose Estimation by Generation and Ordinal Ranking [[pdf]](https://arxiv.org/abs/1904.01324) [[code]](https://github.com/ssfootball04/generative_pose)
 _Saurabh Sharma, Pavan Teja Varigonda, Prashast Bindal, Abhishek Sharma, Arjun Jain_
+-  We propose a Deep Conditional Variational Autoencoder based model that synthesizes diverse anatomically plausible 3D-pose samples conditioned on the estimated 2D-pose. We propose two strategies for obtaining the final 3D pose- (a) depthordering/ordinal relations to score and weight-average the candidate 3D-poses, referred to as OrdinalScore, and (b) with supervision from an Oracle.
 
 ### [CVPR 2019] Unsupervised 3D Pose Estimation with Geometric Self-Supervision [[pdf]](https://arxiv.org/abs/1904.04812) 
 _Ching-Hang Chen, Ambrish Tyagi, Amit Agrawal, Dylan Drover, Rohith MV, Stefan Stojanov, James M. Rehg_
