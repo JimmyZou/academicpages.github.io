@@ -371,6 +371,9 @@ _Nikos Kolotouros, Georgios Pavlakos, Kostas Daniilidis_
 
 ### [CVPR 2019] Expressive Body Capture: 3D Hands, Face, and Body from a Single Image [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://smpl-x.is.tue.mpg.de/) [[code]](https://github.com/nghorbani/human_body_prior) [[code]](https://github.com/nghorbani/homogenus)
 _Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black_
+- We use thousands of 3D scans to train a new, unified, 3D model of the human body, SMPL-X, that extends SMPL with fully articulated hands and an expressive face. We follow the approach of SMPLify, which estimates 2D features and then optimizes model parameters to fit the features.
+- our **PyTorch implementation** achieves a speedup of more than 8× over Chumpy.
+- We start from the publicly-available SMPL+H [51] and add the publicly-available FLAME head model [22] to it.
 
 ### [CVPR 2019] Volumetric Capture of Humans with a Single RGBD Camera via Semi-Parametric Learning [[pdf]](https://arxiv.org/pdf/1905.12162.pdf)
 _Rohit Pandey, Anastasia Tkach, Shuoran Yang, Pavel Pidlypenskyi, Jonathan Taylor, Ricardo Martin-Brualla, Andrea Tagliasacchi, George Papandreou, Philip Davidson, Cem Keskin, Shahram Izadi, Sean Fanello_
