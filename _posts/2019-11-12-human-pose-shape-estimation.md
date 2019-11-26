@@ -106,8 +106,10 @@ _Ching-Hang Chen, Ambrish Tyagi, Amit Agrawal, Dylan Drover, Rohith MV, Stefan S
 ### [CVPR 2019] IGE-Net: Inverse Graphics Energy Networksfor Human Pose Estimation and Single-View Reconstruction [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Jack_IGE-Net_Inverse_Graphics_Energy_Networks_for_Human_Pose_Estimation_and_CVPR_2019_paper.pdf) 
 _Dominic Jack, Frederic Maire, Sareh Shirazi, Anders Eriksson_
 
-### [CVPR 2019] Weakly-Supervised Discovery of Geometry-Aware Representationfor 3D Human Pose Estimation [[pdf]](https://128.84.21.199/pdf/1903.08839.pdf)  
+### [CVPR 2019] Weakly-Supervised Discovery of Geometry-Aware Representationfor 3D Human Pose Estimation [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Weakly-Supervised_Discovery_of_Geometry-Aware_Representation_for_3D_Human_Pose_Estimation_CVPR_2019_paper.pdf)  
 _Xipeng Chen, Kwan-Yee Lin, Wentao Liu, Chen Qian, Liang Lin_
+- geometry-aware 3D representation for the human pose to address this limitation by using multiple views in a simple auto-encoder model at the training stage and only 2D keypoint information as supervision.
+- ![](/images/fig_human_pose_shape_estimation/11.png)
 
 ### [CVPR 2019] Self-Supervised Learning of 3D Human Pose using Multi-view Geometry [[pdf]](https://arxiv.org/abs/1903.02330) [[code]](https://github.com/mkocabas/EpipolarPose)
 _Muhammed Kocabas, Salih Karagoz, Emre Akbas_
