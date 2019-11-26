@@ -33,7 +33,7 @@ _Xuecheng Nie, Jianfeng Zhang, Shuicheng Yan, Jiashi Feng_
 
 ### [arxiv 2019] Distill Knowledge from NRSfM for Weakly Supervised 3D Pose Learning [[pdf]](https://arxiv.org/abs/1908.06377)
 _Chaoyang Wang, Chen Kong, Simon Lucey_
-
+- We propose to learn a 3D pose estimator by distilling knowledge from Non-Rigid Structure from Motion (NRSfM). The goal of NRSfM is to recover 3D shape S and camera matrix M given the observed 2D projections W.
 
 ### [arxiv 2019] Convex Optimisation for Inverse Kinematics [[pdf]](https://arxiv.org/abs/1910.11016)
 _Tarun Yenamandra, Florian Bernard, Jiayi Wang, Franziska Mueller, Christian Theobalt_
@@ -41,9 +41,14 @@ _Tarun Yenamandra, Florian Bernard, Jiayi Wang, Franziska Mueller, Christian The
 
 ### [arxiv] Geometric Pose Affordance: 3D Human Pose with Scene Constraints [[pdf]](https://arxiv.org/abs/1905.07718)
 _Zhe Wang, Liyan Chen, Shaurya Rathore, Daeyun Shin, Charless Fowlkes_
+- In this paper, we explore the hypothesis that strong prior information about scene geometry can be used to improve pose estimation accuracy. To tackle this question empirically, we have assembled a novel Geometric Pose Affordance dataset, consisting of multi-view imagery of people interacting with a variety of rich 3D environments. We utilized a commercial motion capture system to collect goldstandard estimates of pose and construct accurate geometric 3D CAD models of the scene itself.
+- **Motion Capture dataset GPA** [[dataset]](https://wangzheallen.github.io/GPA.html)
 
 ### [ICCV 2019] Resolving 3D Human Pose Ambiguities with 3D Scene Constraints [[pdf]](https://arxiv.org/abs/1908.06963) [[Data]](https://prox.is.tue.mpg.de/) [[code]](https://github.com/MohameHassan/prox)
 _Mohamed Hassan, Vasileios Choutas, Dimitrios Tzionas, Michael J. Black_
+- Exploit static 3D scene structure to better estimate human pose from monocular images. The method enforces Proximal Relationships with Object eXclusion and is called PROX. 
+- (No deep learning) The **inter-penetration constraint** penalizes intersection between the body model and the surrounding 3D scene. The **contact constraint** encourages specific parts of the body to be in contact with scene surfaces if they are close enough in distance and orientation. 
+- In order to get true ground-truth for the quantitative dataset, we set up a living room in a **marker-based motion capture environment**, scan the scene, and collect RGB-D images in addition to the MoCap data. We fit the SMPL-X model to the MoCap marker data using MoSh++ [41] and this provides ground-truth 3D body shape and pose. This allows us to quantitatively evaluate our method. We reconstruct in total 12 scenes and capture 20 subjects. 
 
 ### [arxiv 2019] Semantic Estimation of 3D Body Shape and Pose using Minimal Cameras [[pdf]](https://arxiv.org/abs/1908.03030) 
 _Andrew Gilbert, Matthew Trumble, Adrian Hilton, John Collomosse_
@@ -377,6 +382,8 @@ _Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. 
 
 ### [CVPR 2019] Volumetric Capture of Humans with a Single RGBD Camera via Semi-Parametric Learning [[pdf]](https://arxiv.org/pdf/1905.12162.pdf)
 _Rohit Pandey, Anastasia Tkach, Shuoran Yang, Pavel Pidlypenskyi, Jonathan Taylor, Ricardo Martin-Brualla, Andrea Tagliasacchi, George Papandreou, Philip Davidson, Cem Keskin, Shahram Izadi, Sean Fanello_
+- We propose a method to synthesize free viewpoint renderings using a single RGBD camera. The key insight is to leverage previously seen “calibration” images of a given user to extrapolate what should be rendered in a novel viewpoint from the data available in the sensor.
+- Given these past observations from multiple viewpoints, and the current RGBD image from a fixed view, we propose an end-to-end framework that fuses both these data sources to generate novel renderings of the performer.
 
 ### [arxiv 2019] DenseBody: Directly Regressing Dense 3D Human Pose and Shape From a Single Color Image [[pdf]](https://arxiv.org/pdf/1903.10153.pdf) [[code]](https://github.com/Lotayou/densebody_pytorch)
 _Pengfei Yao, Zheng Fang, Fan Wu, Yao Feng, Jiwei Li_
