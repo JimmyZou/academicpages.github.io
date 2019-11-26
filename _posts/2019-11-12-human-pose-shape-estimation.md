@@ -277,7 +277,8 @@ _Varun Ramakrishna, Takeo Kanade, Yaser Sheikh_
 - recovers 3D locations from 2D landmarks by leveraging a large motion capture corpus as a proxy for visual memory
 
 
-
+### [CVPR 2012] The vitruvian manifold: Inferring dense correspondences for one-shot human pose estimation [[pdf]](http://www.cs.toronto.edu/~jtaylor/papers/cvpr2012.pdf)
+_Jonathan Taylor, Jamie Shotton, Toby Sharp, Andrew Fitzgibbon†_
 
 ### [TPAMI 2006] Recovering 3D Human Pose from Monocular Images [[pdf]](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/agarwal-triggs-pami06.pdf)
 _Ankur Agarwal and Bill Triggs_
@@ -344,17 +345,20 @@ _Georgios Pavlakos, Nikos Kolotouros, Kostas Daniilidis_
 - We propose a natural form of supervision, that capitalizes on the appearance constancy of a person among different frames (or viewpoints). Assuming that the texture of the person does not change dramatically between frames, we can apply a novel texture consistency loss, which enforces that each point in the texture map has the same texture value across all frames.
 - ![](/images/fig_human_pose_shape_estimation/6.png)
 
-### [CVPR 2019] Learning to Reconstruct People in Clothing from a Single RGB Camera [[pdf]](https://arxiv.org/abs/1903.05885)
-_Thiemo Alldieck, Marcus Magnor, Bharat Lal Bhatnagar, Christian Theobalt, Gerard Pons-Moll_
-
 ### [CVPR 2019] DeepHuman: 3D Human Reconstruction from a Single Image [[pdf]](https://arxiv.org/abs/1903.06473)
 _Zerong Zheng, Tao Yu, Yixuan Wei, Qionghai Dai, Yebin Liu_
+- DeepHuman, an image-guided volume-tovolume translation CNN for 3D human reconstruction from a single RGB image. One key feature of our network is that it fuses different scales of image features into the 3D space through volumetric feature transformation, which helps to recover accurate surface geometry. The visible surface details are further refined through a **normal refinement network**, which can be concatenated with the volume generation network using our proposed volumetric normal projection layer (differentiable).
 
 ### [CVPR 2019] Learning 3D Human Dynamics from Video [[pdf]](https://arxiv.org/abs/1812.01601) [[code]](https://akanazawa.github.io/human_dynamics/)
 _Angjoo Kanazawa, Jason Y. Zhang, Panna Felsen, Jitendra Malik_
+- We present a framework that can similarly learn a representation of 3D dynamics of humans from video via a simple but effective temporal encoding of image features.
+- we harvest this Internet-scale source of unlabeled data by training our model on unlabeled video with pseudo-ground truth 2D pose obtained from an off-the-shelf 2D pose detector. 
+- ![](/images/fig_human_pose_shape_estimation/7.png)
 
 ### [CVPR 2019] Detailed Human Shape Estimation from a Single Image by Hierarchical Mesh Deformation [[pdf]](https://arxiv.org/abs/1904.10506) [[code]](https://github.com/zhuhao-nju/hmd) 
 _Hao Zhu, Xinxin Zuo, Sen Wang, Xun Cao, Ruigang Yang_
+- We propose a novel learningbased framework that combines the robustness of parametric model with the flexibility of free-form 3D deformation. We are able to restore detailed human body shapes beyond skinned models.
+- ![](/images/fig_human_pose_shape_estimation/8.png)
 
 ### [CVPR 2019] LBS Autoencoder: Self-supervised Fitting of Articulated Meshes to Point Clouds [[pdf]](https://arxiv.org/abs/1904.10037)
 _Chun-Liang Li, Tomas Simon, Jason Saragih, Barnabás Póczos, Yaser Sheikh_
