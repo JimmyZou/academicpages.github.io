@@ -44,11 +44,6 @@ _Zhe Wang, Liyan Chen, Shaurya Rathore, Daeyun Shin, Charless Fowlkes_
 - In this paper, we explore the hypothesis that strong prior information about scene geometry can be used to improve pose estimation accuracy. To tackle this question empirically, we have assembled a novel Geometric Pose Affordance dataset, consisting of multi-view imagery of people interacting with a variety of rich 3D environments. We utilized a commercial motion capture system to collect goldstandard estimates of pose and construct accurate geometric 3D CAD models of the scene itself.
 - **Motion Capture dataset GPA** [[dataset]](https://wangzheallen.github.io/GPA.html)
 
-### [ICCV 2019] Resolving 3D Human Pose Ambiguities with 3D Scene Constraints [[pdf]](https://arxiv.org/abs/1908.06963) [[Data]](https://prox.is.tue.mpg.de/) [[code]](https://github.com/MohameHassan/prox)
-_Mohamed Hassan, Vasileios Choutas, Dimitrios Tzionas, Michael J. Black_
-- Exploit static 3D scene structure to better estimate human pose from monocular images. The method enforces Proximal Relationships with Object eXclusion and is called PROX. 
-- (No deep learning) The **inter-penetration constraint** penalizes intersection between the body model and the surrounding 3D scene. The **contact constraint** encourages specific parts of the body to be in contact with scene surfaces if they are close enough in distance and orientation. 
-- In order to get true ground-truth for the quantitative dataset, we set up a living room in a **marker-based motion capture environment**, scan the scene, and collect RGB-D images in addition to the MoCap data. We fit the SMPL-X model to the MoCap marker data using MoSh++ [41] and this provides ground-truth 3D body shape and pose. This allows us to quantitatively evaluate our method. We reconstruct in total 12 scenes and capture 20 subjects. 
 
 ### [arxiv 2019] Semantic Estimation of 3D Body Shape and Pose using Minimal Cameras [[pdf]](https://arxiv.org/abs/1908.03030) 
 _Andrew Gilbert, Matthew Trumble, Adrian Hilton, John Collomosse_
@@ -63,6 +58,10 @@ _Dushyant Mehta, Oleksandr Sotnychenko, Franziska Mueller, Weipeng Xu, Mohamed E
 
 ### [TPAMI 2019] Feature Boosting Network For 3D Pose Estimation [[pdf]](https://arxiv.org/abs/1901.04877)  
 _Jun Liu, Henghui Ding, Amir Shahroudy, Ling-Yu Duan, Xudong Jiang, Gang Wang, Alex C. Kot_
+- ![](/images/fig_human_pose_shape_estimation/10.png)
+- the Hourglass CNN layers [22] are used to learn the convolutional features, then the feature maps for different joints are fed to the LSTD module with CCG for feature boosting. The boosted feature maps of each joint ($$j$$) are fed to the subsequent CNN layers to generate the 2D heatmap ($$H_j$$). Depth information ($$d_j$$) of each joint is regressed based on the summation of the boosted feature maps and the 2D heatmap representations (the feature maps obtained by this summation are also concatenated and fed to the subsequent sub-network as input for further feature boosting).
+- To model the graphical dependencies among different parts, instead of linking the units of the ConvLSTM sequentially as in [36], we arrange and link the units of the ConvLSTM (see Figure 1) in our LSTD module by following the above-mentioned dependency graph (see Figure 2). We call this ConvLSTM design “Graphical ConvLSTM”.
+
 
 ### [ICCV 2019] Learnable Triangulation of Human Pose [[pdf]](https://arxiv.org/abs/1905.05754) [[code]](https://saic-violet.github.io/learnable-triangulation/)
 _Karim Iskakov, Egor Burkov, Victor Lempitsky, Yury Malkov_
@@ -236,7 +235,8 @@ _Dushyant Mehta, Helge Rhodin, Dan Casas, Pascal Fua, Oleksandr Sotnychenko, Wei
 ### [SIGGRAPH 2017] VNect: Real-time 3D Human Pose Estimation with a Single RGB Camera [[pdf]](http://gvv.mpi-inf.mpg.de/projects/VNect/content/VNect_SIGGRAPH2017.pdf) [[code]](https://github.com/timctho/VNect-tensorflow)
 _Dushyant Mehta, Srinath Sridhar, Oleksandr Sotnychenko, Helge Rhodin, Mohammad Shafiei, Hans-Peter Seidel, Weipeng Xu, Dan Casas, Christian Theobalt_
 
-### [CVPR 2017] Recurrent 3D Pose Sequence Machines [[pdf]](https://arxiv.org/pdf/1707.09695.pdf) _Mude Lin, Liang Lin, Xiaodan Liang, Keze Wang, Hui Cheng_
+### [CVPR 2017] Recurrent 3D Pose Sequence Machines [[pdf]](https://arxiv.org/pdf/1707.09695.pdf) 
+_Mude Lin, Liang Lin, Xiaodan Liang, Keze Wang, Hui Cheng_
 
 ### [CVPR 2017] Lifting from the Deep: Convolutional 3D Pose Estimation from a Single Image [[pdf]](https://arxiv.org/pdf/1701.00295.pdf)
 _Denis Tome, Chris Russell, Lourdes Agapito_
@@ -351,6 +351,12 @@ _Nikos Kolotouros, Georgios Pavlakos, Michael J. Black, Kostas Daniilidis_
 _Georgios Pavlakos, Nikos Kolotouros, Kostas Daniilidis_
 - We propose a natural form of supervision, that capitalizes on the appearance constancy of a person among different frames (or viewpoints). Assuming that the texture of the person does not change dramatically between frames, we can apply a novel texture consistency loss, which enforces that each point in the texture map has the same texture value across all frames.
 - ![](/images/fig_human_pose_shape_estimation/6.png)
+
+### [ICCV 2019] Resolving 3D Human Pose Ambiguities with 3D Scene Constraints [[pdf]](https://arxiv.org/abs/1908.06963) [[Data]](https://prox.is.tue.mpg.de/) [[code]](https://github.com/MohameHassan/prox)
+_Mohamed Hassan, Vasileios Choutas, Dimitrios Tzionas, Michael J. Black_
+- Exploit static 3D scene structure to better estimate human pose from monocular images. The method enforces Proximal Relationships with Object eXclusion and is called PROX. 
+- (No deep learning) The **inter-penetration constraint** penalizes intersection between the body model and the surrounding 3D scene. The **contact constraint** encourages specific parts of the body to be in contact with scene surfaces if they are close enough in distance and orientation. 
+- In order to get true ground-truth for the quantitative dataset, we set up a living room in a **marker-based motion capture environment**, scan the scene, and collect RGB-D images in addition to the MoCap data. We fit the SMPL-X model to the MoCap marker data using MoSh++ [41] and this provides ground-truth 3D body shape and pose. This allows us to quantitatively evaluate our method. We reconstruct in total 12 scenes and capture 20 subjects. 
 
 ### [CVPR 2019] DeepHuman: 3D Human Reconstruction from a Single Image [[pdf]](https://arxiv.org/abs/1903.06473)
 _Zerong Zheng, Tao Yu, Yixuan Wei, Qionghai Dai, Yebin Liu_
