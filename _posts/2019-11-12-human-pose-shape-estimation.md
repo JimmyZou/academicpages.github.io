@@ -55,6 +55,8 @@ _Andrew Gilbert, Matthew Trumble, Adrian Hilton, John Collomosse_
 
 ### [ICCV 2019] Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image [[pdf]](https://arxiv.org/abs/1907.11346) [[code]](https://github.com/mks0601/3DMPPE_ROOTNET_RELEASE)
 _Gyeongsik Moon, Ju Yong Chang, Kyoung Mu Lee_
+- The pipeline of the proposed system consists of human detection, absolute 3D human root localization, and root-relative 3D single-person pose estimation modules.
+- **Multi-persoon 3D pose estimation**
 
 ### [arxiv 2019] XNect: Real-time Multi-person 3D Human Pose Estimation with a Single RGB Camera [[pdf]](https://arxiv.org/abs/1907.00837) [[code]](https://github.com/mehtadushy/SelecSLS-Pytorch)
 _Dushyant Mehta, Oleksandr Sotnychenko, Franziska Mueller, Weipeng Xu, Mohamed Elgharib, Pascal Fua, Hans-Peter Seidel, Helge Rhodin, Gerard Pons-Moll, Christian Theobalt_
