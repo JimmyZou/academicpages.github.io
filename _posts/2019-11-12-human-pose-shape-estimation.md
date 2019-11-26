@@ -362,9 +362,11 @@ _Hao Zhu, Xinxin Zuo, Sen Wang, Xun Cao, Ruigang Yang_
 
 ### [CVPR 2019] LBS Autoencoder: Self-supervised Fitting of Articulated Meshes to Point Clouds [[pdf]](https://arxiv.org/abs/1904.10037)
 _Chun-Liang Li, Tomas Simon, Jason Saragih, Barnabás Póczos, Yaser Sheikh_
+- As input, we take a sequence of point clouds to be registered as well as an artist-rigged mesh, i.e. a template mesh equipped with a linear-blend skinning (LBS) deformation space parameterized by a skeleton hierarchy. As output, we learn an LBS-based autoencoder that produces registered meshes from the input point clouds.
 
-### [CVPR 2019] Convolutional Mesh Regression for Single-Image Human Shape Reconstruction [[pdf]](https://arxiv.org/abs/1905.03244) [[code]](https://www.seas.upenn.edu/~nkolot/projects/cmr/)
+### [CVPR 2019] Convolutional Mesh Regression for Single-Image Human Shape Reconstruction (oral) [[pdf]](https://arxiv.org/abs/1905.03244) [[code]](https://www.seas.upenn.edu/~nkolot/projects/cmr/)
 _Nikos Kolotouros, Georgios Pavlakos, Kostas Daniilidis_
+- ![](/images/fig_human_pose_shape_estimation/9.png)
 
 ### [CVPR 2019] Expressive Body Capture: 3D Hands, Face, and Body from a Single Image [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://smpl-x.is.tue.mpg.de/) [[code]](https://github.com/nghorbani/human_body_prior) [[code]](https://github.com/nghorbani/homogenus)
 _Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black_
