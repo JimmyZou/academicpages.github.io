@@ -367,6 +367,7 @@ _Chun-Liang Li, Tomas Simon, Jason Saragih, Barnabás Póczos, Yaser Sheikh_
 ### [CVPR 2019] Convolutional Mesh Regression for Single-Image Human Shape Reconstruction (oral) [[pdf]](https://arxiv.org/abs/1905.03244) [[code]](https://www.seas.upenn.edu/~nkolot/projects/cmr/)
 _Nikos Kolotouros, Georgios Pavlakos, Kostas Daniilidis_
 - ![](/images/fig_human_pose_shape_estimation/9.png)
+- Overview of proposed framework. Given an input image, an image-based CNN encodes it in a low dimensional feature vector. This feature vector is embedded in the graph defined by the template human mesh by attaching it to the 3D coordinates $(x_i, y_i, z_i)$ of every vertex i. We then process it through a series of Graph Convolutional layers and regress the 3D vertex coordinates $(\hat x^i, \hat y^i, \hat z^i)$ of the deformed mesh.
 
 ### [CVPR 2019] Expressive Body Capture: 3D Hands, Face, and Body from a Single Image [[pdf]](https://arxiv.org/abs/1904.05866) [[code]](https://smpl-x.is.tue.mpg.de/) [[code]](https://github.com/nghorbani/human_body_prior) [[code]](https://github.com/nghorbani/homogenus)
 _Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A. A. Osman, Dimitrios Tzionas, Michael J. Black_
