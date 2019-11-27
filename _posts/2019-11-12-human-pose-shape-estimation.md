@@ -114,12 +114,14 @@ _Xipeng Chen, Kwan-Yee Lin, Wentao Liu, Chen Qian, Liang Lin_
 
 ### [CVPR 2019] Self-Supervised Learning of 3D Human Pose using Multi-view Geometry [[pdf]](https://arxiv.org/abs/1903.02330) [[code]](https://github.com/mkocabas/EpipolarPose)
 _Muhammed Kocabas, Salih Karagoz, Emre Akbas_
+- ![](/images/fig_human_pose_shape_estimation/13.png)
 
 ### [CVPR 2019] On the Continuity of Rotation Representation in Neural Netwworks [[pdf]](https://arxiv.org/pdf/1812.07035.pdf) 
 _Yi Zhou*, Connelly Barnes*, Jingwan Lu, Jimei Yang, Hao Li_
 
 ### [CVPR 2019] Semantic Graph Convolutional Networks for 3D Human Pose Regression [[pdf]](https://arxiv.org/abs/1904.03345) [[code]](https://github.com/garyzhao/SemGCN) 
 _Long Zhao, Xi Peng, Yu Tian, Mubbasir Kapadia, Dimitris N. Metaxas_
+- SemGCN learns to capture semantic information such as local and global node relationships, which is not explicitly represented in the graph. These semantic relationships can be learned through end-to-end training from the ground truth without additional supervision or hand-crafted rules.
 
 ### [CVPR 2019] In the Wild Human Pose Estimation Using Explicit 2D Features and Intermediate 3D Representations [[pdf]](https://arxiv.org/abs/1904.03289) 
 _Ikhsanul Habibie, Weipeng Xu, Dushyant Mehta, Gerard Pons-Moll, Christian Theobalt_
