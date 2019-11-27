@@ -169,16 +169,23 @@ _Natalia Neverova, Riza Alp Guler, Iasonas Kokkinos_
 
 ### [ECCV 2018] Deep Autoencoder for Combined Human Pose Estimation and Body Model Upscaling [[pdf]](https://cvssp.org/projects/totalcapture/ECCV1UpscalePoseAutoencoder//FinalPaper.pdf)
 _Matthew Trumble, Andrew Gilbert, Adrian Hilton, John Collomosse_
+- We train a symmetric convolutional **autoencoder** with a dual loss that enforces learning of a latent representation that encodes skeletal joint positions, and at the same time learns a deep representation of **volumetric body shape**. (Multi-view)
 
 
 ### [ECCV 2018] Unsupervised Geometry-Aware Representation for 3D Human Pose Estimation [[pdf]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Helge_Rhodin_Unsupervised_Geometry-Aware_Representation_ECCV_2018_paper.pdf) [[code]](https://github.com/hrhodin/UnsupervisedGeometryAwareRepresentationLearning) 
 _Helge Rhodin, Mathieu Salzmann, Pascal Fua_
+- We propose to learn a geometry-aware body representation from multi-view images without annotations. To this end, we use an encoder-decoder that **predicts an image from one viewpoint given an image from another viewpoint**. Because this representation encodes 3D geometry, using it in a semi-supervised setting makes it easier to learn a mapping from it to 3D human pose.
 
 ### [TPAMI 2018] Monocap: Monocular human motion capture using a CNN coupled with a geometric prior [[pdf]](https://arxiv.org/abs/1701.02354) [[code]](https://github.com/daniilidis-group/monocap) 
 _Xiaowei Zhou, Menglong Zhu, Georgios Pavlakos, Spyridon Leonardos, Kostantinos G. Derpanis, Kostas Daniilidis_
+- The missing piece is how to integrate 2D, 3D and temporal information to recover 3D geometry and account for the uncertainties arising from the discriminative model.
+- We treat 2D joint locations as latent variables whose uncertainty distributions are given by a deep fully convolutional neural network. The unknown 3D poses are modeled by a sparse representation and the 3D parameter estimates are realized via an Expectation-Maximization algorithm, where it is shown that the 2D joint location uncertainties can be conveniently marginalized out during inference.
+- Sparse representation of 3D poses, $$S_t=\sum_{i=1}^kc_{it}B_{i}$$. $$\{B_i\}$$ is basis learned from MoCap dataset.
 
 ### [3DV 2018] Single-Shot Multi-Person 3D Pose Estimation From Monocular RGB [[pdf]](https://arxiv.org/pdf/1712.03453.pdf) [[code1]](http://gvv.mpi-inf.mpg.de/projects/SingleShotMultiPerson/) [[code2]](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch)
 _Dushyant Mehta, Oleksandr Sotnychenko, Franziska Mueller, Srinath Sridhar, Weipeng Xu,  Gerard Pons-Moll, Christian Theobalt_
+- **Multi-person 3D pose estimation**
+- **MuPoTS-3D Dataset**
 
 ### [CVPR 2018] 2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning [[pdf]](https://arxiv.org/abs/1802.09232)
 _Diogo C. Luvizon, David Picard, Hedi Tabia_
@@ -202,43 +209,47 @@ _Haoshu Fang, Yuanlu Xu, Wenguan Wang, Xiaobai Liu, Song-Chun Zhu_
 
 ### [CVPR 2018] 3D Human Pose Estimation in the Wild by Adversarial Learning [[pdf]](https://arxiv.org/pdf/1803.09722.pdf)
 _Wei Yang, Wanli Ouyang, Xiaolong Wang, Jimmy Ren, Hongsheng Li, Xiaogang Wang_
+- we propose an adversarial learning framework, which distills the 3D human pose structures learned from the fully annotated dataset to in-the-wild images with only 2D pose annotations.
+- we design a novel multi-source discriminator to distinguish the predicted 3D poses from the ground-truth, which helps to enforce the pose estimator to generate anthropometrically valid poses even with images in the wild.
 
 ### [CVPR 2018] Ordinal Depth Supervision for 3D Human Pose Estimation [[pdf]](https://arxiv.org/pdf/1805.04095.pdf) [[code]](https://github.com/geopavlakos/ordinal-pose3d/)
 _Georgios Pavlakos, Xiaowei Zhou, Kostas Daniilidis_
+-  Instead of accurate 3D positions, the depth ranking can be identified by human intuitively and learned using the deep neural network more easily by solving classification problems. This information can be acquired by human annotators for a wide range of images and poses. 
+
+### [IJCAI 2018] DRPose3D: Depth Ranking in 3D Human Pose Estimation [[pdf]](https://arxiv.org/pdf/1805.08973.pdf)
+_Min Wang, Xipeng Chen, Wentao Liu, Chen Qian, Liang Lin, Lizhuang Ma_
+-  Instead of accurate 3D positions, the depth ranking can be identified by human intuitively and learned using the deep neural network more easily by solving classification problems.
 
 ### [CVPR 2018] V2V-PoseNet: Voxel-to-Voxel Prediction Network for Accurate 3D Hand and Human Pose Estimation From a Single Depth Map [[pdf]](https://arxiv.org/abs/1711.07399) [[code]](https://github.com/mks0601/V2V-PoseNet_RELEASE)
 _Gyeongsik Moon, Ju Yong Chang, Kyoung Mu Lee_
 
-### [IJCAI 2018] DRPose3D: Depth Ranking in 3D Human Pose Estimation [[pdf]](https://arxiv.org/pdf/1805.08973.pdf)
-_Min Wang, Xipeng Chen, Wentao Liu, Chen Qian, Liang Lin, Lizhuang Ma_
-
-
-### [CVPR 2018] Monocular 3D Pose and Shape Estimation of Multiple People in Natural Scenes [[pdf]](http://www.maths.lth.se/sminchisescu/media/papers/Zanfir_Monocular_3D_Pose_CVPR_2018_paper.pdf)
-_Andrei Zanfir, Elisabeta Marinoiu, Cristian Sminchisescu_
-
-### [CVPR 2018] Dense Human Pose Estimation In The Wild [[pdf]](https://arxiv.org/pdf/1802.00434.pdf) [[code]](https://github.com/facebookresearch/Densepose)
+### [CVPR 2018] DensePose: Dense Human Pose Estimation In The Wild [[pdf]](https://arxiv.org/pdf/1802.00434.pdf) [[code]](https://github.com/facebookresearch/Densepose)
 _Rıza Alp Güler, Natalia Neverova, Iasonas Kokkinos_
 
 ### [CVPR 2018] Learning Monocular 3D Human Pose Estimation from Multi-View Images [[pdf]](https://arxiv.org/pdf/1803.04775.pdf)
 _Helge Rhodin, Jörg Spörri, Isinsu Katircioglu, Victor Constantin, Frédéric Meyer, Erich Müller, Mathieu Salzmann, Pascal Fua_
+- Specifically, we train the system to predict the same pose in all views. Such a consistency constraint is necessary but not sufficient to predict accurate poses. We therefore complement it with a supervised loss aiming to predict the correct pose in a small set of labeled images, and with a regularization term that penalizes drift from initial predictions. 
+- we propose a method to estimate camera pose jointly with human pose, which lets us utilize multiview footage where calibration is difficult, e.g., for pan-tilt or moving handheld cameras.
 
 ### [ECCV 2018] Learning 3D Human Pose from Structure and Motion [[pdf]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Rishabh_Dabral_Learning_3D_Human_ECCV_2018_paper.pdf)
 _Rishabh Dabral, Anurag Mundhada, Uday Kusupati, Safeer Afaque, Abhishek Sharma, Arjun Jain_
+- We also present a simple temporal network that exploits temporal and structural cues present in predicted pose sequences to temporally harmonize the pose estimations.
 
 ### [NeurIPS 2018] Deep Network for the Integrated 3D Sensing ofMultiple People in Natural Images [[pdf]](http://www.maths.lth.se/sminchisescu/media/papers/integrated-3d-sensing-of-multiple-people-in-natural-images_neurips2018.pdf)
 _Andrei Zanfir, Elisabeta Marinoiu, Mihai Zanfir, Alin-Ionut Popa, Cristian Sminchisescu_
-
+- ![](/images/fig_human_pose_shape_estimation/17.png)
 
 ### [3DV 2017] Monocular 3D Human Pose Estimation In The Wild Using Improved CNN Supervision [[pdf]](http://gvv.mpi-inf.mpg.de/3dhp-dataset/) 
 _Dushyant Mehta, Helge Rhodin, Dan Casas, Pascal Fua, Oleksandr Sotnychenko, Weipeng Xu, Christian Theobalt_
+- transfer of learned features learned from 2D pose dataset and 3D pose dataset
 
 ### [CVPR 2017] Coarse-to-Fine Volumetric Prediction for Single-Image 3D Human Pose [[pdf]](https://arxiv.org/abs/1611.07828)
 _Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, Kostas Daniilidis_
 - proposes a fine discretization of the 3D space around the subject and a coarse-to-fine prediction scheme to predict per voxel likelihoods for each joint
 
-
 ### [CVPR 2017] A simple yet effective baseline for 3d human pose estimation [[pdf]](https://arxiv.org/abs/1705.03098)
 _Julieta Martinez, Rayat Hossain, Javier Romero, James J. Little_
+- ![](/images/fig_human_pose_shape_estimation/18.png)
 
 ### [TPAMI 2017] A simple, fastand highly-accurate algorithm to recover 3d shape from 2d landmarks on a single image [[pdf]](https://arxiv.org/abs/1609.09058)
 _Ruiqi Zhao, Yan Wang, Aleix Martinez_
@@ -258,9 +269,11 @@ _Dushyant Mehta, Helge Rhodin, Dan Casas, Pascal Fua, Oleksandr Sotnychenko, Wei
 
 ### [SIGGRAPH 2017] VNect: Real-time 3D Human Pose Estimation with a Single RGB Camera [[pdf]](http://gvv.mpi-inf.mpg.de/projects/VNect/content/VNect_SIGGRAPH2017.pdf) [[code]](https://github.com/timctho/VNect-tensorflow)
 _Dushyant Mehta, Srinath Sridhar, Oleksandr Sotnychenko, Helge Rhodin, Mohammad Shafiei, Hans-Peter Seidel, Weipeng Xu, Dan Casas, Christian Theobalt_
+- ![](/images/fig_human_pose_shape_estimation/19.png)
 
 ### [CVPR 2017] Recurrent 3D Pose Sequence Machines [[pdf]](https://arxiv.org/pdf/1707.09695.pdf) 
 _Mude Lin, Liang Lin, Xiaodan Liang, Keze Wang, Hui Cheng_
+- Our framework predicts the 3D human poses for all of the monocular image frames, and then sequentially refines them with multi-stage recurrent learning.
 
 ### [CVPR 2017] Lifting from the Deep: Convolutional 3D Pose Estimation from a Single Image [[pdf]](https://arxiv.org/pdf/1701.00295.pdf)
 _Denis Tome, Chris Russell, Lourdes Agapito_
@@ -274,15 +287,21 @@ _Grégory Rogez, Philippe Weinzaepfel, Cordelia Schmid_
 
 ### [CVPR 2017] Harvesting Multiple Views for Marker-less 3D Human Pose Annotations [[pdf]](https://www.seas.upenn.edu/~pavlakos/projects/harvesting/files/harvesting.pdf) [[code]](https://github.com/geopavlakos/harvesting/)
 _Georgios Pavlakos, Xiaowei Zhou, Konstantinos G. Derpanis, Kostas Daniilidis_
+- Our framework predicts the 3D human poses for all of the monocular image frames, and then sequentially refines them with multi-stage recurrent learning.
 
 ### [ICCV 2017] Towards 3D Human Pose Estimation in the Wild: a Weakly-supervised Approach [[pdf]](https://arxiv.org/pdf/1704.02447.pdf) [[code]](https://github.com/xingyizhou/Pytorch-pose-hg-3d)
 _Xingyi Zhou, Qixing Huang, Xiao Sun, Xiangyang Xue, Yichen Wei_
+- We propose a weakly-supervised transfer learning method that uses mixed 2D and 3D labels in a unified deep neutral network that presents two-stage cascaded structure.
+- we introduce a 3D geometric constraint to regularize the 3D pose prediction, which is effective in the absence of ground truth depth labels.
 
 ### [TPAMI 2017] Sparse Representation for 3D Shape Estimation: A Convex Relaxation Approach [[pdf]](http://arxiv.org/abs/1509.04309) [[code]](http://www.cad.zju.edu.cn/home/xzhou/code/shapeconvex.zip)
 _Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, Kostas Daniilidis_
+- Sparse representation of 3D poses, $$S_t=\sum_{i=1}^kc_{it}B_{i}$$. $$\{B_i\}$$ is basis learned from MoCap dataset.
 
 ### [ICCV 2017] Compositional Human Pose Regression [[pdf]](https://arxiv.org/pdf/1704.00159.pdf)
 _Xiao Sun, Jiaxiang Shang, Shuang Liang, Yichen Wei_
+- It adopts a reparameterized pose representation using bones instead of joints. It exploits the joint connection
+structure to define a compositional loss function that encodes the long range interactions in the pose.
 
 ### [CVPR 2016] Sparseness Meets Deepness: 3D Human Pose Estimation from Monocular Video [[pdf]](https://arxiv.org/abs/1511.09439)
 _Xiaowei Zhou, Menglong Zhu, Spyridon Leonardos, Kosta Derpanis, Kostas Daniilidis_
