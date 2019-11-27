@@ -122,21 +122,26 @@ _Yi Zhou*, Connelly Barnes*, Jingwan Lu, Jimei Yang, Hao Li_
 ### [CVPR 2019] Semantic Graph Convolutional Networks for 3D Human Pose Regression [[pdf]](https://arxiv.org/abs/1904.03345) [[code]](https://github.com/garyzhao/SemGCN) 
 _Long Zhao, Xi Peng, Yu Tian, Mubbasir Kapadia, Dimitris N. Metaxas_
 - SemGCN learns to capture semantic information such as local and global node relationships, which is not explicitly represented in the graph. These semantic relationships can be learned through end-to-end training from the ground truth without additional supervision or hand-crafted rules.
+- **"semantic" is not clear to me.**
 
 ### [CVPR 2019] In the Wild Human Pose Estimation Using Explicit 2D Features and Intermediate 3D Representations [[pdf]](https://arxiv.org/abs/1904.03289) 
 _Ikhsanul Habibie, Weipeng Xu, Dushyant Mehta, Gerard Pons-Moll, Christian Theobalt_
+- It has a network architecture that comprises a new disentangled hidden space encoding of explicit 2D and 3D features, and uses supervision by a new learned projection model from predicted 3D pose. Our algorithm can be jointly trained on image data with 3D labels and image data with only 2D labels.
+- ![](/images/fig_human_pose_shape_estimation/14.png)
 
 ### [CVPR 2019] RepNet: Weakly Supervised Training of an Adversarial Reprojection Network for 3D Human Pose Estimation [[pdf]](https://arxiv.org/abs/1902.09868)
 _Bastian Wandt, Bodo Rosenhahn_
+- One part of the proposed reprojection network (RepNet) learns a mapping from a distribution of 2D poses to a distribution of 3D poses using an adversarial training approach. Another part of the network estimates the camera. This allows for the definition of a network layer that performs the reprojection of the estimated 3D pose back to 2D which results in a reprojection loss function.
 
 ### [TPAMI 2019] 3D Human Pose Machines with Self-supervised Learning [[pdf]](https://arxiv.org/pdf/1901.03798.pdf) [[code]](http://www.sysu-hcp.net/3d_pose_ssl/) 
 _Keze Wang, Liang Lin, Chenhan Jiang, Chen Qian, and Pengxu Wei_
-
-### [WACV] 3D Human Pose Estimation with 2D Marginal Heatmaps [[pdf]](https://arxiv.org/abs/1806.01484) [[code]](https://github.com/anibali/margipose) 
-_Aiden Nibali, Zhen He, Stuart Morgan, Luke Prendergast_
+- ![](/images/fig_human_pose_shape_estimation/15.png)
 
 ### [CVPR 2019] Fast and Robust Multi-Person 3D Pose Estimation from Multiple Views [[pdf]](https://arxiv.org/abs/1901.04111) [[code]](https://zju-3dv.github.io/mvpose/)
 _Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, Xiaowei Zhou_
+- This paper addresses the problem of 3D pose estimation for multiple people in a few calibrated camera views. The main challenge of this problem is to find the cross-view correspondences among noisy and incomplete 2D pose predictions.
+- Our key idea is to use a multi-way matching algorithm to cluster the detected 2D poses in all views. Each resulting cluster encodes 2D poses of the same person across different views and consistent correspondences across the keypoints, from which the 3D pose of each person can be effectively inferred. The proposed convex optimization based multi-way matching algorithm is efficient and robust against missing and false detections, without knowing the number of people in the scene.
+- ![](/images/fig_human_pose_shape_estimation/16.png)
 
 ### [CVPR 2019] Learning the Depths of Moving People by Watching Frozen People[[pdf]](https://arxiv.org/abs/1904.11111)
 _Zhengqi Li, Tali Dekel, Forrester Cole, Richard Tucker, Noah Snavely, Ce Liu, William T. Freeman_
