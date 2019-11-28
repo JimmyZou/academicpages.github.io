@@ -457,18 +457,6 @@ _Haiyong Jiang1, Jianfei Cai, Jianmin Zheng_
 _Boyi Jiang, Juyong Zhang, Jianfei Cai, Jianmin Zheng_
 - We propose an autoencoder like network architecture to learn disentangled shape and pose embedding specifically for 3D human body. We also integrate a coarse-to-fine reconstruction pipeline into the disentangling process to improve the reconstruction accuracy. Moreover, we construct a large dataset of human body models with consistent topology for the learning of neural network.
 
-### [arxiv 2019] Shape Evasion: Preventing Body Shape Inference of Multi-Stage Approaches [[pdf]](https://arxiv.org/abs/1905.11503)
-_Hosnieh Sattar, Katharina Krombholz, Gerard Pons-Moll, Mario Fritz_
-
-### [arxiv 2019] Temporally Coherent Full 3D Mesh Human Pose Recovery from Monocular Video [[pdf]](https://arxiv.org/abs/1906.00161)
-_Jian Liu, Naveed Akhtar, Ajmal Mian_
-
-### [arxiv 2019] Dressing 3D Humans using a Conditional Mesh-VAE-GAN [[pdf]](https://arxiv.org/abs/1907.13615)
-_Qianli Ma, Siyu Tang, Sergi Pujades, Gerard Pons-Moll, Anurag Ranjan, Michael J. Black_
-
-### [arxiv 2019] Video Interpolation and Prediction with Unsupervised Landmarks [[pdf]](https://arxiv.org/abs/1909.02749)
-_Kevin J. Shih, Aysegul Dundar, Animesh Garg, Robert Pottorf, Andrew Tao, Bryan Catanzaro_
-
 ### [3DV 2018] Neural Body Fitting: Unifying Deep Learning and Model-Based Human Pose and Shape Estimation [[pdf]](https://arxiv.org/pdf/1808.05942.pdf) [[code]](https://github.com/mohomran/neural_body_fitting)
 _Mohamed Omran, Christoph Lassner, Gerard Pons-Moll, Peter V. Gehler, Bernt Schiele_
 - ![](/images/fig_human_pose_shape_estimation/22.png)
@@ -483,13 +471,11 @@ _Angjoo Kanazawa, Michael J. Black, David W. Jacobs, Jitendra Malik_
 
 ### [CVPR 2018] Video Based Reconstruction of 3D People Models [[pdf]](https://arxiv.org/pdf/1803.04758.pdf)
 _Thiemo Alldieck， Marcus Magnor， Weipeng Xu， Christian Theobalt， Gerard Pons-Moll_
-
-### [SIGGRAPH 2018] Relighting Humans: Occlusion-Aware Inverse Rendering for Full-Body Human Images [[pdf]](https://arxiv.org/abs/1908.02714) [[code]](http://kanamori.cs.tsukuba.ac.jp/projects/relighting_human/)
-_Yoshihiro Kanamori, Yuki Endo_
+- Based on a parametric body model, we present a robust processing pipeline to infer 3D model shapes including clothed people with 4.5mm reconstruction accuracy.
 
 ### [ECCV 2018] BodyNet: Volumetric Inference of 3D Human Body Shapes [[pdf]](https://arxiv.org/pdf/1804.04875v3.pdf) [[code]](https://github.com/gulvarol/bodynet)
 _Gül Varol, Duygu Ceylan, Bryan Russell, Jimei Yang, Ersin Yumer, Ivan Laptev, Cordelia Schmid_
-
+- ![](/images/fig_human_pose_shape_estimation/24.png)
 
 
 
