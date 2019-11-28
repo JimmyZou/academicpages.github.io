@@ -48,6 +48,9 @@ _Zhe Wang, Liyan Chen, Shaurya Rathore, Daeyun Shin, Charless Fowlkes_
 ### [arxiv 2019] Semantic Estimation of 3D Body Shape and Pose using Minimal Cameras [[pdf]](https://arxiv.org/abs/1908.03030) 
 _Andrew Gilbert, Matthew Trumble, Adrian Hilton, John Collomosse_
 
+### [ICCV 2019] Exploiting Spatial-temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks [[pdf]](https://cse.buffalo.edu/~jsyuan/papers/2019/Exploiting_Spatial-temporal_Relationships_for_3D_Pose_Estimation_via_Graph_Convolutional_Networks.pdf)
+_Yujun Cai, Liuhao Ge, Jun Liu, Jianfei Cai, Tat-Jen Cham, Junsong Yuan, Nadia Magnenat Thalmann_
+
 ### [ICCV 2019] Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image [[pdf]](https://arxiv.org/abs/1907.11346) [[code]](https://github.com/mks0601/3DMPPE_ROOTNET_RELEASE)
 _Gyeongsik Moon, Ju Yong Chang, Kyoung Mu Lee_
 - The pipeline of the proposed system consists of human detection, absolute 3D human root localization, and root-relative 3D single-person pose estimation modules.
@@ -438,18 +441,21 @@ _Rohit Pandey, Anastasia Tkach, Shuoran Yang, Pavel Pidlypenskyi, Jonathan Taylo
 
 ### [arxiv 2019] DenseBody: Directly Regressing Dense 3D Human Pose and Shape From a Single Color Image [[pdf]](https://arxiv.org/pdf/1903.10153.pdf) [[code]](https://github.com/Lotayou/densebody_pytorch)
 _Pengfei Yao, Zheng Fang, Fan Wu, Yao Feng, Jiwei Li_
+- we are the first to utilize UV map in addressing the problem of 3D human pose and shape estimation. Based on our 3D representation, we propose an end-to-end framework to predict full human mesh from a single color image.
 
 ### [arxiv 2019] Towards 3D Human Shape Recovery Under Clothing [[pdf]](https://arxiv.org/abs/1904.02601)
 _Xin Chen, Anqi Pang, Yu Zhu, Yuwei Li, Xi Luo, Ge Zhang, Peihao Wang, Yingliang Zhang, Shiying Li, Jingyi Yu_
 
-### [arxiv 2019] Long-Term Video Generation of Multiple FuturesUsing Human Poses [[pdf]](https://arxiv.org/abs/1904.07538)
-_Naoya Fushishita, Antonio Tejero-de-Pablos, Yusuke Mukuta, Tatsuya Harada_
-
 ### [ICCV 2019] PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization [[pdf]](https://arxiv.org/abs/1905.05172)
 _Shunsuke Saito, Zeng Huang, Ryota Natsume, Shigeo Morishima, Angjoo Kanazawa, Hao Li_
 
+### [ICCV 2019] Skeleton-aware 3d human shape reconstruction from point clouds [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_Skeleton-Aware_3D_Human_Shape_Reconstruction_From_Point_Clouds_ICCV_2019_paper.pdf)
+_Haiyong Jiang1, Jianfei Cai, Jianmin Zheng_
+- ![](/images/fig_human_pose_shape_estimation/20.png)
+
 ### [arxiv 2019] Learning 3D Human Body Embedding [[pdf]](https://arxiv.org/abs/1905.05622)
 _Boyi Jiang, Juyong Zhang, Jianfei Cai, Jianmin Zheng_
+- We propose an autoencoder like network architecture to learn disentangled shape and pose embedding specifically for 3D human body. We also integrate a coarse-to-fine reconstruction pipeline into the disentangling process to improve the reconstruction accuracy. Moreover, we construct a large dataset of human body models with consistent topology for the learning of neural network.
 
 ### [arxiv 2019] Shape Evasion: Preventing Body Shape Inference of Multi-Stage Approaches [[pdf]](https://arxiv.org/abs/1905.11503)
 _Hosnieh Sattar, Katharina Krombholz, Gerard Pons-Moll, Mario Fritz_
@@ -460,18 +466,20 @@ _Jian Liu, Naveed Akhtar, Ajmal Mian_
 ### [arxiv 2019] Dressing 3D Humans using a Conditional Mesh-VAE-GAN [[pdf]](https://arxiv.org/abs/1907.13615)
 _Qianli Ma, Siyu Tang, Sergi Pujades, Gerard Pons-Moll, Anurag Ranjan, Michael J. Black_
 
-
 ### [arxiv 2019] Video Interpolation and Prediction with Unsupervised Landmarks [[pdf]](https://arxiv.org/abs/1909.02749)
 _Kevin J. Shih, Aysegul Dundar, Animesh Garg, Robert Pottorf, Andrew Tao, Bryan Catanzaro_
 
 ### [3DV 2018] Neural Body Fitting: Unifying Deep Learning and Model-Based Human Pose and Shape Estimation [[pdf]](https://arxiv.org/pdf/1808.05942.pdf) [[code]](https://github.com/mohomran/neural_body_fitting)
 _Mohamed Omran, Christoph Lassner, Gerard Pons-Moll, Peter V. Gehler, Bernt Schiele_
+- ![](/images/fig_human_pose_shape_estimation/22.png)
 
 ### [CVPR 2018] Learning to Estimate 3D Human Pose and Shape from a Single Color Image [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Pavlakos_Learning_to_Estimate_CVPR_2018_paper.pdf)
 _Georgios Pavlakos, Luyang Zhu, Xiaowei Zhou, Kostas Daniilidis_
+- ![](/images/fig_human_pose_shape_estimation/21.png)
 
 ### [CVPR 2018] End-to-end Recovery of Human Shape and Pose [[pdf]](https://arxiv.org/pdf/1712.06584.pdf)[[CODE]](https://github.com/akanazawa/hmr)
 _Angjoo Kanazawa, Michael J. Black, David W. Jacobs, Jitendra Malik_
+- ![](/images/fig_human_pose_shape_estimation/23.png)
 
 ### [CVPR 2018] Video Based Reconstruction of 3D People Models [[pdf]](https://arxiv.org/pdf/1803.04758.pdf)
 _Thiemo Alldieck， Marcus Magnor， Weipeng Xu， Christian Theobalt， Gerard Pons-Moll_
