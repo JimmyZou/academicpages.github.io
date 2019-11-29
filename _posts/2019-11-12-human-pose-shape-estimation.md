@@ -226,9 +226,6 @@ _Min Wang, Xipeng Chen, Wentao Liu, Chen Qian, Liang Lin, Lizhuang Ma_
 ### [CVPR 2018] V2V-PoseNet: Voxel-to-Voxel Prediction Network for Accurate 3D Hand and Human Pose Estimation From a Single Depth Map [[pdf]](https://arxiv.org/abs/1711.07399) [[code]](https://github.com/mks0601/V2V-PoseNet_RELEASE)
 _Gyeongsik Moon, Ju Yong Chang, Kyoung Mu Lee_
 
-### [CVPR 2018] DensePose: Dense Human Pose Estimation In The Wild [[pdf]](https://arxiv.org/pdf/1802.00434.pdf) [[code]](https://github.com/facebookresearch/Densepose)
-_Rıza Alp Güler, Natalia Neverova, Iasonas Kokkinos_
-
 ### [CVPR 2018] Learning Monocular 3D Human Pose Estimation from Multi-View Images [[pdf]](https://arxiv.org/pdf/1803.04775.pdf)
 _Helge Rhodin, Jörg Spörri, Isinsu Katircioglu, Victor Constantin, Frédéric Meyer, Erich Müller, Mathieu Salzmann, Pascal Fua_
 - Specifically, we train the system to predict the same pose in all views. Such a consistency constraint is necessary but not sufficient to predict accurate poses. We therefore complement it with a supervised loss aiming to predict the correct pose in a small set of labeled images, and with a regularization term that penalizes drift from initial predictions. 
@@ -477,8 +474,21 @@ _Thiemo Alldieck， Marcus Magnor， Weipeng Xu， Christian Theobalt， Gerard 
 _Gül Varol, Duygu Ceylan, Bryan Russell, Jimei Yang, Ersin Yumer, Ivan Laptev, Cordelia Schmid_
 - ![](/images/fig_human_pose_shape_estimation/24.png)
 
+### [CVPR 2017] Unite the people: Closing the loop between 3d and 2d human representations [[pdf]](https://arxiv.org/abs/1701.02468)
+_Christoph Lassner, Javier Romero, Martin Kiefel, Federica Bogo, Michael J. Black, Peter V. Gehler_
 
+### [ECCV 2016] Keep it SMPL: Automatic estimation of 3D human pose and shape from a single image [[pdf]](https://arxiv.org/abs/1607.08128)
+_Federica Bogo, Angjoo Kanazawa, Christoph Lassner, Peter Gehler, Javier Romero, Michael J. Black_
 
+### [CVPR 2017] Learning from Synthetic Humans [[pdf]](https://arxiv.org/abs/1701.01370)
+_Gül Varol, Javier Romero, Xavier Martin, Naureen Mahmood, Michael J. Black, Ivan Laptev, Cordelia Schmid_
+
+### [CVPR 2018] DensePose: Dense Human Pose Estimation In The Wild [[pdf]](https://arxiv.org/pdf/1802.00434.pdf) [[code]](https://github.com/facebookresearch/Densepose)
+_Rıza Alp Güler, Natalia Neverova, Iasonas Kokkinos_
+
+### [CVPR 2017] DenseReg: Fully Convolutional Dense Shape Regression In-the-Wild [[pdf]](https://arxiv.org/abs/1612.01202)
+_Rıza Alp Güler, George Trigeorgis, Epameinondas Antonakos, Patrick Snape, Stefanos Zafeiriou, Iasonas Kokkinos_
+- DensePose-like
 
 [[back to top]](#contents)
 
