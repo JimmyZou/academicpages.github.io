@@ -574,7 +574,7 @@ _Zhaopeng Cui, Jinwei Gu, Boxin Shi, Ping Tan, Jan Kautz_
 ### [TOG 2017] Polarization imaging reflectometry in the wild [[pdf]](https://www.doc.ic.ac.uk/research/technicalreports/2016/DTRS16-8.pdf)
 _Jeremy Riviere, Ilya Reshetouski, Abhijeet Ghosh_
 
-### [ICCV 2015] Polarized 3D: High-quality depth sensing with polarization cues [[pdf]](http://alumni.media.mit.edu/~shiboxin/files/Kadambi_ICCV15.pdf)
+### [ICCV 2015, IJCV 2017] Polarized 3D: High-quality depth sensing with polarization cues [[pdf]](http://alumni.media.mit.edu/~shiboxin/files/Kadambi_ICCV15.pdf)
 _Achuta Kadambi, Vage Taamazyan, Boxin Shi, and Ramesh Raskar_
 - Coarse depth maps can be enhanced by using the shape information from polarization cues. We propose a framework to combine surface normals from polarization (hereafter polarization normals) with an aligned depth map.
 - This is because polarization normals suffer from physics-based artifacts, such as azimuthal ambiguity, refractive distortion and fronto-parallel signal degradation.
