@@ -16,6 +16,7 @@ tags:
  - [human shape estimation](#human-shape-estimation)
  - [action recognition, motion prediction and synthesis](#action-motion)
  - [shape from polarization](#shape-from-polarization)
+
 ---
 
 ## Related blog
