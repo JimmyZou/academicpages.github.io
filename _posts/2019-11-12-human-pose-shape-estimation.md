@@ -554,7 +554,7 @@ _Patrick Esser, Ekaterina Sutter, Björn Ommer_
 [[back to top]](#contents)
 
 ---
-## Shape from Polarization<a name=“shape-from-polarization”></a>
+## Shape from Polarization<a name="shape-from-polarization"></a>
 
 ### [arxiv 2019] Physics-based Neural Networks for Shape from Polarization [[pdf]](https://arxiv.org/abs/1903.10210)
 _Yunhao Ba, Rui Chen, Yiqin Wang, Lei Yan, Boxin Shi, Achuta Kadambi_
