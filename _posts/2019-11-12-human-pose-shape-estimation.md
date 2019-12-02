@@ -15,7 +15,7 @@ tags:
  - [3D human pose estimation](#3D-human-pose-estimation)
  - [human shape estimation](#human-shape-estimation)
  - [action recognition, motion prediction and synthesis](#action-motion)
-
+ - [shape from polarization](#shape-from-polarization)
 ---
 
 ## Related blog
@@ -552,6 +552,34 @@ _Patrick Esser, Ekaterina Sutter, Björn Ommer_
 
 [[back to top]](#contents)
 
+---
+## Shape from Polarization<a name=“shape-from-polarization”></a>
 
+### [arxiv 2019] Physics-based Neural Networks for Shape from Polarization [[pdf]](https://arxiv.org/abs/1903.10210)
+_Yunhao Ba, Rui Chen, Yiqin Wang, Lei Yan, Boxin Shi, Achuta Kadambi_
 
+### [ICCV 2019] Polarimetric Relative Pose Estimation [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Cui_Polarimetric_Relative_Pose_Estimation_ICCV_2019_paper.pdf)
+_Zhaopeng Cui, Viktor Larsson, Marc Pollefeys_
+
+### [CVPR 2018] Polarimetric Dense Monocular SLAM [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_Polarimetric_Dense_Monocular_CVPR_2018_paper.pdf)
+_Luwei Yang, Feitong Tan, Ao Li, Zhaopeng Cui, Yasutaka Furukawa, and Ping Tan_
+
+### [ECCV 2018] Polarimetric Three-View Geometry [[pdf]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Lixiong_Chen_Polarimetric_Three-View_Geometry_ECCV_2018_paper.pdf)
+_Lixiong Chen, Yinqiang Zheng, Art Subpa-asa, and Imari Sato_
+
+### [CVPR 2017] Polarimetric Multi-View Stereo [[pdf]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Cui_Polarimetric_Multi-View_Stereo_CVPR_2017_paper.pdf)
+_Zhaopeng Cui, Jinwei Gu, Boxin Shi, Ping Tan, Jan Kautz_
+
+### [TOG 2017] Polarization imaging reflectometry in the wild [[pdf]](https://www.doc.ic.ac.uk/research/technicalreports/2016/DTRS16-8.pdf)
+_Jeremy Riviere, Ilya Reshetouski, Abhijeet Ghosh_
+
+### [ICCV 2015] Polarized 3D: High-quality depth sensing with polarization cues [[pdf]](http://alumni.media.mit.edu/~shiboxin/files/Kadambi_ICCV15.pdf)
+_Achuta Kadambi, Vage Taamazyan, Boxin Shi, and Ramesh Raskar_
+- Coarse depth maps can be enhanced by using the shape information from polarization cues. We propose a framework to combine surface normals from polarization (hereafter polarization normals) with an aligned depth map.
+- This is because polarization normals suffer from physics-based artifacts, such as azimuthal ambiguity, refractive distortion and fronto-parallel signal degradation.
+
+### [ITIP 2006] Recovery of surface orientation from diffuse polarization [[pdf]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.478.2140&rep=rep1&type=pdf)
+_Gary A. Atkinson, Edwin R. Hancock_
+
+[[back to top]](#contents)
 
