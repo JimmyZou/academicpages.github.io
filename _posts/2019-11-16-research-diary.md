@@ -39,8 +39,8 @@ _Aaron van den Oord, Yazhe Li, and Oriol Vinyals_
 
 ## Others
 
-### [ICLR 2020] Geom-GCN: Geometric Graph Convolutional Networks [[pdf]](https://openreview.net/forum?id=S1e2agrFvS)
+### [ICLR 2020] Geom-GCN: Geometric Graph Convolutional Networks [[pdf]](https://arxiv.org/abs/2002.05287)
 _Hongbin Pei, Bingzhe Wei, Kevin Chen-Chuan Chang, Yu Lei, Bo Yang_
-
+- Message-passing neural networks (MPNNs) have been successfully applied to representation learning on graphs in a variety of real-world applications. However, two fundamental weaknesses of MPNNs’ aggregators limit their ability to represent graph-structured data: **losing the structural information of nodes in neighborhoods and lacking the ability to capture long-range dependencies in disassortative graphs**. Few studies have noticed the weaknesses from different perspectives. From the observations on classical neural network and network geometry, we propose a novel geometric aggregation scheme for graph neural networks to overcome the two weaknesses. The behind basic idea is the aggregation on a graph can benefit from a continuous space underlying the graph. The proposed aggregation scheme is permutation-invariant and consists of three modules, node embedding, structural neighborhood, and bi-level aggregation.
 
 #### [ICLR 2018] Cem-rl: Combining evolutionary and gradient based methods for policy search
