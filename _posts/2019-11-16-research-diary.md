@@ -14,6 +14,7 @@ _Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick_
 - The “keys” (tokens) in the dictionary are sampled from data (e.g., images or patches) and are represented by an encoder network. Unsupervised learning trains encoders to perform dictionary look-up: an encoded “query” should be similar to its matching key and dissimilar to others. Learning is formulated as minimizing a contrastive loss
 - contrastive learning: Dimensionality reduction by learning an invariant mapping, CVPR 2006
 - ![](/images/fig_research_diary/1.PNG)
+- <img src="/images/fig_research_diary/1.PNG" width="200"/>
 
 ### [ICLR 2019] Learning deep representations by mutual information estimation and maximization [[pdf]](https://arxiv.org/abs/1808.06670)
 _R Devon Hjelm, Alex Fedorov, Samuel Lavoie-Marchildon, Karan Grewal, Adam Trischler, and Yoshua Bengio_
