@@ -8,6 +8,9 @@ tags:
 
 ## Unsupervised learning / representation learning
 
+### [ICLR 2020] Contrastive Representation Distillation [[pdf]](https://arxiv.org/abs/1910.10699)
+_Yonglong Tian, Dilip Krishnan, Phillip Isola_
+
 ### [ICLR 2020] Momentum Contrast for Unsupervised Visual Representation Learning [[pdf]](https://arxiv.org/abs/1911.05722)
 _Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick_
 - From a perspective on contrastive learning as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning. This suggests that the gap between unsupervised and supervised representation learning has been largely closed in many vision tasks.
@@ -38,6 +41,21 @@ _Zhirong Wu, Yuanjun Xiong, Stella Yu, and Dahua Lin_
 _Aaron van den Oord, Yazhe Li, and Oriol Vinyals_
 
 ## Others
+
+### [CVPR 2019] Self-Supervised Representation Learning by Rotation Feature Decoupling [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Feng_Self-Supervised_Representation_Learning_by_Rotation_Feature_Decoupling_CVPR_2019_paper.pdf)
+_Zeyu Feng, Chang Xu, Dacheng Tao_
+
+### [AAAI 2020] Hybrid Graph Neural Networks for Crowd Counting [[pdf]](https://arxiv.org/abs/2002.00092)
+_Ao Luo, Fan Yang, Xin Li, Dong Nie, Zhicheng Jiao, Shangchen Zhou, Hong Cheng_
+
+### [ICLR 2020] Inductive Matrix Completion Based on Graph Neural Networks [[pdf]](https://arxiv.org/abs/1904.12058)
+_Muhan Zhang, Yixin Chen_
+
+### [NeurIPS] Quaternion Knowledge Graph Embeddings [[pdf]](https://arxiv.org/abs/1904.10281)
+_Shuai Zhang, Yi Tay, Lina Yao, Qi Liu_
+
+### [ICML 2019] EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks [[pdf]](https://arxiv.org/abs/1905.11946)
+_Mingxing Tan, Quoc V. Le_
 
 ### [ICLR 2020] Geom-GCN: Geometric Graph Convolutional Networks [[pdf]](https://arxiv.org/abs/2002.05287)
 _Hongbin Pei, Bingzhe Wei, Kevin Chen-Chuan Chang, Yu Lei, Bo Yang_
