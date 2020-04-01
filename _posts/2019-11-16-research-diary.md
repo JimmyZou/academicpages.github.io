@@ -18,6 +18,9 @@ _Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick_
 ### [ICLR 2019] Learning deep representations by mutual information estimation and maximization [[pdf]](https://arxiv.org/abs/1808.06670)
 _R Devon Hjelm, Alex Fedorov, Samuel Lavoie-Marchildon, Karan Grewal, Adam Trischler, and Yoshua Bengio_
 
+### [ICCV 2019] Rethinking ImageNet pre-training [[pdf]](https://arxiv.org/abs/1811.08883)
+_Kaiming He, Ross Girshick, Piotr Dollár_
+
 ### [NeurIPS] Learning Representations by Maximizing Mutual Information Across Views [[pdf]](https://arxiv.org/abs/1906.00910)
 _Philip Bachman, R Devon Hjelm, William Buchwalter_
 
