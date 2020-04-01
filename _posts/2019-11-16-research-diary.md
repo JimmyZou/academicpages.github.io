@@ -33,6 +33,10 @@ _Olivier J. Hénaff, Aravind Srinivas, Jeffrey De Fauw, Ali Razavi, Carl Doersch
 ### [ICCV 2019] Local aggregation for unsupervised learning of visual embeddings [[pdf]](https://arxiv.org/abs/1903.12355)
 _Chengxu Zhuang, Alex Lin Zhai, Daniel Yamins_
 
+### [CVPR 2019] Self-Supervised Representation Learning by Rotation Feature Decoupling [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Feng_Self-Supervised_Representation_Learning_by_Rotation_Feature_Decoupling_CVPR_2019_paper.pdf)
+_Zeyu Feng, Chang Xu, Dacheng Tao_
+- ![](/images/fig_research_diary/3.PNG)
+
 ### [CVPR 2018 spotlight] Unsupervised feature learning via non-parametric instance discrimination [[pdf]](https://arxiv.org/pdf/1805.01978v1.pdf)
 _Zhirong Wu, Yuanjun Xiong, Stella Yu, and Dahua Lin_
 - ![](/images/fig_research_diary/2.PNG)
@@ -41,9 +45,6 @@ _Zhirong Wu, Yuanjun Xiong, Stella Yu, and Dahua Lin_
 _Aaron van den Oord, Yazhe Li, and Oriol Vinyals_
 
 ## Others
-
-### [CVPR 2019] Self-Supervised Representation Learning by Rotation Feature Decoupling [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Feng_Self-Supervised_Representation_Learning_by_Rotation_Feature_Decoupling_CVPR_2019_paper.pdf)
-_Zeyu Feng, Chang Xu, Dacheng Tao_
 
 ### [AAAI 2020] Hybrid Graph Neural Networks for Crowd Counting [[pdf]](https://arxiv.org/abs/2002.00092)
 _Ao Luo, Fan Yang, Xin Li, Dong Nie, Zhicheng Jiao, Shangchen Zhou, Hong Cheng_
