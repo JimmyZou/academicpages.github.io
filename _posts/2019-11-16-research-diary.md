@@ -6,9 +6,33 @@ tags:
   - research diary
 ---
 
-## Dynamic vision system (event-based camera)
+## Dynamic vision system (event-based vision)
 
 ### [research group] [http://rpg.ifi.uzh.ch/research_dvs.html](http://rpg.ifi.uzh.ch/research_dvs.html)
+
+### [TPAMI 2018] Event-based, 6-DOF Camera Tracking from Photometric Depth Maps [[pdf]](http://rpg.ifi.uzh.ch/docs/PAMI17_Gallego.pdf)
+_Guillermo Gallego, Jon E.A. Lund, Elias Mueggler, Henri Rebecq, Tobi Delbruck, Davide Scaramuzza_
+
+### [IJCV 2017, BMVC 2016] EMVS: Event-based Multi-View Stereo - 3D Reconstruction with an Event Camera in Real-Time [[pdf]](https://supitalp.github.io/research/publication/emvs_ijcv/)
+_Henri Rebecq, Guillermo Gallego, Elias Mueggler, Davide Scaramuzza_
+
+### [ECCV 2018] Asynchronous, Photometric Feature Tracking using Events and Frames [[pdf]](https://arxiv.org/abs/1807.09713)
+_Daniel Gehrig, Henri Rebecq, Guillermo Gallego, Davide Scaramuzza_
+
+### [CVPR 2018] A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation [[pdf]](https://arxiv.org/abs/1804.01306)
+_Guillermo Gallego, Henri Rebecq, Davide Scaramuzza_
+
+### [ECCV 2018] Semi-Dense 3D Reconstruction with a Stereo Event Camera [[pdf]](https://arxiv.org/abs/1807.07429)
+_Yi Zhou, Guillermo Gallego, Henri Rebecq, Laurent Kneip, Hongdong Li, Davide Scaramuzza_
+
+### [CVPR 2019] Events-to-Video: Bringing Modern Computer Vision to Event Cameras [[pdf]](https://arxiv.org/abs/1904.08298)
+_Henri Rebecq, René Ranftl, Vladlen Koltun, Davide Scaramuzza_
+
+### [CVPR 2019] Focus Is All You Need: Loss Functions For Event-based Vision [[pdf]](https://arxiv.org/abs/1904.07235)
+_Guillermo Gallego, Mathias Gehrig, Davide Scaramuzza_
+
+### [Scientific Report] A Spiking Neural Network Model of Depth from Defocus for Event-based Neuromorphic Vision [[pdf]](https://www.nature.com/articles/s41598-019-40064-0.pdf)
+_Germain Haessig, Xavier Berthelon, Sio-Hoi Ieng & Ryad Benosman_
 
 ## Unsupervised learning / representation learning
 
