@@ -6,6 +6,10 @@ tags:
   - research diary
 ---
 
+## Dynamic vision system (event-based camera)
+
+### [research group] [http://rpg.ifi.uzh.ch/research_dvs.html](http://rpg.ifi.uzh.ch/research_dvs.html)
+
 ## Unsupervised learning / representation learning
 
 ### [ICLR 2020] Contrastive Representation Distillation [[pdf]](https://arxiv.org/abs/1910.10699)
