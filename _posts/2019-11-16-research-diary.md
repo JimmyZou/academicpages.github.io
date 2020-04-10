@@ -59,6 +59,9 @@ _Enrico Calabrese, Gemma Taverni, Christopher Awai Easthope, Sophie Skriabine, F
 
 ## Unsupervised learning / representation learning
 
+### [ArXiv 2020] A Simple Framework for Contrastive Learning of Visual Representations [[pdf]](https://arxiv.org/abs/2002.05709)
+_Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton_
+
 ### [ICLR 2020] Contrastive Representation Distillation [[pdf]](https://arxiv.org/abs/1910.10699)
 _Yonglong Tian, Dilip Krishnan, Phillip Isola_
 - Examples include distilling a large network into a smaller one, transferring knowledge from one sensory modality to a second, or ensembling a collection of models into a single estimator. **Knowledge distillation, the standard approach to these problems, minimizes the KL divergence between the probabilistic outputs of a teacher and student network.** We demonstrate that this objective ignores important structural knowledge of the teacher network. This motivates an alternative objective by which we train a student to capture significantly more information in the teacher’s representation of the data. We formulate this objective as contrastive learning. Experiments demonstrate that our resulting new objective outperforms knowledge distillation and other cutting-edge distillers on a variety of knowledge transfer tasks, including single model compression, ensemble distillation, and cross-modal transfer.
