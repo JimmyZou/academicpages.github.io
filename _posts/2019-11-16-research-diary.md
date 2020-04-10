@@ -10,6 +10,11 @@ tags:
 
 ### research group: [http://rpg.ifi.uzh.ch/research_dvs.html](http://rpg.ifi.uzh.ch/research_dvs.html)
 
+### resources: [https://github.com/uzh-rpg/event-based_vision_resources](https://github.com/uzh-rpg/event-based_vision_resources)
+
+### [CVPR 2020] EventSR: From Asynchronous Events to Image Reconstruction, Restoration, and Super-Resolution via End-to-End Adversarial Learning [[pdf]](https://arxiv.org/pdf/2003.07640.pdf)
+_Lin Wang, Tae-Kyun Kim, and Kuk-Jin Yoon_
+
 ### [TPAMI 2018] Event-based, 6-DOF Camera Tracking from Photometric Depth Maps [[pdf]](http://rpg.ifi.uzh.ch/docs/PAMI17_Gallego.pdf)
 _Guillermo Gallego, Jon E.A. Lund, Elias Mueggler, Henri Rebecq, Tobi Delbruck, Davide Scaramuzza_
 
@@ -27,12 +32,21 @@ _Yi Zhou, Guillermo Gallego, Henri Rebecq, Laurent Kneip, Hongdong Li, Davide Sc
 
 ### [CVPR 2019] Events-to-Video: Bringing Modern Computer Vision to Event Cameras [[pdf]](https://arxiv.org/abs/1904.08298)
 _Henri Rebecq, René Ranftl, Vladlen Koltun, Davide Scaramuzza_
+- Since **the output of event cameras is fundamentally different from conventional cameras**, it is commonly accepted that they require the development of specialized algorithms to accommodate the particular nature of events.
+- We propose a novel recurrent network to reconstruct videos from a stream of events, and train it on a large amount of simulated event data.
+
+### [ECCV 2018 workshop] Unsupervised event-based optical flow using motion compensation [[pdf]](https://arxiv.org/abs/1812.08156)
+_Alex Zihao Zhu, Liangzhe Yuan, Kenneth Chaney, Kostas Daniilidis_
 
 ### [CVPR 2019] Focus Is All You Need: Loss Functions For Event-based Vision [[pdf]](https://arxiv.org/abs/1904.07235)
 _Guillermo Gallego, Mathias Gehrig, Davide Scaramuzza_
 
 ### [Scientific Report] A Spiking Neural Network Model of Depth from Defocus for Event-based Neuromorphic Vision [[pdf]](https://www.nature.com/articles/s41598-019-40064-0.pdf)
 _Germain Haessig, Xavier Berthelon, Sio-Hoi Ieng & Ryad Benosman_
+
+### [CVPR 2017] A Low Power, Fully Event-Based Gesture Recognition System [[pdf]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Amir_A_Low_Power_CVPR_2017_paper.pdf) [[dataset]](http://research.ibm.com/dvsgesture/)
+_Arnon Amir, Brian Taba, David Berg, Timothy Melano, Jeffrey McKinstry, Carmelo Di Nolfo, Tapan Nayak, Alexander Andreopoulos, Guillaume Garreau, Marcela Mendoza, Jeff Kusnitz, Michael Debole, Steve Esser, Tobi Delbruck, Myron Flickner, and Dharmendra Modha_
+
 
 ## Unsupervised learning / representation learning
 
