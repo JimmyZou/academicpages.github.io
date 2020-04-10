@@ -12,6 +12,9 @@ tags:
 
 ### resources: [https://github.com/uzh-rpg/event-based_vision_resources](https://github.com/uzh-rpg/event-based_vision_resources)
 
+### advantages
+- Event cameras have several advantages over traditional cameras: a latency in the order of microseconds, a very high dynamic range (140 dB compared to 60 dB of traditional cameras), and very low power consumption (10mW vs 1.5W of traditional cameras). Moreover, since all pixels capture light independently, such sensors do not suffer from motion blur.
+
 ### [CVPR 2020] EventSR: From Asynchronous Events to Image Reconstruction, Restoration, and Super-Resolution via End-to-End Adversarial Learning [[pdf]](https://arxiv.org/pdf/2003.07640.pdf)
 _Lin Wang, Tae-Kyun Kim, and Kuk-Jin Yoon_
 
@@ -26,11 +29,12 @@ _Daniel Gehrig, Henri Rebecq, Guillermo Gallego, Davide Scaramuzza_
 
 ### [CVPR 2018] A Unifying Contrast Maximization Framework for Event Cameras, with Applications to Motion, Depth and Optical Flow Estimation [[pdf]](https://arxiv.org/abs/1804.01306)
 _Guillermo Gallego, Henri Rebecq, Davide Scaramuzza_
+- We present a unifying framework to solve several computer vision problems with event cameras: motion, depth and optical flow estimation. The main idea of our framework is to find the point trajectories on the image plane that are best aligned with the event data by maximizing an objective function: the contrast of an image of warped events. Our method implicitly handles data association between the events, and therefore, does not rely on additional appearance information about the scene. In addition to accurately recovering the motion parameters of the problem, our framework produces motion-corrected edge-like images with high dynamic range that can be used for further scene analysis.
 
 ### [ECCV 2018] Semi-Dense 3D Reconstruction with a Stereo Event Camera [[pdf]](https://arxiv.org/abs/1807.07429)
 _Yi Zhou, Guillermo Gallego, Henri Rebecq, Laurent Kneip, Hongdong Li, Davide Scaramuzza_
 
-### [CVPR 2019] Events-to-Video: Bringing Modern Computer Vision to Event Cameras [[pdf]](https://arxiv.org/abs/1904.08298)
+### [CVPR 2019, TPAMI 2020] Events-to-Video: Bringing Modern Computer Vision to Event Cameras [[pdf]](https://arxiv.org/abs/1904.08298) [[pdf]](https://arxiv.org/pdf/1906.07165.pdf)
 _Henri Rebecq, René Ranftl, Vladlen Koltun, Davide Scaramuzza_
 - Since **the output of event cameras is fundamentally different from conventional cameras**, it is commonly accepted that they require the development of specialized algorithms to accommodate the particular nature of events.
 - We propose a novel recurrent network to reconstruct videos from a stream of events, and train it on a large amount of simulated event data.
@@ -47,6 +51,11 @@ _Germain Haessig, Xavier Berthelon, Sio-Hoi Ieng & Ryad Benosman_
 ### [CVPR 2017] A Low Power, Fully Event-Based Gesture Recognition System [[pdf]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Amir_A_Low_Power_CVPR_2017_paper.pdf) [[dataset]](http://research.ibm.com/dvsgesture/)
 _Arnon Amir, Brian Taba, David Berg, Timothy Melano, Jeffrey McKinstry, Carmelo Di Nolfo, Tapan Nayak, Alexander Andreopoulos, Guillaume Garreau, Marcela Mendoza, Jeff Kusnitz, Michael Debole, Steve Esser, Tobi Delbruck, Myron Flickner, and Dharmendra Modha_
 
+### [CVPR 2019] EV-Gait: Event-Based Robust Gait Recognition Using Dynamic Vision Sensors [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_EV-Gait_Event-Based_Robust_Gait_Recognition_Using_Dynamic_Vision_Sensors_CVPR_2019_paper.pdf)
+_Yanxiang Wang, Bowen Du, Yiran Shen, Kai Wu, Guangrong Zhao, Jianguo Sun, Hongkai Wen_
+
+### [CVPR workshop 2019] DHP19: Dynamic Vision Sensor 3D Human Pose Dataset [[pdf]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/EventVision/Calabrese_DHP19_Dynamic_Vision_Sensor_3D_Human_Pose_Dataset_CVPRW_2019_paper.pdf)
+_Enrico Calabrese, Gemma Taverni, Christopher Awai Easthope, Sophie Skriabine, Federico Corradi, Luca Longinotti, Kynan Eng, Tobi Delbruck_
 
 ## Unsupervised learning / representation learning
 
