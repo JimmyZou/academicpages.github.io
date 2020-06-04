@@ -21,6 +21,14 @@ _Wenhan Luo ; Peng Sun ; Fangwei Zhong ; Wei Liu ; Tong Zhang ; Yizhou Wang_
 
 ## Conference Papers  
 
+### AAAI 2020
+#### Deep Reinforcement Learning for Active Human Pose Estimation [[pdf]](https://arxiv.org/abs/2001.02024)
+_Erik Gärtner, Aleksis Pirinen, Cristian Sminchisescu_
+
+### ICCV 2019
+#### Imitation Learning for Human Pose Prediction [[pdf]](https://arxiv.org/abs/1909.03449)
+_Borui Wang, Ehsan Adeli, Hsu-kuang Chiu, De-An Huang, Juan Carlos Niebles_
+
 ### CVPR 2019  
 
 #### (best student paper) Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation [[pdf]](https://arxiv.org/abs/1811.10092)
