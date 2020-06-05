@@ -57,6 +57,27 @@ _Yanxiang Wang, Bowen Du, Yiran Shen, Kai Wu, Guangrong Zhao, Jianguo Sun, Hongk
 ### [CVPR workshop 2019] DHP19: Dynamic Vision Sensor 3D Human Pose Dataset [[pdf]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/EventVision/Calabrese_DHP19_Dynamic_Vision_Sensor_3D_Human_Pose_Dataset_CVPRW_2019_paper.pdf)
 _Enrico Calabrese, Gemma Taverni, Christopher Awai Easthope, Sophie Skriabine, Federico Corradi, Luca Longinotti, Kynan Eng, Tobi Delbruck_
 
+
+## Video prediction/generation/completion
+
+### [NeurIPS 2016] Generating Videos with Scene Dynamics [[pdf]](https://arxiv.org/abs/1609.02612)
+_Carl Vondrick, Hamed Pirsiavash, Antonio Torralba_
+
+### [ICLR 2017] Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning [[pdf]](https://arxiv.org/abs/1605.08104)
+_William Lotter, Gabriel Kreiman, David Cox_
+
+### [ICLR 2016] Deep multi-scale video prediction beyond mean square error [[pdf]](https://arxiv.org/abs/1511.05440)
+_Michael Mathieu, Camille Couprie, Yann LeCun_
+
+### [ICCV 2017] The Pose Knows: Video Forecasting by Generating Pose Futures [[pdf]](https://arxiv.org/abs/1705.00053)
+_Jacob Walker, Kenneth Marino, Abhinav Gupta, Martial Hebert_
+
+### [ECCV 2018] Deep Video Generation, Prediction and Completion of Human Action Sequences [[pdf]](https://arxiv.org/abs/1711.08682)
+_Haoye Cai, Chunyan Bai, Yu-Wing Tai, Chi-Keung Tang_
+
+### [CVPR 2019] Learning to Film from Professional Human Motion Videos [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Huang_Learning_to_Film_From_Professional_Human_Motion_Videos_CVPR_2019_paper.pdf)
+_Chong Huang, Chuan-En Lin, Zhenyu Yang, Yan Kong, Peng Chen, Xin Yang, Kwang-Ting Cheng_
+
 ## Unsupervised learning / representation learning
 
 ### [ArXiv 2020] A Simple Framework for Contrastive Learning of Visual Representations [[pdf]](https://arxiv.org/abs/2002.05709)
