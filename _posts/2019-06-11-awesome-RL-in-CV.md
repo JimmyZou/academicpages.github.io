@@ -29,6 +29,9 @@ _Erik Gärtner, Aleksis Pirinen, Cristian Sminchisescu_
 #### Imitation Learning for Human Pose Prediction [[pdf]](https://arxiv.org/abs/1909.03449)
 _Borui Wang, Ehsan Adeli, Hsu-kuang Chiu, De-An Huang, Juan Carlos Niebles_
 
+#### SME-Net: Sparse Motion Estimation for Parametric Video Prediction Through Reinforcement Learning [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ho_SME-Net_Sparse_Motion_Estimation_for_Parametric_Video_Prediction_Through_Reinforcement_ICCV_2019_paper.pdf)
+_Yung-Han Ho, Chuan-Yuan Cho, Wen-Hsiao Peng, Guo-Lun Jin_
+
 ### CVPR 2019  
 
 #### (best student paper) Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation [[pdf]](https://arxiv.org/abs/1811.10092)
