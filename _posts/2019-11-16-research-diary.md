@@ -18,6 +18,27 @@ tags:
 ### [CVPR 2020] EventSR: From Asynchronous Events to Image Reconstruction, Restoration, and Super-Resolution via End-to-End Adversarial Learning [[pdf]](https://arxiv.org/pdf/2003.07640.pdf)
 _Lin Wang, Tae-Kyun Kim, and Kuk-Jin Yoon_
 
+### [ICCV 2019] Learning an event sequence embedding for dense event-based deep stereo [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Tulyakov_Learning_an_Event_Sequence_Embedding_for_Dense_Event-Based_Deep_Stereo_ICCV_2019_paper.pdf)
+_Stepan Tulyakov, Francois Fleuret, Martin Kiefel, Peter Gehler, Michael Hirsch_
+
+### [ICCV 2019] End-to-End Learning of Representations for Asynchronous Event-Based Data [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Gehrig_End-to-End_Learning_of_Representations_for_Asynchronous_Event-Based_Data_ICCV_2019_paper.pdf)
+_Daniel Gehrig, Antonio Loquercio, Konstantinos G. Derpanis, Davide Scaramuzza_
+
+### [CVPR 2019] Event-based High Dynamic Range Image and Very High Frame Rate Video Generation using Conditional Generative Adversarial Networks [[pdf]](https://arxiv.org/abs/1811.08230)
+_S. Mohammad Mostafavi I., Lin Wang, Yo-Sung Ho, Kuk-Jin Yoon_
+
+### [CVPR 2019] Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion [[pdf]](https://arxiv.org/abs/1812.08156)
+_Alex Zihao Zhu, Liangzhe Yuan, Kenneth Chaney, Kostas Daniilidis_
+
+### [CVPR 2019] Bringing a Blurry Frame Alive at High Frame-Rate With an Event Camera [[pdf]](https://arxiv.org/abs/1811.10180)
+_Liyuan Pan, Cedric Scheerlinck, Xin Yu, Richard Hartley, Miaomiao Liu, Yuchao Dai_
+
+### [CVPR 2019] Focus Is All You Need: Loss Functions For Event-based Vision [[pdf]](https://arxiv.org/abs/1904.07235)
+_Guillermo Gallego, Mathias Gehrig, Davide Scaramuzza_
+
+### [CVPR 2019] Event Cameras, Contrast Maximization and Reward Functions: An Analysis [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Stoffregen_Event_Cameras_Contrast_Maximization_and_Reward_Functions_An_Analysis_CVPR_2019_paper.pdf)
+_Timo Stoffregen, Lindsay Kleeman_
+
 ### [TPAMI 2018] Event-based, 6-DOF Camera Tracking from Photometric Depth Maps [[pdf]](http://rpg.ifi.uzh.ch/docs/PAMI17_Gallego.pdf)
 _Guillermo Gallego, Jon E.A. Lund, Elias Mueggler, Henri Rebecq, Tobi Delbruck, Davide Scaramuzza_
 
@@ -41,9 +62,6 @@ _Henri Rebecq, René Ranftl, Vladlen Koltun, Davide Scaramuzza_
 
 ### [ECCV 2018 workshop] Unsupervised event-based optical flow using motion compensation [[pdf]](https://arxiv.org/abs/1812.08156)
 _Alex Zihao Zhu, Liangzhe Yuan, Kenneth Chaney, Kostas Daniilidis_
-
-### [CVPR 2019] Focus Is All You Need: Loss Functions For Event-based Vision [[pdf]](https://arxiv.org/abs/1904.07235)
-_Guillermo Gallego, Mathias Gehrig, Davide Scaramuzza_
 
 ### [Scientific Report] A Spiking Neural Network Model of Depth from Defocus for Event-based Neuromorphic Vision [[pdf]](https://www.nature.com/articles/s41598-019-40064-0.pdf)
 _Germain Haessig, Xavier Berthelon, Sio-Hoi Ieng & Ryad Benosman_
