@@ -93,8 +93,20 @@ _Jacob Walker, Kenneth Marino, Abhinav Gupta, Martial Hebert_
 ### [ECCV 2018] Deep Video Generation, Prediction and Completion of Human Action Sequences [[pdf]](https://arxiv.org/abs/1711.08682)
 _Haoye Cai, Chunyan Bai, Yu-Wing Tai, Chi-Keung Tang_
 
+### [NeurIPS 2018] Video Prediction via Selective Sampling [[pdf]](https://papers.nips.cc/paper/7442-video-prediction-via-selective-sampling.pdf)
+_Jingwei Xu, Bingbing Ni, Xiaokang Yang_
+
 ### [CVPR 2019] Learning to Film from Professional Human Motion Videos [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Huang_Learning_to_Film_From_Professional_Human_Motion_Videos_CVPR_2019_paper.pdf)
 _Chong Huang, Chuan-En Lin, Zhenyu Yang, Yan Kong, Peng Chen, Xin Yang, Kwang-Ting Cheng_
+
+### [ICCV 2019] Improved Conditional VRNNs for Video Prediction [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Castrejon_Improved_Conditional_VRNNs_for_Video_Prediction_ICCV_2019_paper.pdf)
+_Lluis Castrejon, Nicolas Ballas, Aaron Courville_
+
+### [ICCV 2019] Compositional Video Prediction [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ye_Compositional_Video_Prediction_ICCV_2019_paper.pdf)
+_Yufei Ye, Maneesh Singh, Abhinav Gupta, Shubham Tulsiani_
+
+### [ICML 2020] Stochastic Latent Residual Video Prediction [[pdf]](https://arxiv.org/pdf/2002.09219)
+_Jean-Yves Franceschi, Edouard Delasalles, Mickaël Chen, Sylvain Lamprier, Patrick Gallinari_
 
 ## Unsupervised learning / representation learning
 
@@ -144,6 +156,9 @@ _Alexey Dosovitskiy, Philipp Fischer, Jost Tobias Springenberg, Martin Riedmille
 _Aaron van den Oord, Yazhe Li, and Oriol Vinyals_
 
 ## Others
+
+### Deep Meta Metric Learning [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Deep_Meta_Metric_Learning_ICCV_2019_paper.pdf)
+_Guangyi Chen, Tianren Zhang, Jiwen Lu, Jie Zhou_
 
 ### [AAAI 2020] Hybrid Graph Neural Networks for Crowd Counting [[pdf]](https://arxiv.org/abs/2002.00092)
 _Ao Luo, Fan Yang, Xin Li, Dong Nie, Zhicheng Jiao, Shangchen Zhou, Hong Cheng_
