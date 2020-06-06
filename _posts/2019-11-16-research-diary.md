@@ -105,6 +105,12 @@ _Lluis Castrejon, Nicolas Ballas, Aaron Courville_
 ### [ICCV 2019] Compositional Video Prediction [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ye_Compositional_Video_Prediction_ICCV_2019_paper.pdf)
 _Yufei Ye, Maneesh Singh, Abhinav Gupta, Shubham Tulsiani_
 
+### [NeurIPS 2019] High Fidelity Video Prediction with Large Stochastic Recurrent Neural Networks [[pdf]](https://arxiv.org/abs/1911.01655)
+_Ruben Villegas, Arkanath Pathak, Harini Kannan, Dumitru Erhan, Quoc V. Le, Honglak Lee_
+
+### [NeurIPS 2019] Unsupervised Keypoint Learning for Guiding Class-Conditional Video Prediction [[pdf]](https://papers.nips.cc/paper/8637-unsupervised-keypoint-learning-for-guiding-class-conditional-video-prediction.pdf)
+_Yunji Kim, Seonghyeon Nam, In Cho, and Seon Joo Kim_
+
 ### [ICML 2020] Stochastic Latent Residual Video Prediction [[pdf]](https://arxiv.org/pdf/2002.09219)
 _Jean-Yves Franceschi, Edouard Delasalles, Mickaël Chen, Sylvain Lamprier, Patrick Gallinari_
 
