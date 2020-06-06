@@ -32,6 +32,9 @@ _Borui Wang, Ehsan Adeli, Hsu-kuang Chiu, De-An Huang, Juan Carlos Niebles_
 #### SME-Net: Sparse Motion Estimation for Parametric Video Prediction Through Reinforcement Learning [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ho_SME-Net_Sparse_Motion_Estimation_for_Parametric_Video_Prediction_Through_Reinforcement_ICCV_2019_paper.pdf)
 _Yung-Han Ho, Chuan-Yuan Cho, Wen-Hsiao Peng, Guo-Lun Jin_
 
+#### Counterfactual Critic Multi-Agent Training for Scene Graph Generation [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Counterfactual_Critic_Multi-Agent_Training_for_Scene_Graph_Generation_ICCV_2019_paper.pdf)
+_Long Chen, Hanwang Zhang, Jun Xiao, Xiangnan He, Shiliang Pu, Shih-Fu Chang_
+
 ### CVPR 2019  
 
 #### (best student paper) Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation [[pdf]](https://arxiv.org/abs/1811.10092)
