@@ -6,7 +6,15 @@ tags:
   - research diary
 ---
 
-## Dynamic vision system (event-based vision)
+## Contents<a name="contents"></a>
+ - [Dynamic vision system (event-based vision)](#dynamic-vision-system)
+ - [Video prediction/generation/completion](#video-prediction)
+ - [Unsupervised learning / representation learning](#representation-learning)
+ - [Others](#others)
+
+---
+
+## Dynamic vision system (event-based vision)<a name="dynamic-vision-system"></a>
 
 ### research group: [http://rpg.ifi.uzh.ch/research_dvs.html](http://rpg.ifi.uzh.ch/research_dvs.html)
 
@@ -75,8 +83,10 @@ _Yanxiang Wang, Bowen Du, Yiran Shen, Kai Wu, Guangrong Zhao, Jianguo Sun, Hongk
 ### [CVPR workshop 2019] DHP19: Dynamic Vision Sensor 3D Human Pose Dataset [[pdf]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/EventVision/Calabrese_DHP19_Dynamic_Vision_Sensor_3D_Human_Pose_Dataset_CVPRW_2019_paper.pdf)
 _Enrico Calabrese, Gemma Taverni, Christopher Awai Easthope, Sophie Skriabine, Federico Corradi, Luca Longinotti, Kynan Eng, Tobi Delbruck_
 
+[[back to top]](#contents)
+---
 
-## Video prediction/generation/completion
+## Video prediction/generation/completion <a name="video-prediction"></a>
 
 ### [NeurIPS 2016] Generating Videos with Scene Dynamics [[pdf]](https://arxiv.org/abs/1609.02612)
 _Carl Vondrick, Hamed Pirsiavash, Antonio Torralba_
@@ -114,7 +124,10 @@ _Yunji Kim, Seonghyeon Nam, In Cho, and Seon Joo Kim_
 ### [ICML 2020] Stochastic Latent Residual Video Prediction [[pdf]](https://arxiv.org/pdf/2002.09219)
 _Jean-Yves Franceschi, Edouard Delasalles, Mickaël Chen, Sylvain Lamprier, Patrick Gallinari_
 
-## Unsupervised learning / representation learning
+[[back to top]](#contents)
+---
+
+## Unsupervised learning / representation learning<a name="representation-learning"></a>
 
 ### [ArXiv 2020] A Simple Framework for Contrastive Learning of Visual Representations [[pdf]](https://arxiv.org/abs/2002.05709)
 _Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton_
@@ -161,7 +174,10 @@ _Alexey Dosovitskiy, Philipp Fischer, Jost Tobias Springenberg, Martin Riedmille
 ### [arXiv 2018] Representation learning with contrastive predictive coding [[pdf]](https://arxiv.org/abs/1807.03748)
 _Aaron van den Oord, Yazhe Li, and Oriol Vinyals_
 
-## Others
+[[back to top]](#contents)
+---
+
+## Others<a name="others"></a>
 
 ### Deep Meta Metric Learning [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Deep_Meta_Metric_Learning_ICCV_2019_paper.pdf)
 _Guangyi Chen, Tianren Zhang, Jiwen Lu, Jie Zhou_
@@ -183,3 +199,6 @@ _Hongbin Pei, Bingzhe Wei, Kevin Chen-Chuan Chang, Yu Lei, Bo Yang_
 - Message-passing neural networks (MPNNs) have been successfully applied to representation learning on graphs in a variety of real-world applications. However, two fundamental weaknesses of MPNNs’ aggregators limit their ability to represent graph-structured data: **losing the structural information of nodes in neighborhoods and lacking the ability to capture long-range dependencies in disassortative graphs**. Few studies have noticed the weaknesses from different perspectives. From the observations on classical neural network and network geometry, we propose a novel geometric aggregation scheme for graph neural networks to overcome the two weaknesses. The behind basic idea is the aggregation on a graph can benefit from a continuous space underlying the graph. The proposed aggregation scheme is permutation-invariant and consists of three modules, node embedding, structural neighborhood, and bi-level aggregation.
 
 #### [ICLR 2018] Cem-rl: Combining evolutionary and gradient based methods for policy search
+
+[[back to top]](#contents)
+---
