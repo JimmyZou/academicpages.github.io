@@ -198,7 +198,15 @@ _Mingxing Tan, Quoc V. Le_
 _Hongbin Pei, Bingzhe Wei, Kevin Chen-Chuan Chang, Yu Lei, Bo Yang_
 - Message-passing neural networks (MPNNs) have been successfully applied to representation learning on graphs in a variety of real-world applications. However, two fundamental weaknesses of MPNNs’ aggregators limit their ability to represent graph-structured data: **losing the structural information of nodes in neighborhoods and lacking the ability to capture long-range dependencies in disassortative graphs**. Few studies have noticed the weaknesses from different perspectives. From the observations on classical neural network and network geometry, we propose a novel geometric aggregation scheme for graph neural networks to overcome the two weaknesses. The behind basic idea is the aggregation on a graph can benefit from a continuous space underlying the graph. The proposed aggregation scheme is permutation-invariant and consists of three modules, node embedding, structural neighborhood, and bi-level aggregation.
 
-#### [ICLR 2018] Cem-rl: Combining evolutionary and gradient based methods for policy search
+#### [NeurIPS 2019] General E(2) - Equivariant Steerable CNNs [[pdf]](https://arxiv.org/abs/1911.08251)
+_Maurice Weiler, Gabriele Cesa_
+
+#### [CVPR 2020] DualConvMesh-Net: Joint Geodesic and Euclidean Convolutions on 3D Meshes [[pdf]](https://arxiv.org/abs/2004.01002)
+_Jonas Schult, Francis Engelmann, Theodora Kontogianni, Bastian Leibe_
+
+#### [SIGGRAPH 2020] CNNs on Surfaces using Rotation-Equivariant Features [[pdf]](https://arxiv.org/abs/2006.01570)
+_Ruben Wiersma, Elmar Eisemann, Klaus Hildebrandt_
+
 
 [[back to top]](#contents)
 ---
