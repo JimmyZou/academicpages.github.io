@@ -90,21 +90,27 @@ _Enrico Calabrese, Gemma Taverni, Christopher Awai Easthope, Sophie Skriabine, F
 
 ### [NeurIPS 2016] Generating Videos with Scene Dynamics [[pdf]](https://arxiv.org/abs/1609.02612)
 _Carl Vondrick, Hamed Pirsiavash, Antonio Torralba_
-
-### [ICLR 2017] Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning [[pdf]](https://arxiv.org/abs/1605.08104)
-_William Lotter, Gabriel Kreiman, David Cox_
+- ![](/images/fig_research_diary/4.PNG)
 
 ### [ICLR 2016] Deep multi-scale video prediction beyond mean square error [[pdf]](https://arxiv.org/abs/1511.05440)
 _Michael Mathieu, Camille Couprie, Yann LeCun_
 
 ### [ICCV 2017] The Pose Knows: Video Forecasting by Generating Pose Futures [[pdf]](https://arxiv.org/abs/1705.00053)
 _Jacob Walker, Kenneth Marino, Abhinav Gupta, Martial Hebert_
+- ![](/images/fig_research_diary/5.PNG)
 
 ### [ECCV 2018] Deep Video Generation, Prediction and Completion of Human Action Sequences [[pdf]](https://arxiv.org/abs/1711.08682)
 _Haoye Cai, Chunyan Bai, Yu-Wing Tai, Chi-Keung Tang_
+- ![](/images/fig_research_diary/6.PNG)
 
 ### [NeurIPS 2018] Video Prediction via Selective Sampling [[pdf]](https://papers.nips.cc/paper/7442-video-prediction-via-selective-sampling.pdf)
 _Jingwei Xu, Bingbing Ni, Xiaokang Yang_
+
+### [ICML 2018] Stochastic Video Generation with a Learned Prior [[pdf]](https://arxiv.org/abs/1802.07687)
+_Emily Denton, Rob Fergus_
+
+### [ICLR 2018] Stochastic Variational Video Prediction [[pdf]](https://arxiv.org/abs/1710.11252)
+_Mohammad Babaeizadeh, Chelsea Finn, Dumitru Erhan, Roy H. Campbell, Sergey Levine_
 
 ### [CVPR 2019] Learning to Film from Professional Human Motion Videos [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Huang_Learning_to_Film_From_Professional_Human_Motion_Videos_CVPR_2019_paper.pdf)
 _Chong Huang, Chuan-En Lin, Zhenyu Yang, Yan Kong, Peng Chen, Xin Yang, Kwang-Ting Cheng_
