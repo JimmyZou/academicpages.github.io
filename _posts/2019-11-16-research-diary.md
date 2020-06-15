@@ -185,7 +185,7 @@ _Aaron van den Oord, Yazhe Li, and Oriol Vinyals_
 
 ## Others<a name="others"></a>
 
-### Deep Meta Metric Learning [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Deep_Meta_Metric_Learning_ICCV_2019_paper.pdf)
+### [ICML 2020] Deep Meta Metric Learning [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Deep_Meta_Metric_Learning_ICCV_2019_paper.pdf)
 _Guangyi Chen, Tianren Zhang, Jiwen Lu, Jie Zhou_
 
 ### [AAAI 2020] Hybrid Graph Neural Networks for Crowd Counting [[pdf]](https://arxiv.org/abs/2002.00092)
