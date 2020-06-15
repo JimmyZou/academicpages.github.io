@@ -101,7 +101,7 @@ _Jacob Walker, Kenneth Marino, Abhinav Gupta, Martial Hebert_
 
 ### [ECCV 2018] Deep Video Generation, Prediction and Completion of Human Action Sequences [[pdf]](https://arxiv.org/abs/1711.08682)
 _Haoye Cai, Chunyan Bai, Yu-Wing Tai, Chi-Keung Tang_
-- ![](/images/fig_research_diary/6.PNG)
+- <img src="/images/fig_research_diary/6.PNG" width="500"/>
 
 ### [NeurIPS 2018] Video Prediction via Selective Sampling [[pdf]](https://papers.nips.cc/paper/7442-video-prediction-via-selective-sampling.pdf)
 _Jingwei Xu, Bingbing Ni, Xiaokang Yang_
