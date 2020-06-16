@@ -134,6 +134,15 @@ _Yunji Kim, Seonghyeon Nam, In Cho, and Seon Joo Kim_
 - [NeurIPS 2018] Unsupervised learning of object landmarks through conditional image generation [[pdf]](https://arxiv.org/abs/1806.07823)
 - <img src="/images/fig_research_diary/9.png" width="500"/>
 
+### [ICML 2018] Learning to generate long-term future via hierarchical prediction [[pdf]](https://arxiv.org/abs/1806.04768)
+_Nevan Wichers, Ruben Villegas, Dumitru Erhan, Honglak Lee_
+
+### [ICML 2017] Learning to Generate Long-term Future via Hierarchical Prediction [[pdf]](https://arxiv.org/abs/1704.05831)
+_Ruben Villegas, Jimei Yang, Yuliang Zou, Sungryull Sohn, Xunyu Lin, Honglak Lee_
+
+### [ECCV 2018] Flow-Grounded Spatial-Temporal Video Prediction from Still Images [[pdf]](https://arxiv.org/abs/1807.09755)
+_Yijun Li, Chen Fang, Jimei Yang, Zhaowen Wang, Xin Lu, Ming-Hsuan Yang_
+
 ### [ICML 2020] Stochastic Latent Residual Video Prediction [[pdf]](https://arxiv.org/pdf/2002.09219)
 _Jean-Yves Franceschi, Edouard Delasalles, Mickaël Chen, Sylvain Lamprier, Patrick Gallinari_
 
