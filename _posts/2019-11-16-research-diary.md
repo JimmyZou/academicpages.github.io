@@ -23,6 +23,27 @@ tags:
 ### advantages
 - Event cameras have several advantages over traditional cameras: a latency in the order of microseconds, a very high dynamic range (140 dB compared to 60 dB of traditional cameras), and very low power consumption (10mW vs 1.5W of traditional cameras). Moreover, since all pixels capture light independently, such sensors do not suffer from motion blur.
 
+### [CVPR 2020] Single Image Optical Flow Estimation With an Event Camera [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Pan_Single_Image_Optical_Flow_Estimation_With_an_Event_Camera_CVPR_2020_paper.pdf)
+_Liyuan Pan, Miaomiao Liu, Richard Hartley_
+
+### [CVPR 2020] Learning to Super Resolve Intensity Images From Events [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/I._Learning_to_Super_Resolve_Intensity_Images_From_Events_CVPR_2020_paper.pdf)
+_S. Mohammad Mostafavi I., Jonghyun Choi, Kuk-Jin Yoon_
+
+### [CVPR 2020] Learning Event-Based Motion Deblurring [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Jiang_Learning_Event-Based_Motion_Deblurring_CVPR_2020_paper.pdf)
+_Zhe Jiang, Yu Zhang, Dongqing Zou, Jimmy Ren, Jiancheng Lv, Yebin Liu_
+
+### [CVPR 2020] Video to Events: Recycling Video Datasets for Event Cameras [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Gehrig_Video_to_Events_Recycling_Video_Datasets_for_Event_Cameras_CVPR_2020_paper.pdf)
+_Daniel Gehrig, Mathias Gehrig, Javier Hidalgo-Carrio, Davide Scaramuzza_
+
+### [CVPR 2020] 4D Visualization of Dynamic Events From Unconstrained Multi-View Videos [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Bansal_4D_Visualization_of_Dynamic_Events_From_Unconstrained_Multi-View_Videos_CVPR_2020_paper.pdf)
+_Aayush Bansal, Minh Vo, Yaser Sheikh, Deva Ramanan, Srinivasa Narasimhan_
+
+### [CVPR 2020] Globally Optimal Contrast Maximisation for Event-Based Motion Estimation [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Globally_Optimal_Contrast_Maximisation_for_Event-Based_Motion_Estimation_CVPR_2020_paper.pdf)
+_Daqi Liu, Alvaro Parra, Tat-Jun Chin_
+
+### [CVPR 2020] Learning Visual Motion Segmentation Using Event Surfaces [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Mitrokhin_Learning_Visual_Motion_Segmentation_Using_Event_Surfaces_CVPR_2020_paper.pdf)
+_Anton Mitrokhin, Zhiyuan Hua, Cornelia Fermuller, Yiannis Aloimonos_
+
 ### [CVPR 2020] EventSR: From Asynchronous Events to Image Reconstruction, Restoration, and Super-Resolution via End-to-End Adversarial Learning [[pdf]](https://arxiv.org/pdf/2003.07640.pdf)
 _Lin Wang, Tae-Kyun Kim, and Kuk-Jin Yoon_
 
