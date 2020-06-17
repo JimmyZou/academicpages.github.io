@@ -32,6 +32,39 @@ _Xuecheng Nie, Jianfeng Zhang, Shuicheng Yan, Jiashi Feng_
 ---
 ## 3D human pose estimation<a name="3D-human-pose-estimatio"></a>
 
+### [CVPR 2020] PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Saito_PIFuHD_Multi-Level_Pixel-Aligned_Implicit_Function_for_High-Resolution_3D_Human_Digitization_CVPR_2020_paper.pdf)
+_Shunsuke Saito, Tomas Simon, Jason Saragih, Hanbyul Joo_
+
+### [CVPR 2020] Combining Detection and Tracking for Human Pose Estimation in Videos [[pd]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Combining_Detection_and_Tracking_for_Human_Pose_Estimation_in_Videos_CVPR_2020_paper.pdf)
+_Manchen Wang, Joseph Tighe, Davide Modolo_
+
+### [CVPR 2020] Mixture Dense Regression for Object Detection and Human Pose Estimation [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Varamesh_Mixture_Dense_Regression_for_Object_Detection_and_Human_Pose_Estimation_CVPR_2020_paper.pdf)
+_Ali Varamesh, Tinne Tuytelaars_
+
+### [CVPR 2020] MetaFuse: A Pre-trained Fusion Model for Human Pose Estimation [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Xie_MetaFuse_A_Pre-trained_Fusion_Model_for_Human_Pose_Estimation_CVPR_2020_paper.pdf)
+_Rongchang Xie, Chunyu Wang, Yizhou Wang_
+
+### [CVPR 2020] Weakly-Supervised 3D Human Pose Learning via Multi-View Images in the Wild [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Iqbal_Weakly-Supervised_3D_Human_Pose_Learning_via_Multi-View_Images_in_the_CVPR_2020_paper.pdf)
+_Umar Iqbal, Pavlo Molchanov, Jan Kautz_
+
+### [CVPR 2020] HigherHRNet: Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Cheng_HigherHRNet_Scale-Aware_Representation_Learning_for_Bottom-Up_Human_Pose_Estimation_CVPR_2020_paper.pdf)
+_Bowen Cheng, Bin Xiao, Jingdong Wang, Honghui Shi, Thomas S. Huang, Lei Zhang_
+
+### [CVPR 2020] Self-Supervised 3D Human Pose Estimation via Part Guided Novel Image Synthesis [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Kundu_Self-Supervised_3D_Human_Pose_Estimation_via_Part_Guided_Novel_Image_CVPR_2020_paper.pdf)
+_Jogendra Nath Kundu, Siddharth Seth, Varun Jampani, Mugalodi Rakesh, R. Venkatesh Babu, Anirban Chakraborty_
+
+### [CVPR 2020] Cascaded Deep Monocular 3D Human Pose Estimation With Evolutionary Training Data [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Cascaded_Deep_Monocular_3D_Human_Pose_Estimation_With_Evolutionary_Training_CVPR_2020_paper.pdf)
+_Shichao Li, Lei Ke, Kevin Pratama, Yu-Wing Tai, Chi-Keung Tang, Kwang-Ting Cheng_
+
+### [CVPR 2020] Cross-View Tracking for Multi-Human 3D Pose Estimation at Over 100 FPS [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Cross-View_Tracking_for_Multi-Human_3D_Pose_Estimation_at_Over_100_CVPR_2020_paper.pdf)
+_Long Chen, Haizhou Ai, Rui Chen, Zijie Zhuang, Shuang Liu_
+
+### [CVPR 2020] Attention Mechanism Exploits Temporal Contexts: Real-Time 3D Human Pose Reconstruction [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Attention_Mechanism_Exploits_Temporal_Contexts_Real-Time_3D_Human_Pose_Reconstruction_CVPR_2020_paper.pdf)
+_Ruixu Liu, Ju Shen, He Wang, Chen Chen, Sen-ching Cheung, Vijayan Asari_
+
+### [CVPR 2020] Deep Kinematics Analysis for Monocular 3D Human Pose Estimation [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_Deep_Kinematics_Analysis_for_Monocular_3D_Human_Pose_Estimation_CVPR_2020_paper.pdf)
+_Jingwei Xu, Zhenbo Yu, Bingbing Ni, Jiancheng Yang, Xiaokang Yang, Wenjun Zhang_
+
 ### [arxiv 2019] Distill Knowledge from NRSfM for Weakly Supervised 3D Pose Learning [[pdf]](https://arxiv.org/abs/1908.06377)
 _Chaoyang Wang, Chen Kong, Simon Lucey_
 - We propose to learn a 3D pose estimator by distilling knowledge from Non-Rigid Structure from Motion (NRSfM). The goal of NRSfM is to recover 3D shape S and camera matrix M given the observed 2D projections W.
@@ -334,6 +367,22 @@ _Ankur Agarwal and Bill Triggs_
 
 ---
 ## human shape estimation<a name="3D-human-pose-estimation"></a>
+
+### [CVPR 2020] VIBE: Video Inference for Human Body Pose and Shape Estimation [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Kocabas_VIBE_Video_Inference_for_Human_Body_Pose_and_Shape_Estimation_CVPR_2020_paper.pdf)
+_Muhammed Kocabas, Nikos Athanasiou, Michael J. Black_
+
+### [CVPR 2020] Object-Occluded Human Shape and Pose Estimation From a Single Color Image [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Object-Occluded_Human_Shape_and_Pose_Estimation_From_a_Single_Color_CVPR_2020_paper.pdf)
+_Tianshu Zhang, Buzhen Huang, Yangang Wang_
+
+### [CVPR 2020] Sequential 3D Human Pose and Shape Estimation From Point Clouds [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Sequential_3D_Human_Pose_and_Shape_Estimation_From_Point_Clouds_CVPR_2020_paper.pdf)
+_Kangkan Wang, Jin Xie, Guofeng Zhang, Lei Liu, Jian Yang_
+
+### [CVPR 2020] ARCH: Animatable Reconstruction of Clothed Humans [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_ARCH_Animatable_Reconstruction_of_Clothed_Humans_CVPR_2020_paper.pdf)
+_Zeng Huang, Yuanlu Xu, Christoph Lassner, Hao Li, Tony Tung_
+
+### [CVPR 2020] Self-Supervised Human Depth Estimation From Monocular Videos [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Tan_Self-Supervised_Human_Depth_Estimation_From_Monocular_Videos_CVPR_2020_paper.pdf)
+_Feitong Tan, Hao Zhu, Zhaopeng Cui, Siyu Zhu, Marc Pollefeys, Ping Tan_
+
 ### [ICCV 2019] DenseRaC: Joint 3D Pose and Shape Estimation by Dense Render-and-Compare [[pdf]](https://arxiv.org/abs/1910.00116)
 _Yuanlu Xu, Song-Chun Zhu, Tony Tung_
 - two-step framework takes the body pixel-to-surface correspondence map (i.e., IUV map) as proxy representation and then performs estimation of parameterized human pose and shape.
@@ -495,6 +544,24 @@ _Rıza Alp Güler, George Trigeorgis, Epameinondas Antonakos, Patrick Snape, Ste
 
 ---
 ## Action recognition, motion prediction and synthesis<a name="action-motion"></a>
+
+### [CVPR 2020] Social-STGCNN: A Social Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Mohamed_Social-STGCNN_A_Social_Spatio-Temporal_Graph_Convolutional_Neural_Network_for_Human_CVPR_2020_paper.pdf)
+_Abduallah Mohamed, Kun Qian, Mohamed Elhoseiny, Christian Claudel_
+
+### [CVPR 2020] Bayesian Adversarial Human Motion Synthesis [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhao_Bayesian_Adversarial_Human_Motion_Synthesis_CVPR_2020_paper.pdf)
+_Rui Zhao, Hui Su, Qiang Ji_
+
+### [CVPR 2020] Learning Dynamic Relationships for 3D Human Motion Prediction [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Cui_Learning_Dynamic_Relationships_for_3D_Human_Motion_Prediction_CVPR_2020_paper.pdf)
+_Qiongjie Cui, Huaijiang Sun, Fei Yang_
+
+### [CVPR 2020] Context-Aware Human Motion Prediction [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Corona_Context-Aware_Human_Motion_Prediction_CVPR_2020_paper.pdf)
+_Enric Corona, Albert Pumarola, Guillem Alenya, Francesc Moreno-Noguer_
+
+### [CVPR 2020] Dynamic Multiscale Graph Neural Networks for 3D Skeleton Based Human Motion Prediction [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Dynamic_Multiscale_Graph_Neural_Networks_for_3D_Skeleton_Based_Human_CVPR_2020_paper.pdf)
+_Maosen Li, Siheng Chen, Yangheng Zhao, Ya Zhang, Yanfeng Wang, Qi Tian_
+
+### [CVPR 2020] A Stochastic Conditioning Scheme for Diverse Human Motion Prediction [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Aliakbarian_A_Stochastic_Conditioning_Scheme_for_Diverse_Human_Motion_Prediction_CVPR_2020_paper.pdf)
+_Sadegh Aliakbarian, Fatemeh Sadat Saleh, Mathieu Salzmann, Lars Petersson, Stephen Gould_
 
 ### [arxiv 2019] Learning Variations in Human Motion via Mix-and-Match Perturbation [[pdf]](https://arxiv.org/abs/1908.00733)
 _Mohammad Sadegh Aliakbarian, Fatemeh Sadat Saleh, Mathieu Salzmann, Lars Petersson, Stephen Gould, Amirhossein Habibian_
