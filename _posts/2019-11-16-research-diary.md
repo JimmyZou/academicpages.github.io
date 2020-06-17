@@ -169,6 +169,24 @@ _Yijun Li, Chen Fang, Jimei Yang, Zhaowen Wang, Xin Lu, Ming-Hsuan Yang_
 ### [ICML 2020] Stochastic Latent Residual Video Prediction [[pdf]](https://arxiv.org/pdf/2002.09219)
 _Jean-Yves Franceschi, Edouard Delasalles, Mickaël Chen, Sylvain Lamprier, Patrick Gallinari_
 
+### [CVPR 2020] Exploring Spatial-Temporal Multi-Frequency Analysis for High-Fidelity and Temporal-Consistency Video Prediction [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Jin_Exploring_Spatial-Temporal_Multi-Frequency_Analysis_for_High-Fidelity_and_Temporal-Consistency_Video_Prediction_CVPR_2020_paper.pdf)
+_Beibei Jin, Yu Hu, Qiankun Tang, Jingyu Niu, Zhiping Shi, Yinhe Han, Xiaowei Li_
+
+### [CVPR 2020] G3AN: Disentangling Appearance and Motion for Video Generation [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_G3AN_Disentangling_Appearance_and_Motion_for_Video_Generation_CVPR_2020_paper.pdf)
+_Yaohui Wang, Piotr Bilinski, Francois Bremond, Antitza Dantcheva_
+
+### [CVPR 2020] Future Video Synthesis With Object Motion Prediction [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_Future_Video_Synthesis_With_Object_Motion_Prediction_CVPR_2020_paper.pdf)
+_Yue Wu, Rongrong Gao, Jaesik Park, Qifeng Chen_
+
+### [CVPR 2020] Non-Adversarial Video Synthesis With Learned Priors [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Aich_Non-Adversarial_Video_Synthesis_With_Learned_Priors_CVPR_2020_paper.pdf)
+_Abhishek Aich, Akash Gupta, Rameswar Panda, Rakib Hyder, M. Salman Asif, Amit K. Roy-Chowdhury_
+
+### [CVPR 2020] Probabilistic Video Prediction From Noisy Data With a Posterior Confidence [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Probabilistic_Video_Prediction_From_Noisy_Data_With_a_Posterior_Confidence_CVPR_2020_paper.pdf)
+_Yunbo Wang, Jiajun Wu, Mingsheng Long, Joshua B. Tenenbaum_
+
+### [CVPR 2020] Disentangling Physical Dynamics From Unknown Factors for Unsupervised Video Prediction [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Le_Guen_Disentangling_Physical_Dynamics_From_Unknown_Factors_for_Unsupervised_Video_Prediction_CVPR_2020_paper.pdf)
+_Vincent Le Guen, Nicolas Thome_
+
 [[back to top]](#contents)
 ---
 
