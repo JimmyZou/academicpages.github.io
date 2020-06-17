@@ -11,8 +11,7 @@ tags:
 ---
 
 ## Contents<a name="contents"></a>
- - [2D human pose estimation](#2D-human-pose-estimation)
- - [3D human pose estimation](#3D-human-pose-estimation)
+ - [3D human pose estimation](#human-pose-estimation)
  - [human shape estimation](#human-shape-estimation)
  - [action recognition, motion prediction and synthesis](#action-motion)
  - [shape from polarization](#shape-from-polarization)
@@ -22,15 +21,8 @@ tags:
 ## Related blog
 ### [https://github.com/wangzheallen/awesome-human-pose-estimation](https://github.com/wangzheallen/awesome-human-pose-estimation)
 
-## 2D human pose estimation<a name="2D-human-pose-estimation"></a>
-
-### [ICCV 2019] Single-Stage Multi-Person Pose Machines [[pdf]](https://arxiv.org/abs/1908.09220)
-_Xuecheng Nie, Jianfeng Zhang, Shuicheng Yan, Jiashi Feng_
-
-[[back to top]](#contents)
-
 ---
-## 3D human pose estimation<a name="3D-human-pose-estimatio"></a>
+## human pose estimation<a name="human-pose-estimatio"></a>
 
 ### [CVPR 2020] PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Saito_PIFuHD_Multi-Level_Pixel-Aligned_Implicit_Function_for_High-Resolution_3D_Human_Digitization_CVPR_2020_paper.pdf)
 _Shunsuke Saito, Tomas Simon, Jason Saragih, Hanbyul Joo_
@@ -81,6 +73,9 @@ _Zhe Wang, Liyan Chen, Shaurya Rathore, Daeyun Shin, Charless Fowlkes_
 
 ### [arxiv 2019] Semantic Estimation of 3D Body Shape and Pose using Minimal Cameras [[pdf]](https://arxiv.org/abs/1908.03030) 
 _Andrew Gilbert, Matthew Trumble, Adrian Hilton, John Collomosse_
+
+### [ICCV 2019] Single-Stage Multi-Person Pose Machines [[pdf]](https://arxiv.org/abs/1908.09220)
+_Xuecheng Nie, Jianfeng Zhang, Shuicheng Yan, Jiashi Feng_
 
 ### [ICCV 2019] Exploiting Spatial-temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks [[pdf]](https://cse.buffalo.edu/~jsyuan/papers/2019/Exploiting_Spatial-temporal_Relationships_for_3D_Pose_Estimation_via_Graph_Convolutional_Networks.pdf)
 _Yujun Cai, Liuhao Ge, Jun Liu, Jianfei Cai, Tat-Jen Cham, Junsong Yuan, Nadia Magnenat Thalmann_
