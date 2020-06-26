@@ -187,6 +187,27 @@ _Yunbo Wang, Jiajun Wu, Mingsheng Long, Joshua B. Tenenbaum_
 ### [CVPR 2020] Disentangling Physical Dynamics From Unknown Factors for Unsupervised Video Prediction [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Le_Guen_Disentangling_Physical_Dynamics_From_Unknown_Factors_for_Unsupervised_Video_Prediction_CVPR_2020_paper.pdf)
 _Vincent Le Guen, Nicolas Thome_
 
+## pose transfer
+
+### [ICCV 2019] Everybody Dance Now [[pdf]](https://arxiv.org/abs/1808.07371)
+_Caroline Chan, Shiry Ginosar, Tinghui Zhou, Alexei A. Efros_
+
+### [CVPR 2018] Synthesizing Images of Humans in Unseen Poses [[pdf]](https://arxiv.org/abs/1804.07739)
+_Guha Balakrishnan, Amy Zhao, Adrian V. Dalca, Fredo Durand, John Guttag_
+
+### [CVPR 2019] Animating Arbitrary Objects via Deep Motion Transfer [[pdf]](https://arxiv.org/abs/1812.08861)
+_Aliaksandr Siarohin, Stéphane Lathuilière, Sergey Tulyakov, Elisa Ricci, Nicu Sebe_
+
+### [NeurIPS 2019] Few-shot Video-to-Video Synthesis [[pdf]](https://papers.nips.cc/paper/8746-few-shot-video-to-video-synthesis.pdf)
+_Ting-Chun Wang, Ming-Yu Liu, Andrew Tao, Guilin Liu, Jan Kautz, Bryan Catanzaro_
+
+### [CVPR 2019] Dense Intrinsic Appearance Flow for Human Pose Transfer [[pdf]](https://arxiv.org/abs/1903.11326)
+_Yining Li, Chen Huang, Chen Change Loy_
+
+### [ICCV 2019] Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.pdf)
+_Wen Liu, Zhixin Piao, Jie Min, Wenhan Luo, Lin Ma, Shenghua Gao_
+
+
 [[back to top]](#contents)
 ---
 
