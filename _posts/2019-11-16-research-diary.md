@@ -207,6 +207,9 @@ _Yining Li, Chen Huang, Chen Change Loy_
 ### [ICCV 2019] Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.pdf)
 _Wen Liu, Zhixin Piao, Jie Min, Wenhan Luo, Lin Ma, Shenghua Gao_
 
+### [CVPR 2020] Neural Pose Transfer by Spatially Adaptive Instance Normalization [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Neural_Pose_Transfer_by_Spatially_Adaptive_Instance_Normalization_CVPR_2020_paper.pdf)
+_Jiashun Wang, Chao Wen, Yanwei Fu, Haitao Lin, Tianyun Zou, Xiangyang Xue, Yinda Zhang_
+
 
 [[back to top]](#contents)
 ---
