@@ -233,6 +233,12 @@ _Aliaksandr Siarohin, Enver Sangineto, Stphane Lathuilire, and Nicu Sebe_
 ### [CVPR 2018] Synthesizing images of humans in unseen poses [[pdf]]()
 _Guha Balakrishnan, Amy Zhao, Adrian V. Dalca, Frdo Durand, and John Guttag_
 
+### [NeurIPS 2018]  Soft-gated warping-gan for pose-guided person image synthesis [[pdf]]()
+_Haoye Dong, Xiaodan Liang, Ke Gong, Hanjiang Lai, Jia Zhu, and Jian Yin_
+
+### [NeurIPS 2015] Spatial transformer networks [[pdf]]()
+_Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu_
+
 [[back to top]](#contents)
 ---
 
