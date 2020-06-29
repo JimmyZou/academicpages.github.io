@@ -212,6 +212,23 @@ _Yining Li, Chen Huang, Chen Change Loy_
 _Wen Liu, Zhixin Piao, Jie Min, Wenhan Luo, Lin Ma, Shenghua Gao_
 - <img src="/images/fig_research_diary/16.png" width="800"/>
 
+### [CVPR 2018] Unsupervised person image synthesis in arbitrary poses [[pdf]]()
+_Albert Pumarola, Antonio Agudo, Alberto Sanfeliu, Francesc Moreno-Noguer_
+
+### [ECCV 2018] Dense pose transfer [[pdf]]()
+_Natalia Neverova, Rıza Alp G¨uler, and Iasonas Kokkinos_
+
+### [NeurIPS 2017] Pose guided person image generation [[pdf]]()
+_Liqian Ma, Xu Jia, Qianru Sun, Bernt Schiele, Tinne Tuytelaars and Luc Van Gool_
+
+### [CVPR 2018] A variational u-net for conditional appearance and shape generation [[pdf]]()
+_Patrick Esser, Ekaterina Sutter, and Bj¨orn Ommer_
+
+### [CVPR 2018] Deformable gans for pose-based human image generation [[pdf]]()
+_Aliaksandr Siarohin, Enver Sangineto, Stphane Lathuilire, and Nicu Sebe_
+
+### [CVPR 2018] Synthesizing images of humans in unseen poses [[pdf]]()
+_Guha Balakrishnan, Amy Zhao, Adrian V. Dalca, Frdo Durand, and John Guttag_
 
 [[back to top]](#contents)
 ---
