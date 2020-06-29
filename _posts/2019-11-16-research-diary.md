@@ -149,12 +149,6 @@ _Yufei Ye, Maneesh Singh, Abhinav Gupta, Shubham Tulsiani_
 ### [NeurIPS 2019] High Fidelity Video Prediction with Large Stochastic Recurrent Neural Networks [[pdf]](https://arxiv.org/abs/1911.01655)
 _Ruben Villegas, Arkanath Pathak, Harini Kannan, Dumitru Erhan, Quoc V. Le, Honglak Lee_
 
-### [NeurIPS 2019] Unsupervised Keypoint Learning for Guiding Class-Conditional Video Prediction [[pdf]](https://papers.nips.cc/paper/8637-unsupervised-keypoint-learning-for-guiding-class-conditional-video-prediction.pdf)
-_Yunji Kim, Seonghyeon Nam, In Cho, and Seon Joo Kim_
-- <img src="/images/fig_research_diary/8.PNG" width="700"/>
-- [NeurIPS 2018] Unsupervised learning of object landmarks through conditional image generation [[pdf]](https://arxiv.org/abs/1806.07823)
-- <img src="/images/fig_research_diary/9.png" width="500"/>
-
 ### [ICML 2018] Hierarchical Long-term Video Prediction without Supervision [[pdf]](https://arxiv.org/abs/1806.04768)
 _Nevan Wichers, Ruben Villegas, Dumitru Erhan, Honglak Lee_
 - visual analogy network (VAN), Deep visual analogy-making, NeurIPS 2015
@@ -188,6 +182,12 @@ _Yunbo Wang, Jiajun Wu, Mingsheng Long, Joshua B. Tenenbaum_
 _Vincent Le Guen, Nicolas Thome_
 
 ## pose transfer
+
+### [NeurIPS 2019] Unsupervised Keypoint Learning for Guiding Class-Conditional Video Prediction [[pdf]](https://papers.nips.cc/paper/8637-unsupervised-keypoint-learning-for-guiding-class-conditional-video-prediction.pdf)
+_Yunji Kim, Seonghyeon Nam, In Cho, and Seon Joo Kim_
+- <img src="/images/fig_research_diary/8.PNG" width="700"/>
+- [NeurIPS 2018] Unsupervised learning of object landmarks through conditional image generation [[pdf]](https://arxiv.org/abs/1806.07823)
+- <img src="/images/fig_research_diary/9.png" width="500"/>
 
 ### [ICCV 2019] Everybody Dance Now [[pdf]](https://arxiv.org/abs/1808.07371)
 _Caroline Chan, Shiry Ginosar, Tinghui Zhou, Alexei A. Efros_
