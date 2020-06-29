@@ -211,6 +211,8 @@ _Yining Li, Chen Huang, Chen Change Loy_
 ### [ICCV 2019] Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.pdf)
 _Wen Liu, Zhixin Piao, Jie Min, Wenhan Luo, Lin Ma, Shenghua Gao_
 - <img src="/images/fig_research_diary/16.PNG" width="800"/>
+- The first body mesh recovery module will estimate the 3D mesh of $I_s$ and $I_r$, and render their correspondence maps, $C_s$ and $C_t$.
+- We calculate the transformation flow $T \in \mathbb{R}^{H×W×2}$ by matching the correspondences between source correspondence map with its mesh face coordinates $f_s$ and reference correspondence map. Here $H×W$ is the size of image. Consequently, a front image I_{ft} and a masked background image $I_{bg}$ are derived from masking the source image $I_s$ based on $C_s$. Finally, we warp the source image $I_s$ by the transformation flow $T$, and obtain the warped image $I_{syn}$.
 
 ### [CVPR 2018] Unsupervised person image synthesis in arbitrary poses [[pdf]]()
 _Albert Pumarola, Antonio Agudo, Alberto Sanfeliu, Francesc Moreno-Noguer_
