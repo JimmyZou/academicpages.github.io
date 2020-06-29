@@ -191,24 +191,26 @@ _Yunji Kim, Seonghyeon Nam, In Cho, and Seon Joo Kim_
 
 ### [ICCV 2019] Everybody Dance Now [[pdf]](https://arxiv.org/abs/1808.07371)
 _Caroline Chan, Shiry Ginosar, Tinghui Zhou, Alexei A. Efros_
+- <img src="/images/fig_research_diary/12.png" width="800"/>
 
 ### [CVPR 2018] Synthesizing Images of Humans in Unseen Poses [[pdf]](https://arxiv.org/abs/1804.07739)
 _Guha Balakrishnan, Amy Zhao, Adrian V. Dalca, Fredo Durand, John Guttag_
+- <img src="/images/fig_research_diary/13.png" width="800"/>
 
 ### [CVPR 2019] Animating Arbitrary Objects via Deep Motion Transfer [[pdf]](https://arxiv.org/abs/1812.08861)
 _Aliaksandr Siarohin, Stéphane Lathuilière, Sergey Tulyakov, Elisa Ricci, Nicu Sebe_
+- <img src="/images/fig_research_diary/14.png" width="800"/>
 
 ### [NeurIPS 2019] Few-shot Video-to-Video Synthesis [[pdf]](https://papers.nips.cc/paper/8746-few-shot-video-to-video-synthesis.pdf)
 _Ting-Chun Wang, Ming-Yu Liu, Andrew Tao, Guilin Liu, Jan Kautz, Bryan Catanzaro_
 
 ### [CVPR 2019] Dense Intrinsic Appearance Flow for Human Pose Transfer [[pdf]](https://arxiv.org/abs/1903.11326)
 _Yining Li, Chen Huang, Chen Change Loy_
+- <img src="/images/fig_research_diary/15.png" width="800"/>
 
 ### [ICCV 2019] Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Liquid_Warping_GAN_A_Unified_Framework_for_Human_Motion_Imitation_ICCV_2019_paper.pdf)
 _Wen Liu, Zhixin Piao, Jie Min, Wenhan Luo, Lin Ma, Shenghua Gao_
-
-### [CVPR 2020] Neural Pose Transfer by Spatially Adaptive Instance Normalization [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Neural_Pose_Transfer_by_Spatially_Adaptive_Instance_Normalization_CVPR_2020_paper.pdf)
-_Jiashun Wang, Chao Wen, Yanwei Fu, Haitao Lin, Tianyun Zou, Xiangyang Xue, Yinda Zhang_
+- <img src="/images/fig_research_diary/16.png" width="800"/>
 
 
 [[back to top]](#contents)
