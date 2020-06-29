@@ -213,6 +213,7 @@ _Wen Liu, Zhixin Piao, Jie Min, Wenhan Luo, Lin Ma, Shenghua Gao_
 - <img src="/images/fig_research_diary/16.PNG" width="800"/>
 - The first body mesh recovery module will estimate the 3D mesh of $$I_s$$ and $$I_r$$, and render their correspondence maps, $$C_s$$ and $$C_t$$.
 - We calculate the transformation flow $$T \in \mathbb{R}^{H×W×2}$$ by matching the correspondences between source correspondence map with its mesh face coordinates $$f_s$$ and reference correspondence map. Here $$H×W$$ is the size of image. Consequently, a front image $$I_{ft}$$ and a masked background image $$I_{bg}$$ are derived from masking the source image $$I_s$$ based on $$C_s$$. Finally, we warp the source image $$I_s$$ by the transformation flow $$T$$, and obtain the warped image $$I_{syn}$$.
+- Correspondences: Each pixel of an IUV image refers to a body part index $$I$$, and $$(U, V)$$ coordinates that map to a unique point on the body model surface.
 
 ### [CVPR 2018] Unsupervised person image synthesis in arbitrary poses [[pdf]]()
 _Albert Pumarola, Antonio Agudo, Alberto Sanfeliu, Francesc Moreno-Noguer_
