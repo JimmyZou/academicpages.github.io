@@ -266,6 +266,11 @@ _Aaron van den Oord, Yazhe Li, and Oriol Vinyals_
 
 ## Others<a name="others"></a>
 
+### [CVPR 2018] Neural 3D Mesh Renderer [[pdf]](https://arxiv.org/abs/1711.07566)
+_Hiroharu Kato, Yoshitaka Ushiku, Tatsuya Harada_
+- Therefore, in this work, we propose an approximate gradient for rasterization that enables the integration of rendering into neural networks.
+- <img src="/images/fig_research_diary/11.PNG" width="500"/>
+
 ### [ICCV 2019] Deep Meta Metric Learning [[pdf]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Deep_Meta_Metric_Learning_ICCV_2019_paper.pdf)
 _Guangyi Chen, Tianren Zhang, Jiwen Lu, Jie Zhou_
 
