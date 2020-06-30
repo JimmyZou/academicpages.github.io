@@ -8,7 +8,7 @@ tags:
 
 ## Contents<a name="contents"></a>
  - [Dynamic vision system (event-based vision)](#dynamic-vision-system)
- - [Video prediction/generation/completion](#video-prediction)
+ - [Video prediction/generation/completion and Pose transfer](#video-prediction)
  - [Unsupervised learning / representation learning](#representation-learning)
  - [Others](#others)
 
