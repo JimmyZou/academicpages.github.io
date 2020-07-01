@@ -217,27 +217,30 @@ _Wen Liu, Zhixin Piao, Jie Min, Wenhan Luo, Lin Ma, Shenghua Gao_
 
 ### [CVPR 2018] Unsupervised person image synthesis in arbitrary poses [[pdf]](https://arxiv.org/abs/1809.10280)
 _Albert Pumarola, Antonio Agudo, Alberto Sanfeliu, Francesc Moreno-Noguer_
+- <img src="/images/fig_research_diary/17.PNG" width="800"/>
 
 ### [ECCV 2018] Dense pose transfer [[pdf]](https://arxiv.org/abs/1809.01995)
 _Natalia Neverova, Rıza Alp G¨uler, and Iasonas Kokkinos_
+- <img src="/images/fig_research_diary/18.PNG" width="600"/>
 
 ### [NeurIPS 2017] Pose guided person image generation [[pdf]](https://arxiv.org/abs/1705.09368)
 _Liqian Ma, Xu Jia, Qianru Sun, Bernt Schiele, Tinne Tuytelaars and Luc Van Gool_
+- <img src="/images/fig_research_diary/19.PNG" width="600"/>
 
 ### [CVPR 2018] A variational u-net for conditional appearance and shape generation [[pdf]](https://arxiv.org/abs/1804.04694)
 _Patrick Esser, Ekaterina Sutter, and Bj¨orn Ommer_
+- <img src="/images/fig_research_diary/20.PNG" width="400"/>
 
 ### [CVPR 2018] Deformable gans for pose-based human image generation [[pdf]](https://arxiv.org/abs/1801.00055)
 _Aliaksandr Siarohin, Enver Sangineto, Stphane Lathuilire, and Nicu Sebe_
-
-### [CVPR 2018] Synthesizing images of humans in unseen poses [[pdf]](https://arxiv.org/abs/1804.07739)
-_Guha Balakrishnan, Amy Zhao, Adrian V. Dalca, Frdo Durand, and John Guttag_
+- <img src="/images/fig_research_diary/21.PNG" width="800"/>
 
 ### [NeurIPS 2018]  Soft-gated warping-gan for pose-guided person image synthesis [[pdf]](https://arxiv.org/abs/1810.11610)
 _Haoye Dong, Xiaodan Liang, Ke Gong, Hanjiang Lai, Jia Zhu, and Jian Yin_
 
 ### [NeurIPS 2015] Spatial transformer networks [[pdf]](https://arxiv.org/abs/1506.02025)
 _Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu_
+- The combination of the localisation network, grid generator, and sampler form a spatial transformer.
 
 [[back to top]](#contents)
 ---
