@@ -19,11 +19,11 @@ Our PHSPDataset provides:
 - each subject to do 3 different groups of actions (18 different actions in total) for 4 times plus one free-style group. (around 22K frames of each subject with about 13 fps)
 - annotations of **shape and pose** and video clips of 34 types of **actions**
 
-<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_1.PNG" width="600"/></center>
-<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_2.PNG" width="600"/></center>
-<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_3.PNG" width="600"/></center>
-<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_4.PNG" width="600"/></center>
-<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_5.PNG" width="600"/></center>
+<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_1.png" width="600"/></center>
+<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_2.png" width="600"/></center>
+<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_3.png" width="600"/></center>
+<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_4.png" width="600"/></center>
+<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_5.png" width="600"/></center>
 *Demo figures show the annotated shape and 3D pose rendered on four types of images (one polarization image and three-view color images).*
 
 <center><img src="/images/pubilication_image_videos/demo_annotation_shape.gif" width="400"/></center>
