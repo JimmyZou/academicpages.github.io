@@ -14,17 +14,17 @@ citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun
 - where to obtain [[data (OneDrive)]]()
 
 If you are interested in using PHSPDataset, please cite the following two papers.
-@article{zou2020polarization,
-  title={Polarization Human Shape and Pose Dataset},
-  author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},
-  journal={arXiv preprint arXiv:2004.14899},
-  year={2020}
+@article{zou2020polarization,  
+  title={Polarization Human Shape and Pose Dataset},  
+  author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},  
+  journal={arXiv preprint arXiv:2004.14899},  
+  year={2020}  
 }
-@inproceedings{zou2020detailed,
-  title={Detailed Human Shape and Pose Estimation from a Single Polarization Image},
-  author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},
-  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
-  year={2020}
+@inproceedings{zou2020detailed,  
+  title={Detailed Human Shape and Pose Estimation from a Single Polarization Image},  
+  author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},  
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},  
+  year={2020}  
 }
 
 ### Our PHSPDataset provides:
