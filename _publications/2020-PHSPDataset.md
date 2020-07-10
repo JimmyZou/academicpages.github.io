@@ -64,6 +64,7 @@ If you are interested in using PHSPDataset, please cite the following two papers
 | 1 |  warming-up, walking, running, jumping, drinking, lifting dumbbells |
 | 2 |  sitting, eating, driving, reading, phoning, waiting|
 | 3 |  presenting, boxing, posing, throwing, greeting, hugging, shaking hands|
+
 *The table displays the actions in each group. Subjects are required to do each group of actions for four times, but the order of the actions each time is random.*
 
 
@@ -83,10 +84,13 @@ If you are interested in using PHSPDataset, please cite the following two papers
 |11 | male | 24303 | 23795 | 508 (2.1\%)|
 |12 | male | 24355 | 23603 | 752 (3.1\%)|
 |total | - | 287874 | 282112 | 5762 (2.0\%)|
+
 *The table shows the detail number of frames for each subject and also the number of frames that have SMPL shape and 3D joint annotations.*
 
+
+
 | Coarse-grained Label | Fine-grained Label | Number of Motions | Total Number |
-|:-------:|:-----:|:-----:|:-----:|
+|-------|-----|----|-----|
 | Warm up | Warm\_up\_wristankle<br>Warm\_up\_pectoral<br>Warm\_up\_eblowback<br>Warm\_up\_bodylean\_right\_arm<br>Warm\_up\_bodylean\_left\_arm<br>Warm\_up\_bow\_right<br>Warm\_up\_bow\_left | 25<br>45<br>39<br>25<br>24<br>22<br>21 | 201 |
 
 
