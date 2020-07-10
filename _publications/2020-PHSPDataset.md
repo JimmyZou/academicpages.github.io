@@ -19,7 +19,11 @@ Our home-grown dataset of various human shapes and poses.
 
 ---
 ### Details of PHSPDataset
-#### Data Acquisition System
+#### Data Acquisition System (four cameras)
+- one polarization camera (resolution 1224 x 1024, 4 channel).
+- three  Kinects  V2  in  three  different  views  (each  Kinect  v2  has  a  ToF depth  and  a color camera, resolution depth 512 x 424, color 1920 x 1080).
+- each frame consists of one polarization image, three-view color images and three-view depth images.
+- around 13 frame-per-second
 <center><img src="/images/pubilication_image_videos/camera_config.png" width="400"/><img src="/images/pubilication_image_videos/synchronization.png" width="600"/></center>
 *Left figure: our camera configuration. Right Figure: the synchroniztion test result of multi-view camera system.*
 
