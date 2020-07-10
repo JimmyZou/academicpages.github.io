@@ -60,7 +60,7 @@ If you are interested in using PHSPDataset, please cite the following two papers
 - annotations of **shape and pose** and video clips of 34 types of **actions**
 
 | group #        | actions           |
-|------- |-------------|
+|-------|-------------|
 | 1 |  warming-up, walking, running, jumping, drinking, lifting dumbbells |
 | 2 |  sitting, eating, driving, reading, phoning, waiting|
 | 3 |  presenting, boxing, posing, throwing, greeting, hugging, shaking hands|
@@ -70,7 +70,7 @@ If you are interested in using PHSPDataset, please cite the following two papers
 
 
 | subject # | gender | # of original frames | # of annotated frames | # of discarded frames |
-|-------|-----|-----|----|-----|
+|:-------:|:-----:|:-----:|:----:|:-----:|
 |1 | female | 22561 | 22241 | 320 (1.4\%)|
 |2 | male | 24325 | 24186 | 139 (0.5\%)|
 |3 | male | 23918 | 23470 | 448 (1.8\%)|
@@ -90,7 +90,7 @@ If you are interested in using PHSPDataset, please cite the following two papers
 
 
 | Coarse-grained Label | Fine-grained Label | Number of Motions | Total Number |
-|-------|-----|----|-----|
+|:-------:|:-----:|:----:|:-----:|
 | Warm up | Warm\_up\_wristankle<br>Warm\_up\_pectoral<br>Warm\_up\_eblowback<br>Warm\_up\_bodylean\_right\_arm<br>Warm\_up\_bodylean\_left\_arm<br>Warm\_up\_bow\_right<br>Warm\_up\_bow\_left | 25<br>45<br>39<br>25<br>24<br>22<br>21 | 201 |
 
 
