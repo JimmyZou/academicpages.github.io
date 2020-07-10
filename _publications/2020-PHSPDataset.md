@@ -7,13 +7,14 @@ venue: 'arXiv 2020'
 citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun Gong and Li Cheng. arXiv 2020."
 ---
 ---
-### A quick view of our PHSPDataset
+## A quick view of our PHSPDataset
+---
 - report [[pdf]](https://arxiv.org/abs/2004.14899)
 - how to use [[code]](https://github.com/JimmyZou/PolarHumanPoseShapeDataset) 
 - where to obtain [[data (GoogleDrive)]]()
 - where to obtain [[data (OneDrive)]]()
 
-#### Our PHSPDataset provides:
+### Our PHSPDataset provides:
 - one view polarization image
 - three-view Kinects v2 (three-view ToF depth and color images)
 - 12 subjects (9 males and 3 females)
@@ -31,8 +32,9 @@ citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun
 *A demo video shows the annotated shape rendered on four types of images.*
 
 ---
-### Details of PHSPDataset
-#### Data Acquisition System (four cameras)
+## Details of PHSPDataset
+---
+### Data Acquisition System (four cameras)
 - one polarization camera (resolution 1224 x 1024, 4 channel).
 - three  Kinects  V2  in  three  different  views  (each  Kinect  v2  has  a  ToF depth  and  a color camera, resolution depth 512 x 424, color 1920 x 1080).
 - each frame consists of one polarization image, three-view color images and three-view depth images.
