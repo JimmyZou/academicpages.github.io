@@ -60,14 +60,16 @@ If you are interested in using PHSPDataset, please cite the following two papers
 - annotations of **shape and pose** and video clips of 34 types of **actions**
 
 | group #        | actions           |
-| :-------: |:-------------:|
+|------- |-------------|
 | 1 |  warming-up, walking, running, jumping, drinking, lifting dumbbells |
 | 2 |  sitting, eating, driving, reading, phoning, waiting|
 | 3 |  presenting, boxing, posing, throwing, greeting, hugging, shaking hands|
 *The table displays the actions in each group. Subjects are required to do each group of actions for four times, but the order of the actions each time is random.*
 
+
+
 | subject # | gender | # of original frames | # of annotated frames | # of discarded frames |
-|:-------:|:-----:|:-----:|:-----:|:-----:|
+|-------|-----|-----|----|-----|
 |1 | female | 22561 | 22241 | 320 (1.4\%)|
 |2 | male | 24325 | 24186 | 139 (0.5\%)|
 |3 | male | 23918 | 23470 | 448 (1.8\%)|
