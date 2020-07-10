@@ -6,13 +6,14 @@ date: 2020-04-15
 venue: 'arXiv 2020'
 citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun Gong and Li Cheng. arXiv 2020."
 ---
+---
 ### A quick view of our PHSPDataset
 - report [[pdf]](https://arxiv.org/abs/2004.14899)
 - how to use [[code]](https://github.com/JimmyZou/PolarHumanPoseShapeDataset) 
 - where to obtain [[data (GoogleDrive)]]()
 - where to obtain [[data (OneDrive)]]()
 
-Our PHSPDataset provides:
+#### Our PHSPDataset provides:
 - one view polarization image
 - three-view Kinects v2 (three-view ToF depth and color images)
 - 12 subjects (9 males and 3 females)
