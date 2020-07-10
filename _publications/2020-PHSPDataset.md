@@ -6,4 +6,4 @@ date: 2020-04-15
 venue: 'arXiv 2020'
 citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun Gong and Li Cheng. arXiv 2020."
 ---
-<img src="/images/pubilication_image_videos/demo_annotation_shape.gif" width="400"/>
+<center><img src="/images/pubilication_image_videos/demo_annotation_shape.gif" width="400"/></center>
