@@ -8,7 +8,6 @@ citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun
 ---
 ---
 ## A quick view of our PHSPDataset
----
 - report [[pdf]](https://arxiv.org/abs/2004.14899)
 - how to use [[code]](https://github.com/JimmyZou/PolarHumanPoseShapeDataset) 
 - where to obtain [[data (GoogleDrive)]]()
@@ -47,7 +46,6 @@ If you are interested in using PHSPDataset, please cite the following two papers
 
 ---
 ## Details of PHSPDataset
----
 ### Data Acquisition System (four cameras)
 - one polarization camera (resolution 1224 x 1024, 4 channel).
 - three  Kinects  V2  in  three  different  views  (each  Kinect  v2  has  a  ToF depth  and  a color camera, resolution depth 512 x 424, color 1920 x 1080).
