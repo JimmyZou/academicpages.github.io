@@ -6,13 +6,28 @@ date: 2020-04-15
 venue: 'arXiv 2020'
 citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun Gong and Li Cheng. arXiv 2020."
 ---
-- [[pdf]](https://arxiv.org/abs/2004.14899)
-- [[code]](https://github.com/JimmyZou/PolarHumanPoseShapeDataset) 
-- [[data (GoogleDrive)]]()
-- [[data (OneDrive)]]()
+### A quick view of our PHSPDataset
+- report [[pdf]](https://arxiv.org/abs/2004.14899)
+- how to use [[code]](https://github.com/JimmyZou/PolarHumanPoseShapeDataset) 
+- where to obtain [[data (GoogleDrive)]]()
+- where to obtain [[data (OneDrive)]]()
+
+Our PHSPDataset provides:
+- one view polarization image
+- three-view Kinects v2 (three-view ToF depth and color images)
+- 12 subjects (9 males and 3 females)
+- each subject to do 3 different groups of actions (18 different actions in total) for 4 times plus one free-style group. (around 22K frames of each subject with about 13 fps)
+- annotations of **shape and pose** and video clips of 34 types of **actions**
+
+<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_1.PNG" width="600"/></center>
+<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_2.PNG" width="600"/></center>
+<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_3.PNG" width="600"/></center>
+<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_4.PNG" width="600"/></center>
+<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_5.PNG" width="600"/></center>
+*Demo figures show the annotated shape and 3D pose rendered on four types of images (one polarization image and three-view color images).*
 
 <center><img src="/images/pubilication_image_videos/demo_annotation_shape.gif" width="400"/></center>
-*A demo video shows the annotated shape rendered on four types of images (one polarization image and three-view color images).*
+*A demo video shows the annotated shape rendered on four types of images.*
 
 ---
 ### Details of PHSPDataset
@@ -21,6 +36,8 @@ citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun
 - three  Kinects  V2  in  three  different  views  (each  Kinect  v2  has  a  ToF depth  and  a color camera, resolution depth 512 x 424, color 1920 x 1080).
 - each frame consists of one polarization image, three-view color images and three-view depth images.
 - around 13 frame-per-second
-<center><img src="/images/pubilication_image_videos/camera_config.png" width="200"/><img src="/images/pubilication_image_videos/synchronization.png" width="300"/></center>
+<center><img src="/images/pubilication_image_videos/camera_config.png" width="300"/><img src="/images/pubilication_image_videos/synchronization.png" width="450"/></center>
 *Left figure: our camera configuration. Right Figure: the synchroniztion test result of multi-view camera system.*
+
+
 
