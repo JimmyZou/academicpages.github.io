@@ -42,7 +42,7 @@ If you are interested in using PHSPDataset, please cite the following two papers
 *Demo figures show the annotated shape and 3D pose rendered on four types of images (one polarization image and three-view color images).*
 
 <center><img src="/images/pubilication_image_videos/demo_annotation_shape.gif" width="400"/></center>
-*A demo video shows the annotated shape rendered on four types of images.*
+<center>*A demo video shows the annotated shape rendered on four types of images.*</center>
 
 ---
 ## Details of PHSPDataset
@@ -52,7 +52,7 @@ If you are interested in using PHSPDataset, please cite the following two papers
 - each frame consists of one polarization image, three-view color images and three-view depth images.
 - around 13 fps
 <center><img src="/images/pubilication_image_videos/camera_config.png" width="300"/><img src="/images/pubilication_image_videos/synchronization.png" width="450"/></center>
-*Left figure: our camera configuration. Right Figure: the synchroniztion test result of multi-view camera system.*
+<center>*Left figure: our camera configuration. Right Figure: the synchroniztion test result of multi-view camera system.*</center>
 
 ### Dataset content
 - 12 subjects (9 males and 3 females)
@@ -65,7 +65,7 @@ If you are interested in using PHSPDataset, please cite the following two papers
 | 2 |  sitting, eating, driving, reading, phoning, waiting|
 | 3 |  presenting, boxing, posing, throwing, greeting, hugging, shaking hands|
 
-*The table displays the actions in each group. Subjects are required to do each group of actions for four times, but the order of the actions each time is random.*
+<center>*The table displays the actions in each group. Subjects are required to do each group of actions for four times, but the order of the actions each time is random.*</center>
 
 
 
@@ -85,7 +85,7 @@ If you are interested in using PHSPDataset, please cite the following two papers
 |12 | male | 24355 | 23603 | 752 (3.1\%)|
 |total | - | 287874 | 282112 | 5762 (2.0\%)|
 
-*The table shows the detail number of frames for each subject and also the number of frames that have SMPL shape and 3D joint annotations.*
+<center>*The table shows the detail number of frames for each subject and also the number of frames that have SMPL shape and 3D joint annotations.*</center>
 
 
 
@@ -105,7 +105,7 @@ If you are interested in using PHSPDataset, please cite the following two papers
 | Throw | Throw\_right\_hand<br>Throw\_both\_hand | 47<br>34 | 80 |
 | **Entire Dataset** | - | - | 1061 |
 
-*The table displays the annotations of clips of different actions.*
+<center>*The table displays the annotations of clips of different actions.*</center>
 
 TODO: some baselines to be added.
 
