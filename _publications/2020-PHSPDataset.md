@@ -73,19 +73,19 @@ If you are interested in using PHSPDataset, please cite the following papers. Th
 
 | subject # | gender | # of original frames | # of annotated frames | # of discarded frames |
 |:-------:|:-----:|:-----:|:----:|:-----:|
-|1 | female | 22561 | 22241 | 320 (1.4\%)|
-|2 | male | 24325 | 24186 | 139 (0.5\%)|
-|3 | male | 23918 | 23470 | 448 (1.8\%)|
-|4 | male | 24242 | 23906 | 336 (1.4\%)|
-|5 | male | 24823 | 23430 | 1393 (5.6\%)|
-|6 | male | 24032 | 23523 | 509 (2.1\%)|
-|7 | female | 22598 | 22362 | 236 (1.0\%)|
-|8 | male | 23965 | 23459 | 506 (2.1\%)|
-|9 | male | 24712 | 24556 | 156 (0.6\%)|
-|10 | female | 24040 | 23581 | 459 (1.9\%)|
-|11 | male | 24303 | 23795 | 508 (2.1\%)|
-|12 | male | 24355 | 23603 | 752 (3.1\%)|
-|total | - | 287874 | 282112 | 5762 (2.0\%)|
+|1 | female | 22561 | 22241 | 320 (1.4%)|
+|2 | male | 24325 | 24186 | 139 (0.5%)|
+|3 | male | 23918 | 23470 | 448 (1.8%)|
+|4 | male | 24242 | 23906 | 336 (1.4%)|
+|5 | male | 24823 | 23430 | 1393 (5.6%)|
+|6 | male | 24032 | 23523 | 509 (2.1%)|
+|7 | female | 22598 | 22362 | 236 (1.0%)|
+|8 | male | 23965 | 23459 | 506 (2.1%)|
+|9 | male | 24712 | 24556 | 156 (0.6%)|
+|10 | female | 24040 | 23581 | 459 (1.9%)|
+|11 | male | 24303 | 23795 | 508 (2.1%)|
+|12 | male | 24355 | 23603 | 752 (3.1%)|
+|total | - | 287874 | 282112 | 5762 (2.0%)|
 
 <center>*The table shows the detail number of frames for each subject and also the number of frames that have SMPL shape and 3D joint annotations.*</center>
 
