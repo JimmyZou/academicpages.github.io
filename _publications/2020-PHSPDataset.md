@@ -13,7 +13,7 @@ citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun
 - where to obtain [[data (GoogleDrive)]]()
 - where to obtain [[data (OneDrive)]]()
 
-**This dataset can only be used for academic purpose. Commercial use is strictly prohibited without permission. **
+**This dataset can only be used for academic purpose. Commercial use is strictly prohibited without permission.**
 
 If you are interested in using PHSPDataset, please cite the following papers. Thanks.
 @inproceedings{zou2020detailed,  
