@@ -105,7 +105,7 @@ If you are interested in using PHSPDataset, please cite the following two papers
 | Throw | Throw\_right\_hand<br>Throw\_both\_hand | 47<br>34 | 80 |
 | **Entire Dataset** | - | - | 1061 |
 
-*The table displays the annotations of clips of different action.*
+*The table displays the annotations of clips of different actions.*
 
 
 
