@@ -41,10 +41,10 @@ If you are interested in using PHSPDataset, please cite the following papers. Th
 <center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_3.png" width="800"/></center>
 <center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_4.png" width="800"/></center>
 <center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_5.png" width="800"/></center>
-*Demo figures show the annotated shape and 3D pose rendered on four types of images (one polarization image and three-view color images).*
+<center>Demo figures show the annotated shape and 3D pose rendered on four types of images (one polarization image and three-view color images).</center>
 
 <center><img src="/images/pubilication_image_videos/demo_annotation_shape.gif" width="400"/></center>
-<center>*A demo video shows the annotated shape rendered on four types of images.*</center>
+<center>A demo video shows the annotated shape rendered on four types of images.</center>
 
 ---
 ## Details of PHSPDataset
@@ -54,7 +54,7 @@ If you are interested in using PHSPDataset, please cite the following papers. Th
 - each frame consists of one polarization image, three-view color images and three-view depth images.
 - around 13 fps
 <center><img src="/images/pubilication_image_videos/camera_config.png" width="300"/><img src="/images/pubilication_image_videos/synchronization.png" width="450"/></center>
-<center>*Left figure: our camera configuration. Right Figure: the synchroniztion test result of multi-view camera system.*</center>
+<center>Left figure: our camera configuration. Right Figure: the synchroniztion test result of multi-view camera system.</center>
 
 ### Dataset content
 - 12 subjects (9 males and 3 females)
@@ -67,7 +67,7 @@ If you are interested in using PHSPDataset, please cite the following papers. Th
 | 2 |  sitting, eating, driving, reading, phoning, waiting|
 | 3 |  presenting, boxing, posing, throwing, greeting, hugging, shaking hands|
 
-<center>*The table displays the actions in each group. Subjects are required to do each group of actions for four times, but the order of the actions each time is random.*</center>
+<center>The table displays the actions in each group. Subjects are required to do each group of actions for four times, but the order of the actions each time is random.</center>
 
 
 
@@ -107,7 +107,7 @@ If you are interested in using PHSPDataset, please cite the following papers. Th
 | Throw | Throw\_right\_hand<br>Throw\_both\_hand | 47<br>34 | 80 |
 | **Entire Dataset** | - | - | 1061 |
 
-<center>*The table displays the annotations of clips of different actions.*</center>
+<center>The table displays the annotations of clips of different actions.</center>
 
 TODO: some baselines to be added.
 
