@@ -1,5 +1,5 @@
 ---
-title: "Detailed Human Shape and Pose Estimation from a Single Polarization Image"
+title: "Estimate 3D Human Shape from a Polarization Image"
 collection: publications
 permalink: /publication/2020-polarization-clothed-human-shape
 date: 2020-07-15
