@@ -34,7 +34,7 @@ This paper tackles the problem of estimating 3D body shape of clothed humans fro
 
 
 ---
-If you are interested in our work or using PHSPDataset, please cite the following papers. Thanks.
+If you are interested in our work or using PHSPDataset, please cite the following papers. Thank you.
 @inproceedings{zou2020detailed,  
   title={3D Human Shape Reconstruction from a Polarization Image},  
   author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},  
