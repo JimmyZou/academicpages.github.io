@@ -18,7 +18,7 @@ This paper tackles the problem of estimating 3D body shape of clothed humans fro
 <center><img src="/images/pubilication_image_videos/demo_clothed_shape/detailed_5.jpg" width="800"/></center>
 <center>Demo figures show the results of 3D human clothed shape reconstruction.</center>
 
-
+  
 
 <center><img src="/images/pubilication_image_videos/demo_detailed_shape.gif" width="1500"/></center>
 <center>A demo video shows the results of clothed human shape reconstruction. (side view)</center>
