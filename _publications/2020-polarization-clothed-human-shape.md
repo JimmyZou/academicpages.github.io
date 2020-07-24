@@ -3,7 +3,7 @@ title: "3D Human Shape Reconstruction from a Polarization Image"
 collection: publications
 permalink: /publication/2020-polarization-clothed-human-shape
 date: 2020-07-15
-venue: 'ECCV 20'
+venue: 'ECCV 2020'
 citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun Gong and Li Cheng. In Proceedings of the 16th European Conference on Computer Vision (ECCV) 2020."
 ---
 ---
