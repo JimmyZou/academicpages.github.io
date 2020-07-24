@@ -36,14 +36,14 @@ If you are interested in using PHSPDataset, please cite the following papers. Th
 - each subject to do 3 different groups of actions (18 different actions in total) for 4 times plus one free-style group. (around 22K frames of each subject with about 13 fps)
 - annotations of **shape and pose** and video clips of 34 types of **actions**
 
-<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_1.png" width="800"/></center>
-<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_2.png" width="800"/></center>
-<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_3.png" width="800"/></center>
-<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_4.png" width="800"/></center>
-<center><img src="/images/pubilication_image_videos/demo_annotation_fig/fig2_5.png" width="800"/></center>
+<center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_fig/fig2_1.png" width="800"/></center>
+<center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_fig/fig2_2.png" width="800"/></center>
+<center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_fig/fig2_3.png" width="800"/></center>
+<center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_fig/fig2_4.png" width="800"/></center>
+<center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_fig/fig2_5.png" width="800"/></center>
 <center>Demo figures show the annotated shape and 3D pose rendered on four types of images (one polarization image and three-view color images).</center>
 
-<center><img src="/images/pubilication_image_videos/demo_annotation_shape.gif" width="400"/></center>
+<center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_shape.gif" width="400"/></center>
 <center>A demo video shows the annotated shape rendered on four types of images.</center>
 
 ---
@@ -53,7 +53,7 @@ If you are interested in using PHSPDataset, please cite the following papers. Th
 - three  Kinects  V2  in  three  different  views  (each  Kinect  v2  has  a  ToF depth  and  a color camera, resolution depth 512 x 424, color 1920 x 1080).
 - each frame consists of one polarization image, three-view color images and three-view depth images.
 - around 13 fps
-<center><img src="/images/pubilication_image_videos/camera_config.png" width="300"/><img src="/images/pubilication_image_videos/synchronization.png" width="450"/></center>
+<center><img src="/images/pubilication_image_videos/eccv2020/camera_config.png" width="300"/><img src="/images/pubilication_image_videos/eccv2020/synchronization.png" width="450"/></center>
 <center>Left figure: our camera configuration. Right Figure: the synchroniztion test result of multi-view camera system.</center>
 
 ### Dataset content
@@ -87,7 +87,7 @@ If you are interested in using PHSPDataset, please cite the following papers. Th
 |12 | male | 24355 | 23603 | 752 (3.1%)|
 |total | - | 287874 | 282112 | 5762 (2.0%)|
 
-<center>*The table shows the detail number of frames for each subject and also the number of frames that have SMPL shape and 3D joint annotations.*</center>
+<center>The table shows the detail number of frames for each subject and also the number of frames that have SMPL shape and 3D joint annotations.</center>
 
 
 
