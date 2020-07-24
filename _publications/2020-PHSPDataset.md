@@ -15,7 +15,7 @@ citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun
 
 **This dataset can only be used for academic purpose. Commercial use is strictly prohibited without permission.**
 
-If you are interested in using PHSPDataset, please cite the following papers. Thanks.
+If you are interested in using PHSPDataset, please cite the following papers. Thank you.
 @inproceedings{zou2020detailed,  
   title={3D Human Shape Reconstruction from a Polarization Image},  
   author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},  
