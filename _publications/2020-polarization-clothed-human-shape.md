@@ -13,7 +13,7 @@ This paper tackles the problem of estimating 3D body shape of clothed humans fro
 ---
 ## Method
 <center><img src="/images/pubilication_image_videos/pipline.png" width="800"/></center>
-<center>**Pipline of our method.**</center>
+<center><b>Pipline of our method.</b></center>
 
 ---
 ## Results
@@ -22,12 +22,12 @@ This paper tackles the problem of estimating 3D body shape of clothed humans fro
 <center><img src="/images/pubilication_image_videos/demo_clothed_shape/detailed_2.jpg" width="800"/></center>
 <center><img src="/images/pubilication_image_videos/demo_clothed_shape/detailed_14.jpg" width="800"/></center>
 <center><img src="/images/pubilication_image_videos/demo_clothed_shape/detailed_5.jpg" width="800"/></center>
-<center>**Demo figures show the results of 3D human clothed shape reconstruction.**</center>
+<center><b>Demo figures show the results of 3D human clothed shape reconstruction.</b></center>
 
 ---
 
 <center><img src="/images/pubilication_image_videos/demo_detailed_shape.gif" width="1500"/></center>
-<center>**A demo video shows the results of clothed human shape reconstruction. (side view)**</center>
+<center><b>A demo video shows the results of clothed human shape reconstruction. (side view)</b></center>
 
 ---
 If you are interested in using PHSPDataset, please cite the following papers. Thanks.
