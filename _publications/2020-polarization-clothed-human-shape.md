@@ -34,11 +34,16 @@ This paper tackles the problem of estimating 3D body shape of clothed humans fro
 
 
 ---
-If you are interested in using PHSPDataset, please cite the following papers. Thanks.
+If you are interested in our work or using PHSPDataset, please cite the following papers. Thanks.
 @inproceedings{zou2020detailed,  
   title={3D Human Shape Reconstruction from a Polarization Image},  
   author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},  
   booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},  
   year={2020}  
 }  
-
+@article{zou2020polarization,  
+  title={Polarization Human Shape and Pose Dataset},  
+  author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},  
+  journal={arXiv preprint arXiv:2004.14899},  
+  year={2020}  
+}  
