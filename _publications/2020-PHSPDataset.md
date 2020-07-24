@@ -17,7 +17,7 @@ citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun
 
 If you are interested in using PHSPDataset, please cite the following papers. Thanks.
 @inproceedings{zou2020detailed,  
-  title={Detailed Human Shape and Pose Estimation from a Single Polarization Image},  
+  title={3D Human Shape Reconstruction from a Polarization Image},  
   author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},  
   booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},  
   year={2020}  
