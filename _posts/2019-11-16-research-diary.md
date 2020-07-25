@@ -297,6 +297,18 @@ _Aaron van den Oord, Yazhe Li, and Oriol Vinyals_
 
 ## Others<a name="others"></a>
 
+### [ICML 2020] PENNI: Pruned Kernel Sharing for Efficient CNN Inference
+
+### [ICML 2020] Layered Sampling for Robust Optimization Problems
+
+### [ICML 2020] Training Binary Neural Networks through Learning with Noisy Supervision
+
+### [ICML 2020] Fair Generative Modeling via Weak Supervision
+
+### [ICML 2020] ControlVAE: Controllable Variational Autoencoder
+
+### [ICML 2020] Searching to Exploit Memorization Effect in Learning with Noisy Labels
+
 ### [CVPR 2018] Neural 3D Mesh Renderer [[pdf]](https://arxiv.org/abs/1711.07566)
 _Hiroharu Kato, Yoshitaka Ushiku, Tatsuya Harada_
 - Therefore, in this work, we propose an approximate gradient for rasterization that enables the integration of rendering into neural networks.
