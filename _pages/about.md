@@ -41,7 +41,8 @@ Talks
 
 Recent news
 =====
-* A paper on detalied human pose and shape estimation from a single polarization image has been accepted by ECCV 2020.
+* A paper on Action2Motion: Conditioned Generation of 3-D Human Motions has been accepted by ACM Multimedia 2020.
+* A paper on 3D shape reconstruction from a polarization image has been accepted by ECCV 2020.
 * We curated a _polarization human pose and shape dataset_ with annotations of 3D pose, shape and action.
 * A paper on learning to communicate implicitly by actions in multi-agent reinforcement learning has been accepted by AAAI 2020.
 * A paper on multi-agent reinforcement learning to rank has been accepted by CIKM 2019.
