@@ -300,6 +300,8 @@ _Aaron van den Oord, Yazhe Li, and Oriol Vinyals_
 ### [ICML 2020] Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data [[pd]](https://arxiv.org/abs/2002.12880)
 _Marc Finzi, Samuel Stanton, Pavel Izmailov, Andrew Gordon Wilson_
 
+### [ICML 2020] Training Binary Neural Networks through Learning with Noisy Supervision
+
 ### [CVPR 2018] Neural 3D Mesh Renderer [[pdf]](https://arxiv.org/abs/1711.07566)
 _Hiroharu Kato, Yoshitaka Ushiku, Tatsuya Harada_
 - Therefore, in this work, we propose an approximate gradient for rasterization that enables the integration of rendering into neural networks.
