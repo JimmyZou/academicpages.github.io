@@ -32,7 +32,7 @@ citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun
 <center>A demo video shows the annotated shape rendered on four types of images.</center>
 
 ## Citation
-If you are interested in using our PHSPDataset, please cite either
+If you are interested in using our PHSPDataset on human pose and shape estimation, please cite
 ```
 @inproceedings{zou2020detailed,  
   title={3D Human Shape Reconstruction from a Polarization Image},  
@@ -41,15 +41,20 @@ If you are interested in using our PHSPDataset, please cite either
   year={2020}  
 } 
 ```
-or
+If you are interested in using our PHSPDataset on action-based tasks, please cite
 ```
-coming soon
+@inproceedings{chuan2020action2motion,  
+  title={Action2Motion: Conditioned Generation of 3D Human Motions},  
+  author={Guo, Chuan and Zuo, Xinxin and Wang, Sen and Zou, Shihao and Sun, Qingyao and Deng, Annan and Gong, Minglun and Cheng, Li},  
+  booktitle={Proceedings of the 28th ACM International Conference on Multimedia (MM '20)},  
+  year={2020}  
+}
 ```
-or
+Or you could cite the following report paper together.
 ```
 @article{zou2020polarization,  
   title={Polarization Human Shape and Pose Dataset},  
-  author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},  
+  author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Guo, Chuan and Xu, Chi and Gong, Minglun and Cheng, Li},  
   journal={arXiv preprint arXiv:2004.14899},  
   year={2020}  
 }  
@@ -118,6 +123,6 @@ or
 
 <center>The table displays the annotations of clips of different actions.</center>
 
-TODO: some baselines to be added.
+[//]: # (TODO: some baselines to be added.)
 
 
