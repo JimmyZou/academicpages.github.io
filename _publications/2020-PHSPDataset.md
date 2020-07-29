@@ -13,23 +13,8 @@ citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun
 - where to obtain [[data (GoogleDrive)]]()
 - where to obtain [[data (OneDrive)]]()
 
-**This dataset can only be used for academic purpose. Commercial use is strictly prohibited without permission.**
+### **This dataset can only be used for academic purpose. Commercial use is strictly prohibited without permission.**
 
-If you are interested in using PHSPDataset, please cite the following papers. Thank you.
-```
-@inproceedings{zou2020detailed,  
-  title={3D Human Shape Reconstruction from a Polarization Image},  
-  author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},  
-  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},  
-  year={2020}  
-} 
-@article{zou2020polarization,  
-  title={Polarization Human Shape and Pose Dataset},  
-  author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},  
-  journal={arXiv preprint arXiv:2004.14899},  
-  year={2020}  
-}  
-```
 ### Our PHSPDataset provides:
 - one view polarization image
 - three-view Kinects v2 (three-view ToF depth and color images)
@@ -46,6 +31,30 @@ If you are interested in using PHSPDataset, please cite the following papers. Th
 
 <center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_shape.gif" width="400"/></center>
 <center>A demo video shows the annotated shape rendered on four types of images.</center>
+
+## Citation
+If you are interested in using our PHSPDataset, please cite either
+```
+@inproceedings{zou2020detailed,  
+  title={3D Human Shape Reconstruction from a Polarization Image},  
+  author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},  
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},  
+  year={2020}  
+} 
+```
+or
+```
+
+```
+or
+```
+@article{zou2020polarization,  
+  title={Polarization Human Shape and Pose Dataset},  
+  author={Zou, Shihao and Zuo, Xinxin and Qian, Yiming and Wang, Sen and Xu, Chi and Gong, Minglun and Cheng, Li},  
+  journal={arXiv preprint arXiv:2004.14899},  
+  year={2020}  
+}  
+```
 
 ---
 ## Details of PHSPDataset
