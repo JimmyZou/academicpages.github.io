@@ -8,12 +8,11 @@ citation: "<b>Shihao Zou</b>, Xinxin Zuo, Yiming Qian, Sen Wang, Chi Xu, Minglun
 ---
 ---
 ## A quick view of our PHSPDataset
+### **This dataset can only be used for academic purpose. Commercial use is strictly prohibited without permission.**
 - report [[pdf]](https://arxiv.org/abs/2004.14899)
 - how to use [[code]](https://github.com/JimmyZou/PolarHumanPoseShapeDataset) 
 - where to obtain [[data (GoogleDrive)]]()
 - where to obtain [[data (OneDrive)]]()
-
-### **This dataset can only be used for academic purpose. Commercial use is strictly prohibited without permission.**
 
 ### Our PHSPDataset provides:
 - one view polarization image
