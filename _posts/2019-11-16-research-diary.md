@@ -300,7 +300,11 @@ _Aaron van den Oord, Yazhe Li, and Oriol Vinyals_
 ### [ICML 2020] Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data [[pd]](https://arxiv.org/abs/2002.12880)
 _Marc Finzi, Samuel Stanton, Pavel Izmailov, Andrew Gordon Wilson_
 
-### [ICML 2020] Training Binary Neural Networks through Learning with Noisy Supervision
+### [ICML 2020] Training Binary Neural Networks through Learning with Noisy Supervision [[pdf]](https://proceedings.icml.cc/static/paper_files/icml/2020/181-Paper.pdf)
+_Kai Han, Yunhe Wang, Yixing Xu, Chunjing Xu, Enhua Wu, Chang Xu_
+
+### [ICML 2020] Learning Flat Latent Manifolds with VAEs [[pd]](https://arxiv.org/abs/2002.04881)
+_Nutan Chen, Alexej Klushyn, Francesco Ferroni, Justin Bayer, Patrick van der Smagt_
 
 ### [CVPR 2018] Neural 3D Mesh Renderer [[pdf]](https://arxiv.org/abs/1711.07566)
 _Hiroharu Kato, Yoshitaka Ushiku, Tatsuya Harada_
