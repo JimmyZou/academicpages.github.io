@@ -107,19 +107,19 @@ Or you could cite the following report paper together.
 
 | Coarse-grained Label | Fine-grained Label | Number of Motions | Total Number |
 |:-------:|:-----:|:----:|:-----:|
-| Warm up | Warm\_up\_wristankle<br>Warm\_up\_pectoral<br>Warm\_up\_eblowback<br>Warm\_up\_bodylean\_right\_arm<br>Warm\_up\_bodylean\_left\_arm<br>Warm\_up\_bow\_right<br>Warm\_up\_bow\_left | 25<br>45<br>39<br>25<br>24<br>22<br>21 | 201 |
-| Walk | Walk |43 | 43 |
-| Run | Run | 44 | 44 |
-| Jump | Jump\_handsup<br>Jump\_vertical | 50<br>35 | 86 |
-| Drink | Drink\_bottle\_righthand<br>Drink\_bottle\_lefthand<br>Drink\_cup\_righthand<br>Drink\_cup\_lefthand<br>Drink\_both\_hands | 25<br>3<br>9<br>10<br>3<br>4 | 81 |
-| Lift\_dumbbell | Lift\_dumbbell\_righthand<br>Lift\_dumbbell\_lefthand<br>Lift\_dumbbell\_bothhands<br>Lift\_dumbbell\_overhead<br>Lift\_dumbbell\_bothhands\_bend\_legs | 41<br>41<br>43<br>39<br>34 | 198 |
-| Sit | Sit | 47 | 47 |
-| Eat | Eat\_righthand<br>Eat\_lefthand<br>Eat\_pie/burger |27<br>18<br>23 | 68 |
-| Turn\_steering\_wheel | Turn\_steering\_wheel | 46 | 46 |
-| Phone | Take out phone, call and put back<br>Call with left hand | 19<br>33 | 52 |
-| Boxing | Boxing\_left\_right<br>Boxing\_left\_upwards<br>Boxing\_right\_upwards<br>Boxing\_right\_left |21<br>34<br>37<br>24 | 116 |
-| Throw | Throw\_right\_hand<br>Throw\_both\_hand | 47<br>34 | 80 |
-| **Entire Dataset** | - | - | 1061 |
+| Warm up | Warm\_up\_wristankle<br>Warm\_up\_pectoral<br>Warm\_up\_eblowback<br>Warm\_up\_bodylean\_right\_arm<br>Warm\_up\_bodylean\_left\_arm<br>Warm\_up\_bow\_right<br>Warm\_up\_bow\_left | 25<br>49<br>43<br>26<br>24<br>24<br>24 | 215 |
+| Walk | Walk |47 | 47 |
+| Run | Run | 50 | 50 |
+| Jump | Jump\_handsup<br>Jump\_vertical | 54<br>40 | 94 |
+| Drink | Drink\_bottle\_righthand<br>Drink\_bottle\_lefthand<br>Drink\_cup\_righthand<br>Drink\_cup\_lefthand<br>Drink\_both\_hands | 27<br>43<br>11<br>3<br>4 | 88 |
+| Lift\_dumbbell | Lift\_dumbbell\_righthand<br>Lift\_dumbbell\_lefthand<br>Lift\_dumbbell\_bothhands<br>Lift\_dumbbell\_overhead<br>Lift\_dumbbell\_bothhands\_bend\_legs | 45<br>45<br>47<br>43<br>38 | 218 |
+| Sit | Sit | 54 | 54 |
+| Eat | Eat\_righthand<br>Eat\_lefthand<br>Eat\_pie/burger |33<br>25<br>19 | 77 |
+| Turn\_steering\_wheel | Turn\_steering\_wheel | 56 | 56 |
+| Phone | Take out phone, call and put back<br>Call with left hand | 28<br>33 | 61 |
+| Boxing | Boxing\_left\_right<br>Boxing\_left\_upwards<br>Boxing\_right\_upwards<br>Boxing\_right\_left |26<br>39<br>41<br>34 | 140 |
+| Throw | Throw\_right\_hand<br>Throw\_both\_hand | 53<br>38 | 91 |
+| **Entire Dataset** | - | - | 1191 |
 
 <center>The table displays the annotations of clips of different actions.</center>
 
