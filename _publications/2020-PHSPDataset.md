@@ -75,6 +75,8 @@ Or you could cite the following report paper together.
 - each subject to do 3 different groups of actions (18 different actions in total) for 4 times plus one free-style group. (around 22K frames of each subject with about 13 fps)
 - annotations of **shape and pose** and video clips of 34 types of **actions**
 
+---
+
 | group #        | actions           |
 |:-------:|:-------------:|
 | 1 |  warming-up, walking, running, jumping, drinking, lifting dumbbells |
@@ -83,7 +85,7 @@ Or you could cite the following report paper together.
 
 <center>The table displays the actions in each group. Subjects are required to do each group of actions for four times, but the order of the actions each time is random.</center>
 
-
+---
 
 | subject # | gender | # of original frames | # of annotated frames | # of discarded frames |
 |:-------:|:-----:|:-----:|:----:|:-----:|
@@ -103,7 +105,7 @@ Or you could cite the following report paper together.
 
 <center>The table shows the detail number of frames for each subject and also the number of frames that have SMPL shape and 3D joint annotations.</center>
 
-
+---
 
 | Coarse-grained Label | Fine-grained Label | Number of Motions | Total Number |
 |:-------:|:-----:|:----:|:-----:|
@@ -122,6 +124,8 @@ Or you could cite the following report paper together.
 | **Entire Dataset** | - | - | 1191 |
 
 <center>The table displays the annotations of clips of different actions.</center>
+
+---
 
 [//]: # (TODO: some baselines to be added.)
 
