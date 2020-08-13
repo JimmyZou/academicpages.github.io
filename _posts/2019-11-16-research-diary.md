@@ -121,6 +121,9 @@ _Chankyu Lee, Syed Shakib Sarwar, Priyadarshini Panda, Gopalakrishnan Srinivasan
 ### Toward Scalable, Efficient, and Accurate Deep Spiking Neural Networks With Backward Residual Connections, Stochastic Softmax, and Hybridization [[pdf]](https://arxiv.org/abs/1910.13931)
 _Priyadarshini Panda, Aparna Aketi, Kaushik Roy_
 
+### [Annual Review of Neuroscience 2008] Spike Timing–Dependent Plasticity: A Hebbian Learning Rule [[pdf]](https://www.annualreviews.org/doi/pdf/10.1146/annurev.neuro.31.060407.125639)
+_Natalia Caporale and Yang Dan_
+
 [[back to top]](#contents)
 ---
 
