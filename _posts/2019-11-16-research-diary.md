@@ -8,6 +8,7 @@ tags:
 
 ## Contents<a name="contents"></a>
  - [Dynamic vision system (event-based vision)](#dynamic-vision-system)
+ - [Spiking Neural Networks](#SNN)
  - [Video prediction/generation/completion and Pose transfer](#video-prediction)
  - [Unsupervised learning / representation learning](#representation-learning)
  - [Others](#others)
@@ -103,6 +104,22 @@ _Yanxiang Wang, Bowen Du, Yiran Shen, Kai Wu, Guangrong Zhao, Jianguo Sun, Hongk
 
 ### [CVPR workshop 2019] DHP19: Dynamic Vision Sensor 3D Human Pose Dataset [[pdf]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/EventVision/Calabrese_DHP19_Dynamic_Vision_Sensor_3D_Human_Pose_Dataset_CVPRW_2019_paper.pdf)
 _Enrico Calabrese, Gemma Taverni, Christopher Awai Easthope, Sophie Skriabine, Federico Corradi, Luca Longinotti, Kynan Eng, Tobi Delbruck_
+
+[[back to top]](#contents)
+---
+
+## Spiking Neural Networks<a name="SNN"></a>
+### [ECCV 2020] Spike-FlowNet: Event-based Optical Flow Estimation with Energy-Efficient Hybrid Neural Networks [[pdf]](https://arxiv.org/abs/2003.06696)
+_Chankyu Lee, Adarsh Kumar Kosta, Alex Zihao Zhu, Kenneth Chaney, Kostas Daniilidis, Kaushik Roy_
+
+### [TPAMI 2019] Unsupervised Learning of a Hierarchical Spiking Neural Network for Optical Flow Estimation: From Events to Global Motion Perception [[pdf]](https://arxiv.org/abs/1807.10936)
+_Federico Paredes-Vallés, Kirk Y. W. Scheper, Guido C. H. E. de Croon_
+
+### [Frontier in Neuroscience] Enabling Spike-Based Backpropagation for Training Deep Neural Network Architectures [[pdf]](https://arxiv.org/abs/1903.06379)
+_Chankyu Lee, Syed Shakib Sarwar, Priyadarshini Panda, Gopalakrishnan Srinivasan, Kaushik Roy_
+
+### Toward Scalable, Efficient, and Accurate Deep Spiking Neural Networks With Backward Residual Connections, Stochastic Softmax, and Hybridization [[pdf]](https://arxiv.org/abs/1910.13931)
+_Priyadarshini Panda, Aparna Aketi, Kaushik Roy_
 
 [[back to top]](#contents)
 ---
