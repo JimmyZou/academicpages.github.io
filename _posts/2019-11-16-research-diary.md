@@ -115,11 +115,20 @@ _Chankyu Lee, Adarsh Kumar Kosta, Alex Zihao Zhu, Kenneth Chaney, Kostas Daniili
 ### [TPAMI 2019] Unsupervised Learning of a Hierarchical Spiking Neural Network for Optical Flow Estimation: From Events to Global Motion Perception [[pdf]](https://arxiv.org/abs/1807.10936)
 _Federico Paredes-Vallés, Kirk Y. W. Scheper, Guido C. H. E. de Croon_
 
-### [Frontier in Neuroscience] Enabling Spike-Based Backpropagation for Training Deep Neural Network Architectures [[pdf]](https://arxiv.org/abs/1903.06379)
+### [Frontier in Neuroscience 2020] Enabling Spike-Based Backpropagation for Training Deep Neural Network Architectures [[pdf]](https://arxiv.org/abs/1903.06379)
 _Chankyu Lee, Syed Shakib Sarwar, Priyadarshini Panda, Gopalakrishnan Srinivasan, Kaushik Roy_
 
-### Toward Scalable, Efficient, and Accurate Deep Spiking Neural Networks With Backward Residual Connections, Stochastic Softmax, and Hybridization [[pdf]](https://arxiv.org/abs/1910.13931)
+### [Frontier in Neuroscience 2020] Toward Scalable, Efficient, and Accurate Deep Spiking Neural Networks With Backward Residual Connections, Stochastic Softmax, and Hybridization [[pdf]](https://arxiv.org/abs/1910.13931)
 _Priyadarshini Panda, Aparna Aketi, Kaushik Roy_
+
+### [Frontier in Neuroscience 2018] Spatio-temporal backpropagation for training high-performance spiking neural networks [[pdf]](https://arxiv.org/abs/1706.02609)
+_Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Luping Shi_
+
+### [IEEE NNLS 2018] A supervised learning algorithm for learning precise timing of multiple spikes in multilayer spiking neural networks [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8305661)
+_Aboozar Taherkhani, Ammar Belatreche, Yuhua Li, Liam P. Maguire_
+
+### [Frontier in Neuroscience 2016] Training Deep Spiking Neural Networks using Backpropagation [[pdf]](https://arxiv.org/abs/1608.08782)
+_Jun Haeng Lee, Tobi Delbruck, Michael Pfeiffer_
 
 ### [Annual Review of Neuroscience 2008] Spike Timing–Dependent Plasticity: A Hebbian Learning Rule [[pdf]](https://www.annualreviews.org/doi/pdf/10.1146/annurev.neuro.31.060407.125639)
 _Natalia Caporale and Yang Dan_
