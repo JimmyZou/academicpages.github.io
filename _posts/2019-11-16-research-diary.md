@@ -124,8 +124,14 @@ _Priyadarshini Panda, Aparna Aketi, Kaushik Roy_
 ### [Frontier in Neuroscience 2018] Spatio-temporal backpropagation for training high-performance spiking neural networks [[pdf]](https://arxiv.org/abs/1706.02609)
 _Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Luping Shi_
 
+### [NeurIPS 2018] Slayer: Spike layer error reassignment in time [[pdf]](https://arxiv.org/abs/1810.08646)
+_Sumit Bam Shrestha, Garrick Orchard_
+
 ### [IEEE NNLS 2018] A supervised learning algorithm for learning precise timing of multiple spikes in multilayer spiking neural networks [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8305661)
 _Aboozar Taherkhani, Ammar Belatreche, Yuhua Li, Liam P. Maguire_
+
+### [Frontier in Neuroscience 2017] Conversion of continuous-valued deep networks to efficient eventdriven networks for image classification [[pdf]](https://www.frontiersin.org/articles/10.3389/fnins.2017.00682/full)
+_Bodo Rueckauer, Iulia-Alexandra Lungu, Yuhuang Hu, Michael Pfeiffer and Shih-Chii Liu_
 
 ### [Frontier in Neuroscience 2016] Training Deep Spiking Neural Networks using Backpropagation [[pdf]](https://arxiv.org/abs/1608.08782)
 _Jun Haeng Lee, Tobi Delbruck, Michael Pfeiffer_
