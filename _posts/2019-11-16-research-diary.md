@@ -124,6 +124,12 @@ _Priyadarshini Panda, Aparna Aketi, Kaushik Roy_
 ### [Frontier in Neuroscience 2018] Spatio-temporal backpropagation for training high-performance spiking neural networks [[pdf]](https://arxiv.org/abs/1706.02609)
 _Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Luping Shi_
 
+### [arXiv 2019] Surrogate Gradient Learning in Spiking Neural Networks [[pdf]](https://arxiv.org/abs/1901.09948)
+_Emre O. Neftci, Hesham Mostafa, Friedemann Zenke_
+
+### [NeurIPS 2018] Long short-term memory and learning-to-learn in networks of spiking neurons [[pdf]](https://arxiv.org/abs/1803.09574)
+_Guillaume Bellec, Darjan Salaj, Anand Subramoney, Robert Legenstein, Wolfgang Maass_
+
 ### [NeurIPS 2018] Slayer: Spike layer error reassignment in time [[pdf]](https://arxiv.org/abs/1810.08646)
 _Sumit Bam Shrestha, Garrick Orchard_
 
