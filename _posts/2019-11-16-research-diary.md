@@ -105,6 +105,17 @@ _Yanxiang Wang, Bowen Du, Yiran Shen, Kai Wu, Guangrong Zhao, Jianguo Sun, Hongk
 ### [CVPR workshop 2019] DHP19: Dynamic Vision Sensor 3D Human Pose Dataset [[pdf]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/EventVision/Calabrese_DHP19_Dynamic_Vision_Sensor_3D_Human_Pose_Dataset_CVPRW_2019_paper.pdf)
 _Enrico Calabrese, Gemma Taverni, Christopher Awai Easthope, Sophie Skriabine, Federico Corradi, Luca Longinotti, Kynan Eng, Tobi Delbruck_
 
+### [RoSS 2018] EV-FlowNet: Self-supervised optical flow estimation for event-based cameras [[pdf]](https://arxiv.org/abs/1802.06898)
+_Alex Zihao Zhu, Liangzhe Yuan, Kenneth Chaney, Kostas Daniilidis_
+- In particular, we introduce an image based representation of a given event stream, which is fed into a self-supervised neural network as the sole input. The corresponding grayscale images captured from the same camera at the same time as the events are then used as a supervisory signal to provide a loss function at training time, given the estimated flow from the network.
+
+### [ICRA 2015] Spike time based unsupervised learning of receptive fields for event-driven vision [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7139786&tag=1)
+_Himanshu Akolkar, Stefano Panzeri and Chiara Bartolozzi_
+
+### Ego-motion model
+- <img src="/images/fig_research_diary/22.png" width=“600”/>
+
+
 [[back to top]](#contents)
 ---
 
