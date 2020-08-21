@@ -109,6 +109,8 @@ _Enrico Calabrese, Gemma Taverni, Christopher Awai Easthope, Sophie Skriabine, F
 _Alex Zihao Zhu, Liangzhe Yuan, Kenneth Chaney, Kostas Daniilidis_
 - In particular, we introduce an image based representation of a given event stream, which is fed into a self-supervised neural network as the sole input. The corresponding grayscale images captured from the same camera at the same time as the events are then used as a supervisory signal to provide a loss function at training time, given the estimated flow from the network.
 
+### Ego-motion model
+- <img src="/images/fig_research_diary/22.png" width=“600”/>
 
 
 [[back to top]](#contents)
