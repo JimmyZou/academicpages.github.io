@@ -109,6 +109,9 @@ _Enrico Calabrese, Gemma Taverni, Christopher Awai Easthope, Sophie Skriabine, F
 _Alex Zihao Zhu, Liangzhe Yuan, Kenneth Chaney, Kostas Daniilidis_
 - In particular, we introduce an image based representation of a given event stream, which is fed into a self-supervised neural network as the sole input. The corresponding grayscale images captured from the same camera at the same time as the events are then used as a supervisory signal to provide a loss function at training time, given the estimated flow from the network.
 
+### [ICRA 2015] Spike time based unsupervised learning of receptive fields for event-driven vision [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7139786&tag=1)
+_Himanshu Akolkar, Stefano Panzeri and Chiara Bartolozzi_
+
 ### Ego-motion model
 - <img src="/images/fig_research_diary/22.png" width=“600”/>
 
