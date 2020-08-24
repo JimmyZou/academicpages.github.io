@@ -24,6 +24,12 @@ tags:
 ### advantages
 - Event cameras have several advantages over traditional cameras: a latency in the order of microseconds, a very high dynamic range (140 dB compared to 60 dB of traditional cameras), and very low power consumption (10mW vs 1.5W of traditional cameras). Moreover, since all pixels capture light independently, such sensors do not suffer from motion blur.
 
+## Spiking Neural Networks<a name="SNN"></a>
+### [ECCV 2020] Spike-FlowNet: Event-based Optical Flow Estimation with Energy-Efficient Hybrid Neural Networks [[pdf]](https://arxiv.org/abs/2003.06696)
+_Chankyu Lee, Adarsh Kumar Kosta, Alex Zihao Zhu, Kenneth Chaney, Kostas Daniilidis, Kaushik Roy_
+- SNN decodes event streams and ANN encodes optical flow. Simplest IF neuron model is used in this paper.
+- Self-supervised warping loss (optical flow between neighboring frames).
+
 ### [CVPR 2020] Single Image Optical Flow Estimation With an Event Camera [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Pan_Single_Image_Optical_Flow_Estimation_With_an_Event_Camera_CVPR_2020_paper.pdf)
 _Liyuan Pan, Miaomiao Liu, Richard Hartley_
 
@@ -116,14 +122,12 @@ _Himanshu Akolkar, Stefano Panzeri and Chiara Bartolozzi_
 ### Convolutional networks for fast, energy-efficient neuromorphic computing [[pdf]](https://arxiv.org/pdf/1603.08270.pdf)
 _Steven K. Esser, Paul A. Merolla, John V. Arthur, Andrew S. Cassidy, Rathinakumar Appuswamy, Alexander Andreopoulos, David J. Berg, Jeffrey L. McKinstry, Timothy Melano, Davis R. Barch, Carmelo di Nolfo, Pallab Datta, Arnon Amir, Brian Taba, Myron D. Flickner, and Dharmendra S. Modha._
 
-$a=1$
+### A wafer-scale neuromorphic hardware system for large-scale neural modeling [[pdf]](https://ieeexplore.ieee.org/document/5536970)
+_Johannes Schemmel, Daniel Br¨uderle, Andreas Gr¨ubl, Matthias Hock, Karlheinz Meier, and Sebastian Millner_
+
 
 [[back to top]](#contents)
 ---
-
-## Spiking Neural Networks<a name="SNN"></a>
-### [ECCV 2020] Spike-FlowNet: Event-based Optical Flow Estimation with Energy-Efficient Hybrid Neural Networks [[pdf]](https://arxiv.org/abs/2003.06696)
-_Chankyu Lee, Adarsh Kumar Kosta, Alex Zihao Zhu, Kenneth Chaney, Kostas Daniilidis, Kaushik Roy_
 
 ### [TPAMI 2019] Unsupervised Learning of a Hierarchical Spiking Neural Network for Optical Flow Estimation: From Events to Global Motion Perception [[pdf]](https://arxiv.org/abs/1807.10936)
 _Federico Paredes-Vallés, Kirk Y. W. Scheper, Guido C. H. E. de Croon_
@@ -139,6 +143,9 @@ _Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Luping Shi_
 
 ### [arXiv 2019] Surrogate Gradient Learning in Spiking Neural Networks [[pdf]](https://arxiv.org/abs/1901.09948)
 _Emre O. Neftci, Hesham Mostafa, Friedemann Zenke_
+
+### [ICLR 2018] Deep rewiring: Training very sparse deep networks [[pd]](https://arxiv.org/abs/1711.05136)
+_Guillaume Bellec, David Kappel, Wolfgang Maass, Robert Legenstein_
 
 ### [NeurIPS 2018] Long short-term memory and learning-to-learn in networks of spiking neurons [[pdf]](https://arxiv.org/abs/1803.09574)
 _Guillaume Bellec, Darjan Salaj, Anand Subramoney, Robert Legenstein, Wolfgang Maass_
@@ -384,15 +391,17 @@ _Mingxing Tan, Quoc V. Le_
 _Hongbin Pei, Bingzhe Wei, Kevin Chen-Chuan Chang, Yu Lei, Bo Yang_
 - Message-passing neural networks (MPNNs) have been successfully applied to representation learning on graphs in a variety of real-world applications. However, two fundamental weaknesses of MPNNs’ aggregators limit their ability to represent graph-structured data: **losing the structural information of nodes in neighborhoods and lacking the ability to capture long-range dependencies in disassortative graphs**. Few studies have noticed the weaknesses from different perspectives. From the observations on classical neural network and network geometry, we propose a novel geometric aggregation scheme for graph neural networks to overcome the two weaknesses. The behind basic idea is the aggregation on a graph can benefit from a continuous space underlying the graph. The proposed aggregation scheme is permutation-invariant and consists of three modules, node embedding, structural neighborhood, and bi-level aggregation.
 
-#### [NeurIPS 2019] General E(2) - Equivariant Steerable CNNs [[pdf]](https://arxiv.org/abs/1911.08251)
+### [NeurIPS 2019] General E(2) - Equivariant Steerable CNNs [[pdf]](https://arxiv.org/abs/1911.08251)
 _Maurice Weiler, Gabriele Cesa_
 
-#### [CVPR 2020] DualConvMesh-Net: Joint Geodesic and Euclidean Convolutions on 3D Meshes [[pdf]](https://arxiv.org/abs/2004.01002)
+### [CVPR 2020] DualConvMesh-Net: Joint Geodesic and Euclidean Convolutions on 3D Meshes [[pdf]](https://arxiv.org/abs/2004.01002)
 _Jonas Schult, Francis Engelmann, Theodora Kontogianni, Bastian Leibe_
 
-#### [SIGGRAPH 2020] CNNs on Surfaces using Rotation-Equivariant Features [[pdf]](https://arxiv.org/abs/2006.01570)
+### [SIGGRAPH 2020] CNNs on Surfaces using Rotation-Equivariant Features [[pdf]](https://arxiv.org/abs/2006.01570)
 _Ruben Wiersma, Elmar Eisemann, Klaus Hildebrandt_
 
+### Accelerating 3D Deep Learning with PyTorch3D [[pdf]](https://arxiv.org/pdf/2007.08501)
+_Nikhila Ravi, Jeremy Reizenstein, David Novotny, Taylor Gordon, Wan-Yen Lo, Justin Johnson, Georgia Gkioxari_
 
 [[back to top]](#contents)
 ---
