@@ -112,14 +112,11 @@ _Alex Zihao Zhu, Liangzhe Yuan, Kenneth Chaney, Kostas Daniilidis_
 ### [ICRA 2015] Spike time based unsupervised learning of receptive fields for event-driven vision [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7139786&tag=1)
 _Himanshu Akolkar, Stefano Panzeri and Chiara Bartolozzi_
 
-### Ego-motion model
-- <img src="/images/fig_research_diary/22.png" width=“600”/>
 
 ### Convolutional networks for fast, energy-efficient neuromorphic computing [[pdf]](https://arxiv.org/pdf/1603.08270.pdf)
 _Steven K. Esser, Paul A. Merolla, John V. Arthur, Andrew S. Cassidy, Rathinakumar Appuswamy, Alexander Andreopoulos, David J. Berg, Jeffrey L. McKinstry, Timothy Melano, Davis R. Barch, Carmelo di Nolfo, Pallab Datta, Arnon Amir, Brian Taba, Myron D. Flickner, and Dharmendra S. Modha._
 
-$$a=1$$
-$b=1$
+$a=1$
 
 [[back to top]](#contents)
 ---
