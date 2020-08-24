@@ -118,6 +118,8 @@ _Himanshu Akolkar, Stefano Panzeri and Chiara Bartolozzi_
 ### Convolutional networks for fast, energy-efficient neuromorphic computing [[pdf]](https://arxiv.org/pdf/1603.08270.pdf)
 _Steven K. Esser, Paul A. Merolla, John V. Arthur, Andrew S. Cassidy, Rathinakumar Appuswamy, Alexander Andreopoulos, David J. Berg, Jeffrey L. McKinstry, Timothy Melano, Davis R. Barch, Carmelo di Nolfo, Pallab Datta, Arnon Amir, Brian Taba, Myron D. Flickner, and Dharmendra S. Modha._
 
+$$a=1$$
+$b=1$
 
 [[back to top]](#contents)
 ---
