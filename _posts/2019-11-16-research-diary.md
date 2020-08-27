@@ -153,6 +153,10 @@ _Guillaume Bellec, Darjan Salaj, Anand Subramoney, Robert Legenstein, Wolfgang M
 ### [NeurIPS 2018] Slayer: Spike layer error reassignment in time [[pdf]](https://arxiv.org/abs/1810.08646)
 _Sumit Bam Shrestha, Garrick Orchard_
 
+### Time structure of the activity in neural network models [[pdf]](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.51.738)
+_Wulfram Gerstner_
+- Spiking Response Model used in Slayer
+
 ### [IEEE NNLS 2018] A supervised learning algorithm for learning precise timing of multiple spikes in multilayer spiking neural networks [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8305661)
 _Aboozar Taherkhani, Ammar Belatreche, Yuhua Li, Liam P. Maguire_
 
@@ -164,6 +168,8 @@ _Jun Haeng Lee, Tobi Delbruck, Michael Pfeiffer_
 
 ### [Annual Review of Neuroscience 2008] Spike Timing–Dependent Plasticity: A Hebbian Learning Rule [[pdf]](https://www.annualreviews.org/doi/pdf/10.1146/annurev.neuro.31.060407.125639)
 _Natalia Caporale and Yang Dan_
+
+
 
 [[back to top]](#contents)
 ---
