@@ -12,6 +12,10 @@ This blog is a summary of some implementation skills or useful packages in compu
 **Core features of Open3D includes:**
 - 3D data structures
 - 3D data processing algorithms
+	- ICP registration (point-to-point, point-to-plane)
+	- colored pointcloud registration, global registration, multiway registration
+	- RGBD images and odometry
+	- KDTree
 - Scene reconstruction
 - Surface alignment
 - 3D visualization
