@@ -5,12 +5,28 @@ permalink: /posts/2019/02/2019-02-13-some-coding-tricks/
 tags:
   - tensorflow, pytorch
 ---
-This blog is a summary of implementation skills in tensorflow for some special functions. The code provided is mostly test by myself. All these points take me much time to explore how to implement. So it is worth to summarize here.
+This blog is a summary of some implementation skills or useful packages in computer vision research. 
 
 ---
-**Self-define gradient for a layer using _tf.custom_gradient_**  
-When the output (_y_) decribes a multi-variate orthogonal normal distribution with two means and standard deviations. In reinforcement learning, the continuous action can be sampled according to $$\pi(a|s) = \frac{1}{\sqrt{2\pi\sigma^2}}\exp\big(-\frac{(a-\mu)^2}{2\sigma^2}\big).$$  
-The gradient w.r.t $$\mu$$ and $$\sigma$$ in both dimensions is  
+#### Python package: Open3D [[link]](http://www.open3d.org/docs/release/introduction.html)
+**Core features of Open3D includes:**
+- 3D data structures
+- 3D data processing algorithms
+- Scene reconstruction
+- Surface alignment
+- 3D visualization
+- Physically based rendering (PBR)
+- Available in C++ and Python
+
+---
+#### Accelerating 3D Deep Learning with PyTorch3D [[pdf]](https://arxiv.org/pdf/2007.08501) [[link]](https://pytorch3d.org/)
+Our goal with PyTorch3D is to help accelerate research at the intersection of deep learning and 3D. 3D data is more complex than 2D images and while working on projects such as Mesh R-CNN and C3DPO, we encountered several challenges including 3D data representation, batching, and speed. We have developed many useful operators and abstractions for working on 3D deep learning and want to share this with the community to drive novel research in this area.
+
+In PyTorch3D we have included efficient 3D operators, heterogeneous batching capabilities, and a modular differentiable rendering API, to equip researchers in this field with a much needed toolkit to implement cutting-edge research with complex 3D inputs.
+
+---
+#### Self-define gradient for a layer using _tf.custom_gradient_
+When the output (_y_) decribes a multi-variate orthogonal normal distribution with two means and standard deviations. In reinforcement learning, the continuous action can be sampled according to $$\pi(a|s) = \frac{1}{\sqrt{2\pi\sigma^2}}\exp\big(-\frac{(a-\mu)^2}{2\sigma^2}\big).$$ The gradient w.r.t $$\mu$$ and $$\sigma$$ in both dimensions is  
 $$\nabla_{\mu} \ln \pi(a|s) = \nabla_{\mu} [-\frac{1}{2}\ln(2\pi\sigma^2) - \frac{(a-\mu)^2}{2\sigma^2}] = \frac{a - \mu}{\sigma^2}$$  
 and  
 $$\nabla_{\sigma} \ln \pi(a|s) = \nabla_{\sigma} [-\frac{1}{2}\ln(2\pi\sigma^2) - \frac{(a-\mu)^2}{2\sigma^2}] = \frac{ (a-\mu)^2 - \sigma^2}{\sigma^3}$$,  
@@ -57,7 +73,7 @@ which is the initial input of the back-propagation in a neural network. The auto
 ```
 
 ---
-**Sampling in categorical distribution using Gumbel softmax**  
+#### Sampling in categorical distribution using Gumbel softmax
 Backpropagation is not possible through stochastic nodes (layers). We use the Gumbel-Max trick, which provides an efficient way to draw samples $$z$$ from the Categorical distribution with class probabilities $$\pi_i$$:  
 $$z=\text{one-hot} (\text{argmax}_{i}[g_i+\log\pi_i])$$.  
 The trick for correct backpropagation is this line: _y = tf.stop_gradient(y_hard - y) + y_.
@@ -95,7 +111,7 @@ def gumbel_softmax(logits, temperature, hard=False):
 ```
 
 ---
-**Ornstein-Uhlenbeck Action Noise**  
+#### Ornstein-Uhlenbeck Action Noise
 Simulating the Ornstein–Uhlenbeck process is based on [http://math.stackexchange.com/questions/1287634/implementing-ornstein-uhlenbeck-in-matlab](http://math.stackexchange.com/questions/1287634/implementing-ornstein-uhlenbeck-in-matlab). 
 ```
 class OrnsteinUhlenbeckActionNoise(ActionNoise):
