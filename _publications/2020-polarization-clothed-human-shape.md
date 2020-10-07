@@ -32,6 +32,29 @@ This paper tackles the problem of estimating 3D body shape of clothed humans fro
 
 ---
 
+## A quick view of our dedicated [PHSPDataset](https://jimmyzou.github.io/publication/2020-PHSPDataset)
+### **This dataset can only be used for academic purpose. Commercial use is strictly prohibited without permission.**
+- report [[pdf]](https://arxiv.org/abs/2004.14899)
+- how to use [[code]](https://github.com/JimmyZou/PolarHumanPoseShapeDataset) 
+- where to obtain [[data (GoogleDrive)]](https://drive.google.com/drive/folders/1ZGkpiI99J-4ygD9i3ytJdmyk_hkejKCd?usp=sharing)
+- where to obtain [[data (OneDrive)]](https://ualbertaca-my.sharepoint.com/:f:/g/personal/szou2_ualberta_ca/EroBwhzfP0NCpl9EdqGeb0kBh6XcZTw1sh2YJ5MJ9PIeMA?e=nIvtdf)
+
+### Our PHSPDataset provides:
+- one view polarization image
+- three-view Kinects v2 (three-view ToF depth and color images)
+- 12 subjects (9 males and 3 females)
+- each subject to do 3 different groups of actions (18 different actions in total) for 4 times plus one free-style group. (around 22K frames of each subject with about 13 fps)
+- annotations of **shape and pose** and video clips of 34 types of **actions**
+
+<center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_fig/fig2_1.png" width="800"/></center>
+<center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_fig/fig2_2.png" width="800"/></center>
+<center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_fig/fig2_3.png" width="800"/></center>
+<center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_fig/fig2_4.png" width="800"/></center>
+<center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_fig/fig2_5.png" width="800"/></center>
+<center>Demo figures show the annotated shape and 3D pose rendered on four types of images (one polarization image and three-view color images).</center>
+
+<center><img src="/images/pubilication_image_videos/eccv2020/demo_annotation_shape.gif" width="400"/></center>
+<center>A demo video shows the annotated shape rendered on four types of images.</center>
 
 ---
 If you are interested in our work or using PHSPDataset, please cite the following papers. Thank you.

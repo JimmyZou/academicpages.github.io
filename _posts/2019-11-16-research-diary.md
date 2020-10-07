@@ -9,6 +9,7 @@ tags:
 ## Contents<a name="contents"></a>
  - [Dynamic vision system (event-based vision)](#dynamic-vision-system)
  - [Spiking Neural Networks](#SNN)
+ - [Optimization-based Human Pose and Shape Capture](#optim-human-shape)
  - [Video prediction/generation/completion and Pose transfer](#video-prediction)
  - [Unsupervised learning / representation learning](#representation-learning)
  - [Others](#others)
@@ -169,6 +170,37 @@ _Jun Haeng Lee, Tobi Delbruck, Michael Pfeiffer_
 ### [Annual Review of Neuroscience 2008] Spike Timing–Dependent Plasticity: A Hebbian Learning Rule [[pdf]](https://www.annualreviews.org/doi/pdf/10.1146/annurev.neuro.31.060407.125639)
 _Natalia Caporale and Yang Dan_
 
+
+
+[[back to top]](#contents)
+---
+## Optimization-based Human Pose and Shape Capture <a name="optim-human-shape"></a>
+
+### Background studying
+- TSDF [[reference]](https://blog.csdn.net/qq_39732684/article/details/105294993)
+ 
+
+### [CVPR 2018] DoubleFusion: Real-time Capture of Human Performances with Inner Body Shapes from a Single Depth Sensor [[pdf]](https://arxiv.org/abs/1804.06023)
+_Tao Yu, Zerong Zheng, Kaiwen Guo, Jianhui Zhao, Qionghai Dai, Hao Li, Gerard Pons-Moll, Yebin Liu_
+
+### [CVPR 2015]  Dynamicfusion: Reconstruction and tracking of non-rigid scenes in real-time [[pdf]](https://grail.cs.washington.edu/projects/dynamicfusion/papers/DynamicFusion.pdf)
+_Richard Newcombe, Dieter Fox, Steve Seitz_
+- [[reference]](https://blog.csdn.net/fuguangping/article/details/105766665)
+
+### [ToG 2017] Real-time geometry, albedo and motion reconstruction using a single rgbd camera [[pdf]](https://www.guokaiwen.com/main.pdf)
+_K. Guo, F. Xu, T. Yu, X. Liu, Q. Dai, and Y. Liu_
+
+### [ICCV 2017] Bodyfusion: Real-time capture of human motion and surface geometry using a single depth camera [[pdf]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Yu_BodyFusion_Real-Time_Capture_ICCV_2017_paper.pdf)
+_T. Yu, K. Guo, F. Xu, Y. Dong, Z. Su, J. Zhao, J. Li, Q. Dai, and Y. Liu_
+
+### [ECCV 2016] Volumedeform: Real-time volumetric nonrigid reconstruction [[pdf]](https://graphics.stanford.edu/~niessner/papers/2016/5volumeDeform/innmann2016deform.pdf)
+_M. Innmann, M. Zollhofer, M. Nießner, C. Theobalt, and M. Stamminger._
+
+### [ECCV 2018] ArticulatedFusion: Real-time Reconstruction of Motion, Geometry and Segmentation Using a Single Depth Camera [[pdf]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Chao_Li_ArticulatedFusion_Real-time_Reconstruction_ECCV_2018_paper.pdf)
+_Chao Li, Zheheng Zhao, and Xiaohu Guo_
+
+### [CVPR 2014, TPAMI 2016] Real-Time Simultaneous Pose and Shape Estimation for Articulated Objects Using a Single Depth Camera [[pdf]](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.663.8898&rep=rep1&type=pdf) [[pdf]](https://ieeexplore.ieee.org/document/7457693)
+_Mao Ye, Yang Shen, Chao Du, Zhigeng Pan, Ruigang Yang_
 
 
 [[back to top]](#contents)
