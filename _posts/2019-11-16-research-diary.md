@@ -176,9 +176,17 @@ _Natalia Caporale and Yang Dan_
 ---
 ## Optimization-based Human Pose and Shape Capture <a name="optim-human-shape"></a>
 
-### Background studying
+
+### Background studying 1
+- quaternion $$(w, x, y, z))$$ 
+	- [[good tutorial]](https://www.zhihu.com/question/23005815)
+	- [[Accurate Computation of Quaternions from Rotation Matrices]](http://www.iri.upc.edu/files/scidoc/2068-Accurate-Computation-of-Quaternions-from-Rotation-Matrices.pdf)
+	- [[Rodrigues vector to rotation matrix]](https://www2.cs.duke.edu/courses/fall13/compsci527/notes/rodrigues.pdf) [[wiki]](https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula)
+
+
+### Background studying 2
 - TSDF [[reference]](https://blog.csdn.net/qq_39732684/article/details/105294993)
- 
+ ![2020-polarization-clothed-human-shape](./attachments/2020-polarization-clothed-human-shape.md)
 
 ### [CVPR 2018] DoubleFusion: Real-time Capture of Human Performances with Inner Body Shapes from a Single Depth Sensor [[pdf]](https://arxiv.org/abs/1804.06023)
 _Tao Yu, Zerong Zheng, Kaiwen Guo, Jianhui Zhao, Qionghai Dai, Hao Li, Gerard Pons-Moll, Yebin Liu_

@@ -24,10 +24,13 @@ tags:
 ---
 ## human pose estimation<a name="human-pose-estimatio"></a>
 
+### [CVPR 2020] VIBE: Video Inference for Human Body Pose and Shape Estimation [[pdf]](https://arxiv.org/abs/1912.05656)
+_Muhammed Kocabas, Nikos Athanasiou, Michael J. Black_
+
 ### [CVPR 2020] PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Saito_PIFuHD_Multi-Level_Pixel-Aligned_Implicit_Function_for_High-Resolution_3D_Human_Digitization_CVPR_2020_paper.pdf)
 _Shunsuke Saito, Tomas Simon, Jason Saragih, Hanbyul Joo_
 
-### [CVPR 2020] Combining Detection and Tracking for Human Pose Estimation in Videos [[pd]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Combining_Detection_and_Tracking_for_Human_Pose_Estimation_in_Videos_CVPR_2020_paper.pdf)
+### [CVPR 2020] Combining Detection and Tracking for Human Pose Estimation in Videos [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Combining_Detection_and_Tracking_for_Human_Pose_Estimation_in_Videos_CVPR_2020_paper.pdf)
 _Manchen Wang, Joseph Tighe, Davide Modolo_
 
 ### [CVPR 2020] Mixture Dense Regression for Object Detection and Human Pose Estimation [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Varamesh_Mixture_Dense_Regression_for_Object_Detection_and_Human_Pose_Estimation_CVPR_2020_paper.pdf)
