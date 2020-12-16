@@ -25,7 +25,12 @@ tags:
 ### advantages
 - Event cameras have several advantages over traditional cameras: a latency in the order of microseconds, a very high dynamic range (140 dB compared to 60 dB of traditional cameras), and very low power consumption (10mW vs 1.5W of traditional cameras). Moreover, since all pixels capture light independently, such sensors do not suffer from motion blur.
 
-## Spiking Neural Networks<a name="SNN"></a>
+### [TPAMI 2020] Event-based Vision: A Survey [[pdf]](https://arxiv.org/abs/1904.08405)
+_Guillermo Gallego, Tobi Delbruck, Garrick Orchard, Chiara Bartolozzi, Brian Taba, Andrea Censi, Stefan Leutenegger, Andrew Davison, Joerg Conradt, Kostas Daniilidis, Davide Scaramuzza_
+
+### [CVPR 2020] EventCap: Monocular 3D Capture of High-Speed Human Motions using an Event Camera [[pdf]](https://arxiv.org/abs/1908.11505)
+_Lan Xu, Weipeng Xu, Vladislav Golyanik, Marc Habermann, Lu Fang, Christian Theobalt_
+
 ### [ECCV 2020] Spike-FlowNet: Event-based Optical Flow Estimation with Energy-Efficient Hybrid Neural Networks [[pdf]](https://arxiv.org/abs/2003.06696)
 _Chankyu Lee, Adarsh Kumar Kosta, Alex Zihao Zhu, Kenneth Chaney, Kostas Daniilidis, Kaushik Roy_
 - SNN decodes event streams and ANN encodes optical flow. Simplest IF neuron model is used in this paper.
@@ -33,6 +38,9 @@ _Chankyu Lee, Adarsh Kumar Kosta, Alex Zihao Zhu, Kenneth Chaney, Kostas Daniili
 
 ### [CVPR 2020] Single Image Optical Flow Estimation With an Event Camera [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Pan_Single_Image_Optical_Flow_Estimation_With_an_Event_Camera_CVPR_2020_paper.pdf)
 _Liyuan Pan, Miaomiao Liu, Richard Hartley_
+
+### [CVPR 2018] Pwc-net: Cnns for optical flow using pyramid, warping, and cost volume [[pdf]](https://arxiv.org/abs/1709.02371) [[code]](https://github.com/NVlabs/PWC-Net)
+_Deqing Sun, Xiaodong Yang, Ming-Yu Liu, Jan Kautz_
 
 ### [CVPR 2020] Learning to Super Resolve Intensity Images From Events [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/I._Learning_to_Super_Resolve_Intensity_Images_From_Events_CVPR_2020_paper.pdf)
 _S. Mohammad Mostafavi I., Jonghyun Choi, Kuk-Jin Yoon_
@@ -66,6 +74,9 @@ _S. Mohammad Mostafavi I., Lin Wang, Yo-Sung Ho, Kuk-Jin Yoon_
 
 ### [CVPR 2019] Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion [[pdf]](https://arxiv.org/abs/1812.08156)
 _Alex Zihao Zhu, Liangzhe Yuan, Kenneth Chaney, Kostas Daniilidis_
+
+### [IROS 2018] Event-based Moving Object Detection and Tracking [[pdf]](https://arxiv.org/abs/1803.04523)
+_Anton Mitrokhin, Cornelia Fermuller, Chethan Parameshwara, Yiannis Aloimonos_
 
 ### [CVPR 2019] Bringing a Blurry Frame Alive at High Frame-Rate With an Event Camera [[pdf]](https://arxiv.org/abs/1811.10180)
 _Liyuan Pan, Cedric Scheerlinck, Xin Yu, Richard Hartley, Miaomiao Liu, Yuchao Dai_
@@ -116,19 +127,18 @@ _Enrico Calabrese, Gemma Taverni, Christopher Awai Easthope, Sophie Skriabine, F
 _Alex Zihao Zhu, Liangzhe Yuan, Kenneth Chaney, Kostas Daniilidis_
 - In particular, we introduce an image based representation of a given event stream, which is fed into a self-supervised neural network as the sole input. The corresponding grayscale images captured from the same camera at the same time as the events are then used as a supervisory signal to provide a loss function at training time, given the estimated flow from the network.
 
-### [ICRA 2015] Spike time based unsupervised learning of receptive fields for event-driven vision [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7139786&tag=1)
-_Himanshu Akolkar, Stefano Panzeri and Chiara Bartolozzi_
+### [CVPR 2016] Simultaneous Optical Flow and Intensity Estimation from an Event Camera [[pdf]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Bardow_Simultaneous_Optical_Flow_CVPR_2016_paper.pdf)
+_Patrick Bardow, Andrew J. Davison, Stefan Leutenegger_
 
 
-### Convolutional networks for fast, energy-efficient neuromorphic computing [[pdf]](https://arxiv.org/pdf/1603.08270.pdf)
-_Steven K. Esser, Paul A. Merolla, John V. Arthur, Andrew S. Cassidy, Rathinakumar Appuswamy, Alexander Andreopoulos, David J. Berg, Jeffrey L. McKinstry, Timothy Melano, Davis R. Barch, Carmelo di Nolfo, Pallab Datta, Arnon Amir, Brian Taba, Myron D. Flickner, and Dharmendra S. Modha._
-
-### A wafer-scale neuromorphic hardware system for large-scale neural modeling [[pdf]](https://ieeexplore.ieee.org/document/5536970)
-_Johannes Schemmel, Daniel Br¨uderle, Andreas Gr¨ubl, Matthias Hock, Karlheinz Meier, and Sebastian Millner_
+### [NNLS 2014] Event-Based Visual Flow [[pdf]](https://ieeexplore.ieee.org/document/6589170) [[code]](https://github.com/winswang/event-flow)
+_Ryad Benosman, Charles Clercq, Xavier Lagorce, Sio-Hoi Ieng, and Chiara Bartolozzi_
 
 
 [[back to top]](#contents)
 ---
+
+## Spiking Neural Networks<a name="SNN"></a>
 
 ### [TPAMI 2019] Unsupervised Learning of a Hierarchical Spiking Neural Network for Optical Flow Estimation: From Events to Global Motion Perception [[pdf]](https://arxiv.org/abs/1807.10936)
 _Federico Paredes-Vallés, Kirk Y. W. Scheper, Guido C. H. E. de Croon_
@@ -157,6 +167,16 @@ _Sumit Bam Shrestha, Garrick Orchard_
 ### Time structure of the activity in neural network models [[pdf]](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.51.738)
 _Wulfram Gerstner_
 - Spiking Response Model used in Slayer
+
+### [ICRA 2015] Spike time based unsupervised learning of receptive fields for event-driven vision [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7139786&tag=1)
+_Himanshu Akolkar, Stefano Panzeri and Chiara Bartolozzi_
+
+
+### Convolutional networks for fast, energy-efficient neuromorphic computing [[pdf]](https://arxiv.org/pdf/1603.08270.pdf)
+_Steven K. Esser, Paul A. Merolla, John V. Arthur, Andrew S. Cassidy, Rathinakumar Appuswamy, Alexander Andreopoulos, David J. Berg, Jeffrey L. McKinstry, Timothy Melano, Davis R. Barch, Carmelo di Nolfo, Pallab Datta, Arnon Amir, Brian Taba, Myron D. Flickner, and Dharmendra S. Modha._
+
+### A wafer-scale neuromorphic hardware system for large-scale neural modeling [[pdf]](https://ieeexplore.ieee.org/document/5536970)
+_Johannes Schemmel, Daniel Br¨uderle, Andreas Gr¨ubl, Matthias Hock, Karlheinz Meier, and Sebastian Millner_
 
 ### [IEEE NNLS 2018] A supervised learning algorithm for learning precise timing of multiple spikes in multilayer spiking neural networks [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8305661)
 _Aboozar Taherkhani, Ammar Belatreche, Yuhua Li, Liam P. Maguire_
