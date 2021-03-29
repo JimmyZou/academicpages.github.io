@@ -13,8 +13,10 @@ redirect_from:
 I am a third-year PhD student in the department of Electrical and Computer Engineering, University of Alberta, Canada. I am from Nanchang, China. My research interest includes computer vision (CV) and reinforcement learning (RL). I also participated in projects on multi-agent RL and some data mining topics, including information retrieval and natural language processing.
 
 Contact:
-email szou2@ualberta.ca
-wechat zshbit
+
+email: szou2@ualberta.ca
+
+wechat: zshbit
 
 
 Education
