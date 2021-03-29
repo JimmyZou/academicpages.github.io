@@ -469,5 +469,17 @@ _Ruben Wiersma, Elmar Eisemann, Klaus Hildebrandt_
 ### Accelerating 3D Deep Learning with PyTorch3D [[pdf]](https://arxiv.org/pdf/2007.08501)
 _Nikhila Ravi, Jeremy Reizenstein, David Novotny, Taylor Gordon, Wan-Yen Lo, Justin Johnson, Georgia Gkioxari_
 
+### On the Continuity of Rotation Representations in Neural Networks [[pdf]](https://arxiv.org/abs/1812.07035)
+_Yi Zhou, Connelly Barnes, Jingwan Lu, Jimei Yang, Hao Li_
+
+### [CVPR 2020] Adversarial Examples Improve Image Recognition [[pdf]](https://arxiv.org/abs/1911.09665)
+_Cihang Xie, Mingxing Tan, Boqing Gong, Jiang Wang, Alan Yuille, Quoc V. Le_
+
+### [NeurIPS 2020] A Closer Look at Accuracy vs. Robustness [[pdf]](https://arxiv.org/abs/2003.02460)
+_Yao-Yuan Yang, Cyrus Rashtchian, Hongyang Zhang, Ruslan Salakhutdinov, Kamalika Chaudhuri_
+
+### [ICML 2019] EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks [[pdf]](https://arxiv.org/abs/1905.11946)
+_Mingxing Tan, Quoc V. Le_
+
 [[back to top]](#contents)
 ---
