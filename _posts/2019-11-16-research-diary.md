@@ -7,6 +7,7 @@ tags:
 ---
 
 ## Contents<a name="contents"></a>
+ - [Transformer](#transformer)
  - [Dynamic vision system (event-based vision)](#dynamic-vision-system)
  - [Spiking Neural Networks](#SNN)
  - [Optimization-based Human Pose and Shape Capture](#optim-human-shape)
@@ -15,6 +16,24 @@ tags:
  - [Others](#others)
 
 ---
+
+## Transformer<a name="transformer"></a>
+
+### [ArXiv 2021] 3D Human Pose Estimation with Spatial and Temporal Transformers [[pdf]](https://arxiv.org/pdf/2103.10455.pdf)
+_Ce Zheng, Sijie Zhu, Matias Mendieta, Taojiannan Yang, Chen Chen, Zhengming Ding_
+
+### [ArXiv 2021] A Survey on Visual Transformer [[pdf]](https://arxiv.org/abs/2012.12556.pdf)
+_Kai Han, Yunhe Wang, Hanting Chen, Xinghao Chen, Jianyuan Guo, Zhenhua Liu, Yehui Tang, An Xiao, Chunjing Xu, Yixing Xu, Zhaohui Yang, Yiman Zhang, Dacheng Tao_
+
+### [AAAI 2021] Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting [[pdf]](https://arxiv.org/abs/2012.07436.pdf)
+_Haoyi Zhou, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li, Hui Xiong, Wancai Zhang_
+
+### [ECCV 2020] End-to-end object detection with transformers [[pdf]](https://arxiv.org/abs/2005.12872.pdf)
+_Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko_
+
+### [ICLR 2021] An image is worth 16x16 words: Transformers for image recognition at scale [[pdf]](https://openreview.net/pdf?id=YicbFdNTTy)
+_Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby_
+
 
 ## Dynamic vision system (event-based vision)<a name="dynamic-vision-system"></a>
 
