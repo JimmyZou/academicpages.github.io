@@ -22,6 +22,24 @@ tags:
 ### [ArXiv 2021] 3D Human Pose Estimation with Spatial and Temporal Transformers [[pdf]](https://arxiv.org/pdf/2103.10455.pdf)
 _Ce Zheng, Sijie Zhu, Matias Mendieta, Taojiannan Yang, Chen Chen, Zhengming Ding_
 
+### [CVPR 2021] End-to-end human pose and mesh reconstruction with transformers [[pdf]]()
+_Kevin Lin, Lijuan Wang, Zicheng Liu_
+ - ![](/images/fig_transformer/7.png)
+
+### [ECCV 2020] Non-autoregressive structured modeling for 3d hand pose estimation [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700018.pdf)
+_Lin Huang, Jianchao Tan, Ji Liu, and Junsong Yuan_
+ - ![](/images/fig_transformer/6.png)
+
+### [ArXiv 2021] CvT: Introducing Convolutions to Vision Transformers [[pdf]](https://arxiv.org/abs/2103.15808.pdf)
+_Haiping Wu, Bin Xiao, Noel Codella, Mengchen Liu, Xiyang Dai, Lu Yuan, Lei Zhang_
+
+### [ArXiv 2021] Point transformer [[pdf]](https://arxiv.org/pdf/2012.09164.pdf)
+_Hengshuang Zhao, Li Jiang, Jiaya Jia, Philip Torr, Vladlen Koltun_
+
+### [CVPR 2021] End-to-end video instance segmentation with transformers [[pdf]](https://arxiv.org/pdf/2011.14503.pdf)
+_Yuqing Wang, Zhaoliang Xu, Xinlong Wang, Chunhua Shen, Baoshan Cheng, Hao Shen, Huaxia Xia_
+ - ![](/images/fig_transformer/5.png)
+
 ### [ArXiv 2021] A Survey on Visual Transformer [[pdf]](https://arxiv.org/abs/2012.12556.pdf)
 _Kai Han, Yunhe Wang, Hanting Chen, Xinghao Chen, Jianyuan Guo, Zhenhua Liu, Yehui Tang, An Xiao, Chunjing Xu, Yixing Xu, Zhaohui Yang, Yiman Zhang, Dacheng Tao_
 
@@ -30,9 +48,26 @@ _Haoyi Zhou, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li, Hui Xiong, Wa
 
 ### [ECCV 2020] End-to-end object detection with transformers [[pdf]](https://arxiv.org/abs/2005.12872.pdf)
 _Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, Sergey Zagoruyko_
+ - ![](/images/fig_transformer/4.png)
+
+### [CVPR 2020] Actor-Transformers for Group Activity Recognition [[pdf]](https://arxiv.org/pdf/2003.12737.pdf)
+_Kirill Gavrilyuk, Ryan Sanford, Mehrsan Javan, Cees G. M. Snoek_
 
 ### [ICLR 2021] An image is worth 16x16 words: Transformers for image recognition at scale [[pdf]](https://openreview.net/pdf?id=YicbFdNTTy)
 _Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby_
+ - ![](/images/fig_transformer/3.png)
+
+### [ICML 2020] Generative pretraining from pixels [[pdf]](https://cdn.openai.com/papers/Generative_Pretraining_from_Pixels_V2.pdf)
+_Mark Chen, Alec Radford, Rewon Child, Jeffrey Wu, Heewoo Jun, David Luan, and Ilya Sutskever_
+- ![](/images/fig_transformer/2.png)
+
+### [ArXiv 2020] Visual Transformers: Token-based Image Representation and Processing for Computer Vision [[pdf]](https://arxiv.org/pdf/2006.03677.pdf)
+_Bichen Wu, Chenfeng Xu, Xiaoliang Dai, Alvin Wan, Peizhao Zhang, Zhicheng Yan, Masayoshi Tomizuka, Joseph Gonzalez, Kurt Keutzer, Peter Vajda_
+- semantic segmentation with transformer
+- ![](/images/fig_transformer/1.png)
+
+### [ICML 2018] Image transformer [[pdf]](https://arxiv.org/pdf/1802.05751.pdf)
+_Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Łukasz Kaiser, Noam Shazeer, Alexander Ku, Dustin Tran_
 
 
 ## Dynamic vision system (event-based vision)<a name="dynamic-vision-system"></a>
@@ -70,7 +105,7 @@ _Zhe Jiang, Yu Zhang, Dongqing Zou, Jimmy Ren, Jiancheng Lv, Yebin Liu_
 ### [CVPR 2020] Video to Events: Recycling Video Datasets for Event Cameras [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Gehrig_Video_to_Events_Recycling_Video_Datasets_for_Event_Cameras_CVPR_2020_paper.pdf)
 _Daniel Gehrig, Mathias Gehrig, Javier Hidalgo-Carrio, Davide Scaramuzza_
 
-### [CVPR 2020] 4D Visualization of Dynamic Events From Unconstrained Multi-View Videos [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Bansal_4D_Visualization_of_Dynamic_Events_From_Unconstrained_Multi-View_Videos_CVPR_2020_paper.pdf)
+ ### [CVPR 2020] 4D Visualization of Dynamic Events From Unconstrained Multi-View Videos [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Bansal_4D_Visualization_of_Dynamic_Events_From_Unconstrained_Multi-View_Videos_CVPR_2020_paper.pdf)
 _Aayush Bansal, Minh Vo, Yaser Sheikh, Deva Ramanan, Srinivasa Narasimhan_
 
 ### [CVPR 2020] Globally Optimal Contrast Maximisation for Event-Based Motion Estimation [[pdf]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Globally_Optimal_Contrast_Maximisation_for_Event-Based_Motion_Estimation_CVPR_2020_paper.pdf)
