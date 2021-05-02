@@ -7,6 +7,7 @@ tags:
 ---
 
 ## Contents<a name="contents"></a>
+ -  [6D Pose Estimation](#6d-pose)
  - [Transformer](#transformer)
  - [Dynamic vision system (event-based vision)](#dynamic-vision-system)
  - [Spiking Neural Networks](#SNN)
@@ -22,7 +23,10 @@ tags:
 ### [ArXiv 2021] 3D Human Pose Estimation with Spatial and Temporal Transformers [[pdf]](https://arxiv.org/pdf/2103.10455.pdf)
 _Ce Zheng, Sijie Zhu, Matias Mendieta, Taojiannan Yang, Chen Chen, Zhengming Ding_
 
-### [CVPR 2021] End-to-end human pose and mesh reconstruction with transformers [[pdf]]()
+### [ArXiv 2021] Mesh Graphormer [[pdf]](https://arxiv.org/pdf/2104.00272.pdf)
+_Kevin Lin, Lijuan Wang, Zicheng Liu_
+
+### [CVPR 2021] End-to-end human pose and mesh reconstruction with transformers [[pdf]](https://arxiv.org/pdf/2012.09760.pdf)
 _Kevin Lin, Lijuan Wang, Zicheng Liu_
  - ![](/images/fig_transformer/7.png)
 
@@ -69,6 +73,31 @@ _Bichen Wu, Chenfeng Xu, Xiaoliang Dai, Alvin Wan, Peizhao Zhang, Zhicheng Yan, 
 ### [ICML 2018] Image transformer [[pdf]](https://arxiv.org/pdf/1802.05751.pdf)
 _Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Łukasz Kaiser, Noam Shazeer, Alexander Ku, Dustin Tran_
 
+[[back to top]](#contents)
+---
+
+## 6D Pose Estimation <a name="6d-pose"></a>
+
+### [CVPR 2020] Learning deep network for detecting 3D object keypointsand 6D poses [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhao_Learning_Deep_Network_for_Detecting_3D_Object_Keypoints_and_6D_CVPR_2020_paper.pdf)
+_Wanqing Zhao, Shaobo Zhang, Ziyu Guan, Wei Zhao_
+
+### [CVPR 2019] Pvnet: Pixel-wise voting network for 6dof pose estimation [[pdf]](https://arxiv.org/abs/1812.11788.pdf)
+_Sida Peng, Yuan Liu, Qixing Huang, Hujun Bao, Xiaowei Zhou_
+
+### [CVPR 2020] Pvn3d: A deep point-wise 3d keypointsvoting network for 6dof pose estimation [[pdf]](https://arxiv.org/abs/1911.04231.pdf)
+_Yisheng He, Wei Sun, Haibin Huang, Jianran Liu, Haoqiang Fan, Jian Sun_
+
+### [ICCV 2019] Pix2pose: Pixel-wise coordinate regression of objects for 6d pose estimation [[pdf]](https://arxiv.org/abs/1908.07433.pdf)
+_Kiru Park, Timothy Patten, Markus Vincze_
+
+### [ECCV 2018] DeepIM: Deep iterative matching for 6d pose estimation [[pdf]](https://arxiv.org/abs/1804.00175.pdf)
+_Yi Li, Gu Wang, Xiangyang Ji, Yu Xiang, Dieter Fox_
+
+### [ECCV 2018 Best Paper Award] Implicit 3D Orientation Learning for 6D Object Detection from RGB Images [[pdf]](https://arxiv.org/abs/1902.01275.pdf)
+_Martin Sundermeyer, Zoltan-Csaba Marton, Maximilian Durner, Manuel Brucker, Rudolph Triebel_
+
+[[back to top]](#contents)
+---
 
 ## Dynamic vision system (event-based vision)<a name="dynamic-vision-system"></a>
 
