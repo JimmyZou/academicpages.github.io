@@ -38,10 +38,11 @@ _Lin Huang, Jianchao Tan, Ji Liu, and Junsong Yuan_
 ### [ArXiv 2021] CvT: Introducing Convolutions to Vision Transformers [[pdf]](https://arxiv.org/abs/2103.15808.pdf)
 _Haiping Wu, Bin Xiao, Noel Codella, Mengchen Liu, Xiyang Dai, Lu Yuan, Lei Zhang_
  - ![](/images/fig_transformer/9.png)
-  - ![](/images/fig_transformer/10.png)
+ - ![](/images/fig_transformer/10.png)
 
 ### [ArXiv 2021] Point transformer [[pdf]](https://arxiv.org/pdf/2012.09164.pdf)
 _Hengshuang Zhao, Li Jiang, Jiaya Jia, Philip Torr, Vladlen Koltun_
+ - ![](/images/fig_transformer/11.png)
 
 ### [CVPR 2021] End-to-end video instance segmentation with transformers [[pdf]](https://arxiv.org/pdf/2011.14503.pdf)
 _Yuqing Wang, Zhaoliang Xu, Xinlong Wang, Chunhua Shen, Baoshan Cheng, Hao Shen, Huaxia Xia_
