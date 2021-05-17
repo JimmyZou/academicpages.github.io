@@ -25,6 +25,7 @@ _Ce Zheng, Sijie Zhu, Matias Mendieta, Taojiannan Yang, Chen Chen, Zhengming Din
 
 ### [ArXiv 2021] Mesh Graphormer [[pdf]](https://arxiv.org/pdf/2104.00272.pdf)
 _Kevin Lin, Lijuan Wang, Zicheng Liu_
+ - ![](/images/fig_transformer/8.png)
 
 ### [CVPR 2021] End-to-end human pose and mesh reconstruction with transformers [[pdf]](https://arxiv.org/pdf/2012.09760.pdf)
 _Kevin Lin, Lijuan Wang, Zicheng Liu_
@@ -36,6 +37,8 @@ _Lin Huang, Jianchao Tan, Ji Liu, and Junsong Yuan_
 
 ### [ArXiv 2021] CvT: Introducing Convolutions to Vision Transformers [[pdf]](https://arxiv.org/abs/2103.15808.pdf)
 _Haiping Wu, Bin Xiao, Noel Codella, Mengchen Liu, Xiyang Dai, Lu Yuan, Lei Zhang_
+ - ![](/images/fig_transformer/9.png)
+  - ![](/images/fig_transformer/10.png)
 
 ### [ArXiv 2021] Point transformer [[pdf]](https://arxiv.org/pdf/2012.09164.pdf)
 _Hengshuang Zhao, Li Jiang, Jiaya Jia, Philip Torr, Vladlen Koltun_
@@ -78,7 +81,7 @@ _Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Łukasz Kaiser, Noam Shazeer, Ale
 
 ## 6D Pose Estimation <a name="6d-pose"></a>
 
-### [CVPR 2020] Learning deep network for detecting 3D object keypointsand 6D poses [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhao_Learning_Deep_Network_for_Detecting_3D_Object_Keypoints_and_6D_CVPR_2020_paper.pdf)
+### [CVPR 2020] Learning deep network for detecting 3D object keypoints and 6D poses [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhao_Learning_Deep_Network_for_Detecting_3D_Object_Keypoints_and_6D_CVPR_2020_paper.pdf)
 _Wanqing Zhao, Shaobo Zhang, Ziyu Guan, Wei Zhao_
 
 ### [CVPR 2019] Pvnet: Pixel-wise voting network for 6dof pose estimation [[pdf]](https://arxiv.org/abs/1812.11788.pdf)
