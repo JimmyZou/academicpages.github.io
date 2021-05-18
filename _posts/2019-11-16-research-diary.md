@@ -94,11 +94,21 @@ _Yisheng He, Wei Sun, Haibin Huang, Jianran Liu, Haoqiang Fan, Jian Sun_
 ### [ICCV 2019] Pix2pose: Pixel-wise coordinate regression of objects for 6d pose estimation [[pdf]](https://arxiv.org/abs/1908.07433.pdf)
 _Kiru Park, Timothy Patten, Markus Vincze_
 
+### [CVPR 2018] Real-time seamless single shot 6d object pose prediction [[pdf]](https://arxiv.org/abs/1711.08848)
+_Bugra Tekin, Sudipta N. Sinha, Pascal Fua_
+
 ### [ECCV 2018] DeepIM: Deep iterative matching for 6d pose estimation [[pdf]](https://arxiv.org/abs/1804.00175.pdf)
 _Yi Li, Gu Wang, Xiangyang Ji, Yu Xiang, Dieter Fox_
 
 ### [ECCV 2018 Best Paper Award] Implicit 3D Orientation Learning for 6D Object Detection from RGB Images [[pdf]](https://arxiv.org/abs/1902.01275.pdf)
 _Martin Sundermeyer, Zoltan-Csaba Marton, Maximilian Durner, Manuel Brucker, Rudolph Triebel_
+
+### [ICRA 2017] 6-dof object pose from semantic keypoints [[pdf]](https://arxiv.org/abs/1703.04670)
+_Georgios Pavlakos, Xiaowei Zhou, Aaron Chan, Konstantinos G. Derpanis, Kostas Daniilidis_
+
+### [ICCV 2017] BB8: A Scalable, Accurate, Robust to Partial Occlusion Method for Predicting the 3D Poses of Challenging Objects without Using Depth [[pdf]](https://arxiv.org/pdf/1703.10896.pdf)
+_Mahdi Rad, Vincent Lepetit_
+
 
 [[back to top]](#contents)
 ---
