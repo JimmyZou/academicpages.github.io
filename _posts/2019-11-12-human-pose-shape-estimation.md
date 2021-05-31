@@ -11,6 +11,8 @@ tags:
 ---
 
 ## Contents<a name="contents"></a>
+ - [multi-person pose estimation](#multiperson-pose-estimation)
+ - [IMU pose estimation](#imu-pose-estimation)
  - [3D human pose estimation](#human-pose-estimation)
  - [human shape estimation](#human-shape-estimation)
  - [action recognition, motion prediction and synthesis](#action-motion)
@@ -22,6 +24,93 @@ tags:
 ### [https://github.com/wangzheallen/awesome-human-pose-estimation](https://github.com/wangzheallen/awesome-human-pose-estimation)
 
 ---
+## multi-person pose estimation<a name="multiperson-pose-estimatio"></a>
+
+### [CMU Panoptic dataset (3D)](https://github.com/CMU-Perceptual-Computing-Lab/panoptic-toolbox)
+- a large-scale dataset that contains various indoor social activities, captured by multiple cameras. Mutual occlusion between individuals and truncation makes it challenging to recover 3D poses. Following, we choose two cameras (16 and 30), **9600** images from four activities (Haggling, Mafia, Ultimatum, Pizza) as our test set, and **160k** images from different sequences as our training set.
+ 
+ ### [MuCo-3DHP and MuPoTS-3D](http://gvv.mpi-inf.mpg.de/projects/SingleShotMultiPerson/)
+ - MuCo-3DHP is an indoor multi-person dataset for training, which is composited from single-person datasets. MuPoTS3D is a test set consisting of indoor and outdoor scenes with various camera poses, making it a convincing benchmark to test the generalization ability.
+
+### [JTA dataset 3D](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=25)
+- JTA (Joint Track Auto) is a dataset for human pose estimation and tracking in urban environment. It was collected from the realistic video-game the Grand Theft Auto V and contains 512 HD videos of 30 seconds recorded at 30 fps. The collected videos feature a vast number of different body poses, in several urban scenarios at varying illumination conditions and viewpoints. People perform different actions like walking, sitting, running, chatting, talking on the phone, drinking or smoking. Each image contains a number of people ranging between 0 and 60 with an average of 21 people. The distance from the camera ranges between 0.1 to 100 meters, resulting in pedestrian heights between 20 and 1100 pixels
+- Learning to detect and track visible and occluded body joints in a virtual world, ECCV 2018
+
+### MS-COCO Dataset 2D
+ - contains over 200,000 images and 250,000 human instances and 1.7 million labeled keypoints in total, among which 150,000 instances are for training and 80,000 instances are for testing.
+
+### OCHuman Dataset 2D
+- is a recently proposed benchmark to examine the limitations of human pose detection in highly challenging scenarios, which does not contain training samples and is intended to be used for evaluating existing models.
+
+### Posetrack 2017 and 2018 datasets 2D
+- The datasets have 292 and 593 videos for training and 214 and 375 videos for evaluation, respectively.
+
+### [ECCV 2020] End-to-end Dynamic Matching Network for Multi-view Multi-person 3d Pose Estimation [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730477.pdf)
+_Congzhentao Huang, Shuai Jiang, Yang Li, Ziyue Zhang, Jason Traish, Chen Deng, Sam Ferguson, Richard Yi Da Xu_
+
+### [ECCV 2020] HMOR: Hierarchical Multi-Person Ordinal Relations for Monocular Multi-Person 3D Pose Estimation [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480256.pdf)
+_Can Wang, Jiefeng Li, Wentao Liu, Chen Qian, Cewu Lu_
+
+### [ECCV 2020] Learning Delicate Local Representations for Multi-Person Pose Estimation [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480460.pdf)
+_Yuanhao Cai, Zhicheng Wang, Zhengxiong Luo, Binyi Yin, Angang Du, Haoqian Wang, Xiangyu Zhang, Xinyu Zhou, Erjin Zhou, Jian Sun_
+
+### [ECCV 2020] Multi-person 3D Pose Estimation in Crowded Scenes Based on Multi-View Geometry [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480545.pdf)
+_He Chen, Pengfei Guo, Pengfei Li, Gim Hee Lee, Gregory Chirikjian_
+
+### [ECCV 2020] Differentiable Hierarchical Graph Grouping for Multi-Person Pose Estimation [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520698.pdf)
+_Sheng Jin, Wentao Liu, Enze Xie, Wenhai Wang, Chen Qian, Wanli Ouyang, Ping Luo_
+
+### [ECCV 2020] Unsupervised Cross-Modal Alignment for Multi-Person 3D Pose Estimation [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580035.pdf)
+_Jogendra Nath Kundu, Ambareesh Revanur, Govind Vitthal Waghmare, Rahul Mysore Venkatesh, R. Venkatesh Babu_
+
+### [ECCV 2020] SMAP: Single-Shot Multi-Person Absolute 3D Pose Estimation [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600545.pdf)
+_Jianan Zhen, Qi Fang, Jiaming Sun, Wentao Liu, Wei Jiang, Hujun Bao , Xiaowei Zhou_
+- ![](/images/fig_human_pose_shape_estimation/25.png)
+
+### [ECCV 2020] Self-supervised Keypoint Correspondences for Multi-Person Pose Estimation and Tracking in Videos [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650035.pdf)
+_Umer Rafi, Andreas Doering, Bastian Leibe, Juergen Gall_
+
+### [CVPR 2020] Compressed Volumetric Heatmaps for Multi-Person 3D Pose Estimation [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fabbri_Compressed_Volumetric_Heatmaps_for_Multi-Person_3D_Pose_Estimation_CVPR_2020_paper.pdf)
+_Matteo Fabbri, Fabio Lanzi, Simone Calderara, Stefano Alletto, Rita Cucchiara_
+
+### [CVPR 2020] PandaNet: Anchor-Based Single-Shot Multi-Person 3D Pose Estimation [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Benzine_PandaNet_Anchor-Based_Single-Shot_Multi-Person_3D_Pose_Estimation_CVPR_2020_paper.pdf)
+_Abdallah Benzine, Florian Chabot, Bertrand Luvison, Quoc Cuong Pham, Catherine Achard_
+
+
+### [CVPR 2020] Cross-View Tracking for Multi-Human 3D Pose Estimation at Over 100 FPS [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Cross-View_Tracking_for_Multi-Human_3D_Pose_Estimation_at_Over_100_CVPR_2020_paper.pdf)
+_Long Chen, Haizhou Ai, Rui Chen, Zijie Zhuang, Shuang Liu_
+
+### [ICCV 2019] Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image [[pdf]](https://arxiv.org/abs/1907.11346) [[code]](https://github.com/mks0601/3DMPPE_ROOTNET_RELEASE)
+_Gyeongsik Moon, Ju Yong Chang, Kyoung Mu Lee_
+- The pipeline of the proposed system consists of human detection, absolute 3D human root localization, and root-relative 3D single-person pose estimation modules.
+
+### [arxiv 2019] XNect: Real-time Multi-person 3D Human Pose Estimation with a Single RGB Camera [[pdf]](https://arxiv.org/abs/1907.00837) [[code]](https://github.com/mehtadushy/SelecSLS-Pytorch)
+_Dushyant Mehta, Oleksandr Sotnychenko, Franziska Mueller, Weipeng Xu, Mohamed Elgharib, Pascal Fua, Hans-Peter Seidel, Helge Rhodin, Gerard Pons-Moll, Christian Theobalt_
+
+### [ICCV 2019] Single-Stage Multi-Person Pose Machines [[pdf]](https://arxiv.org/abs/1908.09220)
+_Xuecheng Nie, Jianfeng Zhang, Shuicheng Yan, Jiashi Feng_
+
+[[back to top]](#contents)
+
+---
+
+## IMU Human Pose Estimation <a name="imu-pose-estimation"></a>
+
+### [Siggraph 2021] TransPose: Real-time 3D Human Translation and Pose Estimation with Six Inertial Sensors [[pdf]](https://xinyu-yi.github.io/TransPose/files/TransPose.pdf)
+_Xinyu Yi, Yuxiao Zhou, Feng Xu_
+
+### [CVPR 2020] Fusing Wearable IMUs With Multi-View Images for Human Pose Estimation: A Geometric Approach [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Fusing_Wearable_IMUs_With_Multi-View_Images_for_Human_Pose_Estimation_CVPR_2020_paper.pdf)
+_Zhe Zhang, Chunyu Wang, Wenhu Qin, Wenjun Zeng_
+
+### [ECCV 2020] Recovering Accurate 3D Human Pose in The Wild Using IMUs and a Moving Camera [[pdf]](https://virtualhumans.mpi-inf.mpg.de/papers/vonmarcardECCV18/vonmarcardECCV18.pdf)
+_Timo von Marcard, Roberto Henschel, Michael J. Black, Bodo Rosenhahn, and Gerard Pons-Moll_
+
+### [WACV 2020] DeepFuse: An IMU-Aware Network for Real-Time 3D Human Pose Estimation from Multi-View Image [[pdf]](https://arxiv.org/abs/1912.04071)
+_Fuyang Huang, Ailing Zeng, Minhao Liu, Qiuxia Lai, Qiang Xu_
+
+[[back to top]](#contents)
+---
+
 ## human pose estimation<a name="human-pose-estimatio"></a>
 
 ### [CVPR 2020] VIBE: Video Inference for Human Body Pose and Shape Estimation [[pdf]](https://arxiv.org/abs/1912.05656)
@@ -77,19 +166,10 @@ _Zhe Wang, Liyan Chen, Shaurya Rathore, Daeyun Shin, Charless Fowlkes_
 ### [arxiv 2019] Semantic Estimation of 3D Body Shape and Pose using Minimal Cameras [[pdf]](https://arxiv.org/abs/1908.03030) 
 _Andrew Gilbert, Matthew Trumble, Adrian Hilton, John Collomosse_
 
-### [ICCV 2019] Single-Stage Multi-Person Pose Machines [[pdf]](https://arxiv.org/abs/1908.09220)
-_Xuecheng Nie, Jianfeng Zhang, Shuicheng Yan, Jiashi Feng_
 
 ### [ICCV 2019] Exploiting Spatial-temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks [[pdf]](https://cse.buffalo.edu/~jsyuan/papers/2019/Exploiting_Spatial-temporal_Relationships_for_3D_Pose_Estimation_via_Graph_Convolutional_Networks.pdf)
 _Yujun Cai, Liuhao Ge, Jun Liu, Jianfei Cai, Tat-Jen Cham, Junsong Yuan, Nadia Magnenat Thalmann_
 
-### [ICCV 2019] Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image [[pdf]](https://arxiv.org/abs/1907.11346) [[code]](https://github.com/mks0601/3DMPPE_ROOTNET_RELEASE)
-_Gyeongsik Moon, Ju Yong Chang, Kyoung Mu Lee_
-- The pipeline of the proposed system consists of human detection, absolute 3D human root localization, and root-relative 3D single-person pose estimation modules.
-- **Multi-persoon 3D pose estimation**
-
-### [arxiv 2019] XNect: Real-time Multi-person 3D Human Pose Estimation with a Single RGB Camera [[pdf]](https://arxiv.org/abs/1907.00837) [[code]](https://github.com/mehtadushy/SelecSLS-Pytorch)
-_Dushyant Mehta, Oleksandr Sotnychenko, Franziska Mueller, Weipeng Xu, Mohamed Elgharib, Pascal Fua, Hans-Peter Seidel, Helge Rhodin, Gerard Pons-Moll, Christian Theobalt_
 
 ### [TPAMI 2019] Feature Boosting Network For 3D Pose Estimation [[pdf]](https://arxiv.org/abs/1901.04877)  
 _Jun Liu, Henghui Ding, Amir Shahroudy, Ling-Yu Duan, Xudong Jiang, Gang Wang, Alex C. Kot_
