@@ -26,7 +26,7 @@ tags:
 ---
 ## multi-person pose estimation<a name="multiperson-pose-estimatio"></a>
 
-### [CMU Panoptic dataset (3D)](https://github.com/CMU-Perceptual-Computing-Lab/panoptic-toolbox)
+### [CMU Panoptic dataset 3D](https://github.com/CMU-Perceptual-Computing-Lab/panoptic-toolbox)
 - a large-scale dataset that contains various indoor social activities, captured by multiple cameras. Mutual occlusion between individuals and truncation makes it challenging to recover 3D poses. Following, we choose two cameras (16 and 30), **9600** images from four activities (Haggling, Mafia, Ultimatum, Pizza) as our test set, and **160k** images from different sequences as our training set.
  
  ### [MuCo-3DHP and MuPoTS-3D](http://gvv.mpi-inf.mpg.de/projects/SingleShotMultiPerson/)
@@ -76,6 +76,8 @@ _Matteo Fabbri, Fabio Lanzi, Simone Calderara, Stefano Alletto, Rita Cucchiara_
 ### [CVPR 2020] PandaNet: Anchor-Based Single-Shot Multi-Person 3D Pose Estimation [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Benzine_PandaNet_Anchor-Based_Single-Shot_Multi-Person_3D_Pose_Estimation_CVPR_2020_paper.pdf)
 _Abdallah Benzine, Florian Chabot, Bertrand Luvison, Quoc Cuong Pham, Catherine Achard_
 
+### [CVPR 2020] Coherent Reconstruction of Multiple Humans from a Single Image [[pdf]]()[[code]](https://github.com/JiangWenPL/multiperson)
+_Wen Jiang, Nikos Kolotouros, Georgios Pavlakos, Xiaowei Zhou, Kostas Daniilidis_
 
 ### [CVPR 2020] Cross-View Tracking for Multi-Human 3D Pose Estimation at Over 100 FPS [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Cross-View_Tracking_for_Multi-Human_3D_Pose_Estimation_at_Over_100_CVPR_2020_paper.pdf)
 _Long Chen, Haizhou Ai, Rui Chen, Zijie Zhuang, Shuang Liu_
